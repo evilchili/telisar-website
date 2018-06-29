@@ -26,7 +26,7 @@ tags: ['lore']
 
 "What does any of this have to do with death?"
 
-"Death, granddaughter, is not like us. She cannot be stoppered in a bottle, or closed shut behind a gate, trapped in the Abyss like some pathetic Demon Lord. Death goes where she will, and all of creation -- every realm, and every being, God or mortal -- must receive Her visit sooner or later.  She sets Her kidnly gaze upon us, and all our petty machinations are as nothing. Every tyrant, every hero of legend, the Five, the Sisters, The Queens of Night themselves bow to Her, in the end. It is why I have dedicated my life to understanding Her work. For Hers is the only work that endures.
+"Death, granddaughter, is not like us. She cannot be stoppered in a bottle, or closed shut behind a gate, trapped in the Abyss like some pathetic Demon Lord. Death goes where she will, and all of creation -- every realm, and every being, God or mortal -- must receive Her visit sooner or later.  She sets Her kindly gaze upon us, and all our petty machinations are as nothing. Every tyrant, every hero of legend, the Five, the Sisters, The Queens of Night themselves bow to Her, in the end. It is why I have dedicated my life to understanding Her work. For Hers is the only work that endures.
 
 But to return to your question: Death sails the Seas of Chaos, but for Her it is not a seething, roiling ocean but a gentle river flowing through every realm. Scholars call it the Ethereal Plane, but many call it the River Styx. And it is said that Death has a Ferryman, who drives Her ferry up the Styx, from Shore to Shore, and wherever the Ferryman stops, Death disembarks, collects the souls of the dead, and brings them back to the ferry for their final journey to whatever rest they have earned."
 
