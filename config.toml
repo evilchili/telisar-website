@@ -1,0 +1,56 @@
+baseurl = "http://telisar.evilchi.li/"
+title = "Noobhammer!"
+copyright = "As Syf Tells It in 3206 M.E."
+canonifyurls = true
+
+paginate = 30
+
+summaryLength = 30
+enableEmoji = true
+pygmentsCodeFences = true
+
+[author]
+    name = "evilchili"
+    github = ""
+    twitter = "evilchili"
+    mastodon = "https://mastodon.social/@evilchili"
+
+[params]
+    tagline = "The ongoing adventures of a group of new D&D players in their first game"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    title = "Welcome To Telisar"
+    url = "/about/"
+    weight = -110
+
+  [[menu.main]]
+    identifier = "sessions"
+    name = "Sessions"
+    title = "Session Summaries"
+    url = "/tags/session/"
+    weight = 80
+
+  [[menu.main]]
+    identifier = "lore"
+    name = "Lore"
+    title = "Lore"
+    url = "/tags/lore/"
+    weight = 90
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    title = "Tags"
+    url = "/tags/"
+    weight = 100
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    title = "Posts"
+    url = "/posts/"
+    weight = 100

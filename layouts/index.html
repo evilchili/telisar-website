@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+      <section id="home">
+        <ul>
+          {{ range $index, $page := first 10 (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) }}
+
+          {{ if eq $index 0 }}
+          <li class='first'>
+            <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1> 
+            {{ partial "aside" . }}
+            <p>{{ .Content }}</p>
+          </li>
+
+          <li class='older'><h3><a href="/posts/">Recent Posts</a></h3></li>
+
+          {{ else }}
+
+          <li class='list'>
+            <h4><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h4>
+          </li>
+
+          {{ end }}
+
+          {{ end }}
+        </ul>
+      </section>
+
+{{ end }}

@@ -1,0 +1,15 @@
+<aside>
+    <ul>
+        {{ if .Params.tags }}
+        <li>
+            {{ range $i, $t := .Params.tags }}
+                {{ if $i }}, {{ end }}
+                <a class='tag' href="/tags/{{$t | urlize }}/">{{ $t }}</a>
+            {{ end }}
+        </li>
+        {{end}}
+    </ul>
+    {{ if .Params.campaigndate }}
+        <h4><time class='campaigndate'>{{ .Params.campaigndate }}</time></h4>
+    {{end}}
+</aside>
