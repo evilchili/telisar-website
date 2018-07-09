@@ -31,8 +31,8 @@ pygmentsCodeFences = true
     identifier = "timeline"
     name = "Timeline"
     title = "Timeline"
-    url = "/content/posts/timeline"
-    weight = 80
+    url = "/timeline/"
+    weight = -100
 
   [[menu.main]]
     identifier = "sessions"
