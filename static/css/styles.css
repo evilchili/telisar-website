@@ -389,6 +389,14 @@ table thead {
   background-color: #cecece;
 }
 
+table th, td {
+  text-align: left;
+  white-space: nowrap;
+  padding-right: 5px;
+}
+
+table tr:nth-child(even) {background-color: #efefc6;}
+
 blockquote {
   margin: 1em;
   border-left: solid 0.1em #cecece;
@@ -429,4 +437,39 @@ ul.pagination {
 
 ul.pagination li {
   padding: 0 1em;
+}
+
+/*spoiler*/
+
+dl.spoiler dt .block {
+    color: #883333;
+}
+
+dl.spoiler dt .text {
+  background-color: #F1F1D4;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+dl.spoiler dt {
+    color: #883333;
+    display:block;
+    text-align: left;
+}
+
+dl.spoiler dd div {
+    padding: 5px;
+    border: 1px solid #883333;
+}
+
+dl.spoiler:hover dd div {
+    cursor: pointer;
+    border: 1px solid #883333;
+}
+
+dl.spoiler dd {
+    font-style: normal;
+    margin-left: 0px;
+    margin-top:  -5px;
+    padding: 0px;
 }

@@ -1,6 +1,6 @@
-baseurl = "http://telisar.evilchi.li/"
+baseurl = "https://telisar.evilchi.li/"
 title = "Noobhammer!"
-copyright = "As Syf Tells It in 3206 M.E."
+copyright = "As Syf Tells It in 3207 M.E."
 canonifyurls = true
 
 paginate = 30

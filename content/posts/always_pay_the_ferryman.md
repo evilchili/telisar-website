@@ -32,7 +32,7 @@ But to return to your question: Death sails the Seas of Chaos, but for Her it is
 
 "So Death finds us because the Ferryman leads Her here?"
 
-"You cut to the heart of the matter. Scholars have spent considerable effort attempting to understand the nature of the Ferryman, and whether there might be some way to steer it away from someone that would avoid Death, and in so doing become immortal. All to nothing, of course, but that doesn't stop the fools from trying. Anaraxus the Vile claimed to have met the Ferryman, in fact."
+"You cut to the heart of the matter. Scholars have spent considerable effort attempting to understand the nature of the Ferryman, and whether there might be some way to steer it away from someone that would avoid Death, and in so doing become immortal. All to nothing, of course, but that doesn't stop the fools from trying. Anaraxus the Foul claimed to have met the Ferryman, in fact."
 
 "Really?"
 
