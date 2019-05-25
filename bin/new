@@ -1,7 +1,10 @@
 #!/bin/bash -e
 
-SCRIPTDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-CONTENTDIR=$SCRIPTDIR/../content/posts
 TYPE=$1
-FILENAME=$(echo ${@:2} | awk '{ print tolower($0) }' | tr -s ' ' '_').md
-/usr/local/bin/hugo new -k $TYPE --editor $EDITOR "$CONTENTDIR/$FILENAME"
+if [ "$TYPE" = "session" ]; then
+    SCRIPTDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+    exec $SCRIPTDIR/session $*
+else
+    FILENAME=$(echo ${@:2} | awk '{ print tolower($0) }' | tr -s ' ' '_').md
+    /usr/local/bin/hugo new -k $TYPE --editor $EDITOR "$TYPE/$FILENAME"
+fi

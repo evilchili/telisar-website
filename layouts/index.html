@@ -6,9 +6,14 @@
 
           {{ if eq $index 0 }}
           <li class='first'>
-            <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1> 
-            {{ partial "aside" . }}
-            <p>{{ .Content }}</p>
+            <article>
+                <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1> 
+                {{ partial "aside" . }}
+                <div class='description'>{{ safeHTML .Params.description }}</div>
+                <div class="{{ if eq .Params.dropcase false}}{{else}}dropcase{{ end }}">
+                {{.Content}}
+                </div>
+            </article>
           </li>
 
           <li class='older'><h3><a href="/posts/">Recent Posts</a></h3></li>

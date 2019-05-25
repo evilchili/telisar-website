@@ -1,17 +1,42 @@
+@font-face {
+  font-family: dropcase;
+  src: url(/fonts/GenzschInitials.ttf);
+}
+
+@font-face {
+    font-family: "telisar-manuscript";
+    src: url(/fonts/Junicode.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "telisar-manuscript";
+    src: url(/fonts/Junicode-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "telisar-manuscript";
+    src: url(/fonts/Junicode-Italic.ttf);
+    font-style: italic;
+}
+
+
 body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
   background-color: #F1F1D4;
   color: #333;
-  font-family: 'Cantarell', sans-serif;
+  font-family: telisar-manuscript, serif;
   font-size: 17px;
   line-height: 23px;
   margin: 0 0 23px 0;
 }
 
 h1 {
-    font-family: 'Fjalla One', sans-serif;
+    font-family: telisar-manuscript, serif;
     font-weight: normal;
     text-transform: uppercase;
     line-height: 46px;
@@ -105,7 +130,7 @@ h2 {
 }
 
 #container nav ul li a.active {
-  border-bottom: 0.5em solid #666666;
+  border-bottom: 1px solid #666666;
 }
 
 #container main {
@@ -131,7 +156,7 @@ h2 {
 
 #container main section#home ul li.older {
   margin-top: 2em;
-  border-bottom: 1px dashed #555;
+  border-bottom: 1px solid #AAA;
 
 }
 
@@ -194,6 +219,11 @@ time.campaign-date {
   font-size: 0.9em;
 }
 
+#container main article p {
+    font-family: telisar-manuscript, serif;
+    font-size: 1.2em;
+}
+
 #container main article pre {
   background-color: #ffffcc;
   overflow-x: auto;
@@ -228,6 +258,20 @@ time.campaign-date {
   box-shadow: 0 -1px 0 #bbbbbb inset;
 }
 
+#container main article div.description {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+#container main article div.dropcase p:first-of-type:first-letter {
+    font-family: dropcase;
+    font-size: 4.5em;
+    margin-top: 0.15em;
+    margin-right:0.01em;
+    line-height: 0.8em;
+    float: left;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: #883333;
 }
@@ -238,7 +282,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #container footer {
-  border-top: solid 1px #000;
+  border-top: solid 1px #AAA;
 }
 
 #container footer h6 {

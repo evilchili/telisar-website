@@ -1,10 +1,10 @@
 ---
 title: "Concerning the Akiiri Fist"
 date: 2019-04-18T20:53:44-07:00
+description: "What Magnus remembers of <u>The True Historie of Orinanthi The Deceiver: Regarding the Sociopolitical Structure of the Elven Pentopolis With Collected Essays and Commentaries of an Illuminating Nature</u>, by Lorithliani um Eleth, 2293 M.E."
 tags: ['lore']
 ---
 
-*What Magnus remembers of <u>The True Historie of Orinanthi The Deceiver: Regarding the Sociopolitical Structure of the Elven Pentopolis With Collected Essays and Commentaries of an Illuminating Nature</u>, by Lorithliani um Eleth, 2293 M.E.*
 
 El Akiir was the name given to a group of five Elven cities in the Last Age, united under the rule
 of King Orin, a mage of great power. Orin's secret police were known as the Fist; a team of five

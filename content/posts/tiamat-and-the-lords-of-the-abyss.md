@@ -2,10 +2,9 @@
 ---
 title: "Tiamat And The Lords Of The Abyss"
 date: 2018-03-03T15:15:57
-
+description: As recorded in the Tome Of Revelation, set down by Anaraxus The Foul, Hierophant of the Cult Of The Dragon
 tags: ['lore']
 ---
-<em>As recorded in the Tome Of Revelation, set down by Anaraxus The Foul, Hierophant of the Cult Of The Dragon</em>
 
 Tiamat the Scorned was cast out from her family by Bahamut Falsefire, Mother of Lies, for no crime besides willing her children to be strong. The Rainbow Queen flew alone across the surface of the Sea of Chaos, until at last she could bare her broken heart no longer, and despairing, plunged into the swirling depths whence she was borne, seeking to be unmade.
 

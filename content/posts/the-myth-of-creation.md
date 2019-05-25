@@ -2,10 +2,9 @@
 ---
 title: "The Myth of Creation"
 date: 2017-12-21T17:33:16
-
+description: This is the story of creation, as told by denizens of Telisar.
 tags: ['lore']
 ---
-<em>This is the story of creation, as told by denizens of Telisar.</em>
 
 There are many worlds beside this one. Between the planes of existence flows the Sea Of Chaos, a boundless, formless ocean of potential. The first thing that happened was this: Bahamut emerged from the waves in the form of an infinite platinum-scaled dragon, Her great glistening metallic wings radiating light across the surface of the Sea.
 

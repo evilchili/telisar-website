@@ -6,6 +6,9 @@
         {{ partial "aside" . }}
     {{ end }}
 
+    <div class='description'>{{ safeHTML .Params.description }}</div>
+    <div class="{{ if eq .Params.dropcase false}}{{else}}dropcase{{ end }}">
     {{.Content}}
+    </div>
 
 </article>

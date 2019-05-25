@@ -1,13 +1,13 @@
 ---
 title: "Episode 33: Convergence"
 date: 2019-04-20T14:32:00
+description: "This session began with a flashback to Magnus's death experience..."
 campaigndate: Mimdag, 26th of the Bear, 3206 ME
 tags: ['session']
 ---
 
-*This session began with a flashback to Magnus's death experience...*
 
-At the moment Keen's knife was drawn across his thrown, Magnus found himself standing next to
+At the moment Keen's knife was drawn across his throat, Magnus found himself standing next to
 himself, watching as if in tableau. Next to him stood a young human-looking woman with pale white
 skin, long black hair, and black leathers. Taking his arm, Death took a step and Magnus found they
 were standing upon the sands of the Shore, the space between the Black Sea of Chaos, the realms of

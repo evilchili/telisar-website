@@ -2,10 +2,9 @@
 ---
 title: "Yi-na-Hotep Shames The Gods"
 date: 2018-11-02T23:22:00
-
+description: A story, carved into stone pillars deep in the inner sanctum of the Temple of the Moon...
 tags: ['lore', 'dragonborn']
 ---
-*A story, carved into stone pillars deep in the inner sanctum of the Temple of the Moon...*
 
 There are still no suns in the sky. The Land is still dark, and the People are still living in darkness. 
 

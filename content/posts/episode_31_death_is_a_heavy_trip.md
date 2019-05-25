@@ -28,7 +28,7 @@ dispatched, but not before Ara recognized the largest one as one that had ambush
 so many months ago, injecting them with residium serum and triggering all the events that followed.
 
 Yuna cured the prisoner of his paralysis. He named himself as Elstuviar am Vakarilithien ("my
-friends call me Stu"), alchemist and Hearld of the Whisper King. This meant nothing to the party,
+friends call me Stu"), alchemist and Herald of the Whisper King. This meant nothing to the party,
 though Ara did recall one resident of Whitebridge mentioning the Whisper King in passing.
 
 Stu had little to say about the Whisper King, except that it was an entity of great power that sent

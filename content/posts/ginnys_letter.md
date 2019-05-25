@@ -1,6 +1,7 @@
 ---
 title: "Ginny's Letter"
 date: 2018-06-25T22:16:25-07:00
+tags: ['lore', 'keen']
 ---
 
 Lord Blacktongue,

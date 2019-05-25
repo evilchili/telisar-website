@@ -2,10 +2,9 @@
 ---
 title: "On The Subject of Tieflings"
 date: 2018-04-10T22:26:05
-
+description: "excerpted from Pheseis Eternal’s Remarks To the Arcanus Assembly, El Astrum Public Library, 2752 M.E."
 tags: ['lore', 'carameldropz']
 ---
-<em>excerpted from Pheseis Eternal’s Remarks To the Arcanus Assembly, El Astrum Public Library, 2752 M.E.</em>
 
 It is said that all Tieflings can trace their ancestry back to Asmodeus, the god of sin, and Supreme Master of the Nine Hells. Intoxicated by the promise of powers beyond their imagining, these earliest human descendants made a pact with the archdevil. In return, his blood was infused with their own and the Tiefling bloodline was born.
 

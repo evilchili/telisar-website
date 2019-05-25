@@ -1,21 +1,10 @@
 ---
 title: "Religion, Myth and Folklore"
 date: 2019-02-16T20:33:00
+dropcase: false
+description: "I've been fascinated by myth and storytelling for as long as I've been able to read. So when I was thinking about trying my hand at Dungeon Mastering I knew it was going to be to explore storytelling, both literally at the table with my friends, and figuratively, within the game world.  As I began developing Telisar, questions about the function of religion, myth and folklore in a world where larger-than-life figures and literal gods actually exist felt like a great place to begin. In many ways my campaign is about stories: the stories we tell ourselves, and the stories we tell (or don't tell) to others. These are some notes about how religion works in Telisar. Some of it I brought to the setting, but most of it was discovered at the table as we played."
 tags: ["lore", "DM"]
 ---
-
-*I've been fascinated by myth and storytelling for as long as I've been able to read. So when I was
-thinking about trying my hand at Dungeon Mastering I knew it was going to be to explore
-storytelling, both literally at the table with my friends, and figuratively, within the game world.
-As I began developing Telisar, questions about the function of religion, myth and folklore in a
-world where larger-than-life figures and literal gods actually exist felt like a great place to
-begin. In many ways my campaign is about stories: the stories we tell ourselves, and the stories we
-tell (or don't tell) to others.*
-
-*These are some notes about how religion works in Telisar. Some of it I brought to the setting, but
-most of it was discovered at the table as we played.*
-
-
 **The Five**
 
 

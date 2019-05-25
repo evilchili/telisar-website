@@ -3,9 +3,9 @@
 title: "Raven Steals Time"
 date: 2018-04-08T11:25:22
 
+description: A Myth of the Su'krash Dragonborn
 tags: ['lore']
 ---
-<em>A Myth of the Su'krash Dragonborn</em>
 
 When there is no time, Raven lives in the stars<br/>Raven listens to the Gods’ stories of Telisar<br/>Raven loves the stories, and watches the First People<br/>But Raven is young, and the young are capricious
 

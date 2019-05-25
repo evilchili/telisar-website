@@ -1,6 +1,7 @@
 ---
 title: "Magnus's Library Card"
 date: 2019-03-06T17:11:16
+dropcase: false
 tags: ["lore"]
 ---
 
@@ -20,13 +21,13 @@ Bearer's Signature:<br>
 <img src='/static/signature.png' style='border:0; box-shadow:none;'>
 </div>
 
-<p style='font-size:8pt;text-align:justified'>
+<div style='font-size:8pt;text-align:justified'>
 Failure to return all materia removed within the specified timeframe shall result in the immediate
 forfeiture of any previously granted rights and access and shall consign the bearer to servitude in
 the El Astrum Public Library Guard Cohort, there to accept and obey all duties assigned by Library
 staff for a period not extending beyond death of the bearer or until such time as the bearer is
 released from service by a duly appointed and accredited member of the El Astrum Public Library
 Arcanum Practicum.
-</p>
+</div>
 
 </div>

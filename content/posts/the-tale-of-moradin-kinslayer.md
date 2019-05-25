@@ -2,10 +2,9 @@
 ---
 title: "The Tale Of Moradin Kinslayer"
 date: 2018-02-23T23:25:50
-
+description: A story told by Holy Mother Masym, Priestess of Syf
 tags: ['lore']
 ---
-<em>A story told by Holy Mother Masym, Priestess of Syf</em>
 
 We reckon the days of the Modern Era beginning three millenia ago when the Dwarves of the East first landed on the shores of Telisar, sailing the tides of woe and war. Most people believe these were the first Dwarves to walk this land. But most people have forgotten the Tale of Moradin Kinslayer. This is the tale I will tell you now, even as Woden, Father of Justice told it to his brothers and sisters.
 

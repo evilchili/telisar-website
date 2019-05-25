@@ -2,10 +2,9 @@
 ---
 title: "The Beginnings Of Fate"
 date: 2018-01-23T22:01:22
-
 tags: ['lore']
 ---
-“Go on then, brother, tell us more about Garl Glittergold,” said Thorus, his laugh the crashing ofthunder across the Night, “I like these gnomes he has fashioned!” And Woden laughed also, and thewide, twinkling grin of the gnome god flickered in the flames of the fire around which Bahamut’s Children sat.
+Go on then, brother, tell us more about Garl Glittergold,” said Thorus, his laugh the crashing ofthunder across the Night, “I like these gnomes he has fashioned!” And Woden laughed also, and thewide, twinkling grin of the gnome god flickered in the flames of the fire around which Bahamut’s Children sat.
 
 “I have a story,” said Syf, and leaned into the light. “The peoples of this little world have their little lives, they live and they die, they worship the gods we have fashioned for them. But why dothese things? What reason have we given them to exist beyond our amusement?”
 

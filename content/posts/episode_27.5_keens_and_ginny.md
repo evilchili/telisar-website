@@ -22,7 +22,7 @@ Ginny hands Keen a letter, sealed with a merchant house's official stamp, and te
 
 As they are speaking Keen hears Levani's voice somewhere in the distance, telling him to wake up.
 
-Keen delivers the letter as promised, but finds himself <a href='{{< ref "ginnys_letter" >}}'>betrayed, blackmailed into serving the Skink</a>, a criminal organization run by an albino lizardfolk named Blacktongue. Blacktongue sends Keen back to the Spectacular Spectacular with "Handsome" Henry Smalls, a goliath in his employ, who assumes control of the circus.
+Keen delivers the letter as promised, but finds himself <a href='{{< ref "/posts/ginnys_letter" >}}'>betrayed, blackmailed into serving the Skink</a>, a criminal organization run by an albino lizardfolk named Blacktongue. Blacktongue sends Keen back to the Spectacular Spectacular with "Handsome" Henry Smalls, a goliath in his employ, who assumes control of the circus.
 
 Keen awakes suddenly to find himself laying in the lush undergrowth of the Underdark, beneath the 50-foot tall mushroom that is the heart of the Myconid Colony, and surrounded by the corpses of Deurgar zombies. His companions stand close by, as does a docile Djinn, floating in midair, its whirlwind form full of glowing Myconid spores.
 

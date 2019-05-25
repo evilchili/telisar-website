@@ -1,8 +1,8 @@
 ---
 title: "Welcome To Telisar"
+description: "The introductory text I sent the party before the campaign’s first session…"
 date: 2018-06-25T22:16:25-07:00
 ---
-*The introductory text I sent the party before the campaign’s first session…*
 
 The Arcani Extus, those bookish scholars pursuing lost lore and deep truths of the universe, believe that Telisar is but one of an infinite number of worlds that make up the Material Plane, that portion of existence where wild, raw philosophical and physical forces coalesce. A thousand years ago the Elven scholar Arcanus Traumus Astrumson published a treatise entitled Astrumson’s Guide To Everything, a polarizing work of which the central thesis was that Telisar was but a material echo of tales told by Gods, and had no legitimate existence beyond “…the campfire musings of an idle, omnipotent consciousness.” “Life,” said the sunny scholar, “[is] therefore arbitrary, pointless and devoid of all meaning.” A follower of Traumus, the Arcanus Snorri Skjardinfel, in her Commentaries On Everything noted that “while this may be true, and Traumus correct, it’s no excuse to let the crops die.”
 

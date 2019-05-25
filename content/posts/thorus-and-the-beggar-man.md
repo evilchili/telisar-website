@@ -2,10 +2,9 @@
 ---
 title: "Thorus And The Beggar Man"
 date: 2018-06-22T18:46:35
-
+description: With apologies to Patrick Rothfuss…
 tags: ['lore']
 ---
-<em>With apologies to Patrick Rothfuss…</em>
 
 As Thorus tells it, a beggar man was walking the long road. He had nothing, neither cloak nor finery nor shoes; not one copper jot had he to his name. The Bear was well into its slumber and the frozen scrub was sharp beneath his feet.
 
