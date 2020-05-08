@@ -39,7 +39,7 @@ devote oneself to a particular member of the pantheon. Rillifane Rallathil, Labe
 Corellon Larethian, Vandria Gilmadrith and Zandilar the Dancer all enjoy significant followings,
 with several monastic orders dedicated to each.
 
-By contract, Human religious practices are as varied and changing as the wind. Perhaps due to their
+In contrast, Human religious practices are as varied and changing as the wind. Perhaps due to their
 relatively short lifespan, there seems to be as many forms of worship amongst humans as there are
 humans! In every hamlet and field it seems you will find believers venerating everything from a God
 of War to a God of Small Insects That Protect Three-Leaved Houseplants. It is virtually guaranteed

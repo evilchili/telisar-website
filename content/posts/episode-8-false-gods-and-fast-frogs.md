@@ -2,10 +2,9 @@
 ---
 title: "Episode 8: False Gods and Fast Frogs"
 date: 2018-02-24T00:14:55
-campaigndate: Freydag, 45th Of The Lion, 3206 ME<
+campaigndate: Freydag, 45th Of The Lion, 3206 ME
 tags: ['session']
 ---
-![fairy ring](/static/fairy_ring.jpg)
 
 Ara further explored the cavern he found himself in. He discovered the goblins he had fought had some sort of old surgical wound, as if something had been embedded under the skin. Eventually Ara encountered the Myconid, a fungal race of  with a group consciousness previously met by Magnus. They gave Ara a vision of goblins deep in the bowels of the earth, in a large, partially-collapsed stone building, hacking and stomping on the Myconid’s fungal body. Ara learned his mind was resisting joining the group consciousness; their efforts were blocked somehow. And as suddenly as he disappeared from the group, he reappeared in the cellar of the tavern.
 
@@ -22,6 +21,8 @@ Masym informed Yuna that her condition, which she called being “spellsick,” 
 Before they left, Masym cast a Greater Restoration on Magnus, attempting to help him recover his lost memories. He had a brief flash of working in his study as a young man, but could not recall details. She said that some powerful magical block was preventing him from remembering what he had forgotten. With time, he may recover more.
 
 The party left Whitebridge and travelled north, back into the forest, on the trail of Anthol the Younger. They discovered a fairy ring in a large, circular meadow deep in the forest, surrround by strange and unfamiliar vegetation. Magus noted there were four moons in the sky, though the tear remained unchanged.
+
+{{< figure src="/static/fairy_ring.jpg" >}}
 
 The fairy ring contained five stone hands with index fingers extended, and a sixth holding a large brass plate, on which were five oversized brass rings with stones of different colors. There was also a frog wearing a frog hat.
 

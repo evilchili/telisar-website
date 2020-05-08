@@ -3,7 +3,7 @@
 title: "A Tale from Ara’s Past"
 date: 2018-06-10T22:54:06
 campaigndate: Wodag, the 13th of the Lion, 3204 ME
-tags: ['lore', 'ara']
+tags: ['lore', 'ara', 'twirrim']
 ---
 
 The freshly fallen leaves crunched beneath his feet on the trail while a crisp wind whistled through the treetops, bringing a promise of snow.  Animals in the forest were well along with their preparations for hibernating, and after weeks on the road, Ara knew it was probably time to seek out somewhere to see out the swift approaching winter.  While he’d spent many winters out on the road, a hay barn was way more comfortable than hard frozen ground.

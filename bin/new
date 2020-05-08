@@ -6,5 +6,5 @@ if [ "$TYPE" = "session" ]; then
     exec $SCRIPTDIR/session $*
 else
     FILENAME=$(echo ${@:2} | awk '{ print tolower($0) }' | tr -s ' ' '_').md
-    /usr/local/bin/hugo new -k $TYPE --editor $EDITOR "$TYPE/$FILENAME"
+    /usr/local/bin/hugo new -k $TYPE --editor $EDITOR "posts/$FILENAME"
 fi

@@ -11,8 +11,8 @@ pygmentsCodeFences = true
 
 [author]
     name = "evilchili"
-    github = ""
     twitter = "evilchili"
+    github = ""
     mastodon = "https://mastodon.social/@evilchili"
 
 [params]
@@ -47,6 +47,14 @@ pygmentsCodeFences = true
     title = "Lore"
     url = "/tags/lore/"
     weight = 90
+
+  [[menu.main]]
+    identifier = "maps"
+    name = "Maps"
+    title = "Maps and Imagery"
+    url = "/maps/"
+    weight = 90
+
 
   [[menu.main]]
     identifier = "tags"

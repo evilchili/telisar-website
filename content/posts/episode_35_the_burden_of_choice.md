@@ -78,7 +78,7 @@ subjugated the remaining kobolds, and were planning a new assault on Whitebridge
 mines and brought warning to the town's leaders, who eventually decided to abandon the town and make
 for Long Drop, a nearly two week journey west, to the edge of the Thorimfel Plateau. Jules had led
 the evacuation and the townsfolk were several days out of Whitebridge on the main road when Masym,
-the Holy Mother of Temple of Syf had realized Ambriel had turned back. Jules chased after him,
+the Holy Mother of the Temple of Syf had realized Ambriel had turned back. Jules chased after him,
 only to find the goblins already here, and roving parties searching for a band of resistance.
 
 Jules formulated a plan to try and assassinate the leader of the horde, who she suspected was in the 

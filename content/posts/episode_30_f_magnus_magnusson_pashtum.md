@@ -8,10 +8,14 @@ tags: ['session']
 Driven by the loss of the Dragonhead, Keen and Levani pursued the fleeing tiefling thief, and Ara
 went with them. They picked up the trail of the strange woman further back in the ruins of the
 buried Dwarven city through which they had been travelling, but the trail ended in a cramped
-basement in which the woman had inscribed, and used, a teleportation circle. Levani investigated the
-circle, noting its odd construction, and a sigil in the centre that did not seem to fit the rest of
-the incantation; Keen recognized the sigil as the seal of House Mjorndottir, one of the seven
-merchant families that rule the city of Uman, though he chose not to share this revelation.
+basement in which the woman had inscribed, and used, a teleportation circle.
+
+{{< figure src="/static/teleportation_circle.jpg" >}} 
+
+Levani investigated the circle, noting its odd construction, and a sigil in the centre that did not
+seem to fit the rest of the incantation; Keen recognized the sigil as the seal of House Mjorndottir,
+one of the seven merchant families that rule the city of Uman, though he chose not to share this
+revelation.
 
 Meanwhile, Yuna entered the ancient building to prevent Magnus killing the last remaining goblin who
 could give them answers about how and why the party was brought together. Magnus subdued Skaggit,

@@ -3,9 +3,9 @@
         <h6>{{ .Site.Copyright | markdownify }}&nbsp;
             &nbsp;&nbsp;<a href="{{.Site.BaseURL}}index.xml"><i class='fa fa-rss fa-lg' aria-hidden="true"></i></a>
             {{ if .Site.Author.twitter }}
-            &nbsp;&nbsp;<a href="https://twitter.com/{{ .Site.Author.twitter }}"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+            &nbsp;&nbsp;<a href="https://twitter.com/{{ .Site.Author.twitter }}"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a>
             {{ end }} {{ if .Site.Author.mastodon }}
-            &nbsp;&nbsp;<a href="{{ .Site.Author.mastodon }}"><i class="fa fa-mastodon fa-lg" aria-hidden="true"></i></a>
+            &nbsp;&nbsp;<a href="{{ .Site.Author.mastodon }}" rel="me" ><i class="fab fa-mastodon fa-lg" aria-hidden="true"></i></a>
             {{ end }} {{ if .Site.Author.github }}
             &nbsp;&nbsp;<a href="https://github.com/{{ .Site.Author.github }}"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a><
             {{ end }}

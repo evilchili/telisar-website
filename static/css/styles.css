@@ -22,6 +22,12 @@
     font-style: italic;
 }
 
+@font-face {
+    font-family: "telisar-thieves-cant";
+    src: url(/fonts/thieves-cant.ttf);
+    font-style: normal;
+}
+
 
 body {
   margin: 0;
@@ -55,7 +61,7 @@ h2 {
 
 
 #container {
-  margin: 0;
+  margin: 20px auto;
   padding: 0;
   max-width: 100vw;
   min-height: 100vh;
@@ -65,8 +71,14 @@ h2 {
 
 #container > * {
   width: 700px;
-  margin: 0 auto;
+  margin: 0px auto;
 }
+
+#container.wide  {
+  width: 100%;
+  margin: 20px auto;
+}
+
 
 @media only screen and (max-width: 800px) {
   #container > * {
@@ -77,6 +89,12 @@ h2 {
 
 #container header {
   margin-top: 1em;
+  }
+
+#container.wide header {
+  text-align: left;
+  width: 100%;
+  max-width:700px;
 }
 
 #container header p {
@@ -117,6 +135,10 @@ h2 {
   border-bottom: 1px solid #AAA;
 }
 
+#container.wide nav {
+  margin: 0px auto;
+}
+
 #container nav ul {
   margin: 0;
   padding: 0;
@@ -138,6 +160,12 @@ h2 {
   line-height: 1.5;
   font-size: 1.2rem;
 }
+
+#container.wide main {
+    width: 95%;
+    margin: 1em auto;
+}
+
 
 #container main article li {
     list-style:none;
@@ -219,9 +247,12 @@ time.campaign-date {
   font-size: 0.9em;
 }
 
+#container main article {
+    font-size: 1.2em;
+}
+
 #container main article p {
     font-family: telisar-manuscript, serif;
-    font-size: 1.2em;
 }
 
 #container main article pre {
@@ -267,9 +298,14 @@ time.campaign-date {
     font-family: dropcase;
     font-size: 4.5em;
     margin-top: 0.15em;
-    margin-right:0.01em;
+    margin-right:0.1em;
     line-height: 0.8em;
     float: left;
+}
+
+#container main article div.dropcase figcaption p:first-of-type:first-letter {
+    font-size: 2.5em;
+    margin-right:0.2em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -283,6 +319,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #container footer {
   border-top: solid 1px #AAA;
+  max-width:700px;
 }
 
 #container footer h6 {
@@ -441,6 +478,18 @@ table th, td {
 
 table tr:nth-child(even) {background-color: #efefc6;}
 
+.table-wrapping {
+    font-size:0.8em;
+}
+
+.table-wrapping td {
+    vertical-align: top;
+    white-space: normal;
+}
+.table-wrapping td:last-child {
+    min-width:15%;
+}
+
 blockquote {
   margin: 1em;
   border-left: solid 0.1em #cecece;
@@ -466,6 +515,32 @@ blockquote::before {
     padding: 0.5em;
   }
 }
+
+ol {
+   list-style: disc outside none;
+   counter-reset: item;
+   margin-left: 0;
+   padding-left: 1em;
+}
+ol li {
+   counter-increment: item;
+   margin-bottom: 5px;
+   padding-left: 1em;
+}
+
+ol li:before {
+   line-height: 1.2em;
+   margin-left: -2em;
+   margin-right: 0.9em;
+   content: counter(item);
+   background: #883333;
+   border-radius: 50%;
+   color: white;
+   width: 1.2em;
+   text-align: center;
+   display: inline-block;
+ }
+
 
 dl dd {
   font-style: italic;
@@ -516,4 +591,43 @@ dl.spoiler dd {
     margin-left: 0px;
     margin-top:  -5px;
     padding: 0px;
+}
+
+/*thieves cant*/
+
+dl.cant dt .block {
+    color: #883333;
+}
+
+dl.cant dt .text {
+  background-color: #F1F1D4;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+dl.cant dt {
+    color: #883333;
+    text-align: left;
+}
+
+dl.cant dd div {
+}
+
+dl.cant:hover dd div {
+    cursor: pointer;
+}
+
+dl.cant dd {
+    font-style: normal;
+    margin-left: 0px;
+    margin-top:  -5px;
+    padding: 0px;
+}
+
+.cant dd div p {
+    font-family: inherit !important;
+}
+
+.thieves-cant {
+    font-family: telisar-thieves-cant !important;
 }

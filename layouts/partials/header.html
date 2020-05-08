@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <div id="container">
+    <div id="container" class='{{if (eq .Params.layout "wide") }}wide{{else}}standard{{end}}'>
     <header>
       <h1><a href="{{ relURL "/" }}">{{ .Site.Title | markdownify }}</a></h1>
       {{ with .Site.Params.tagline }}

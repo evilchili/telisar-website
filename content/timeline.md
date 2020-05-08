@@ -52,7 +52,22 @@ dropcase: false
 | **3.3206.8.25 T25B** | The Party Defends the Residium From A Drow Mage
 | **3.3206.8.26 T26B** | Ara Defeats the Fist of the North Wind
 | **3.3206.8.26 F25B** | The Party Returns To Whitebridge
-| *REDACTED*           |
-| *REDACTED*           |
-| *REDACTED*           |
-| *REDACTED*           |
+| **3.3206.8.27 M27B** | The Party Is Reunited With Jules
+| **3.3206.8.29 T29B** | The Liberation Of Whitebridge
+| **3.3206.8.30 F30B** | The Party Travels To Uman
+| **3.3206.8.31 S31B** | Levani Captures Tak
+| **3.3206.8.31 S31B** | Levani Rejoins the Trazjte ur Flasch
+| **3.3206.8.31 S31B** | Sirlius Joins The Party
+| **3.3206.8.31 S31B** | The Party Befiends Peaseblossom
+| **3.3206.8.31 S31B** | The Party Befriends Peaseblossom
+| **3.3206.8.32 M32B** | Henry Smalls Activates A Contract On Keen
+| **3.3206.8.33 W33B** | The Party Climbs Fools Pass (Uman)
+| **3.3206.8.33 W33B** | The Party Recovers The Dragonhead
+| **3.3206.8.34 T34B** | The Party Encounters The Lady Of The Hearth
+| **3.3206.8.34 T34B** | The Party Enters Knacklebun's Mine
+| **3.3206.8.35 F35B** | The Party Are Trapped In A Jungle
+| **3.3206.8.35 F35B** | Whisper Joins The Party
+| **3.3206.9.01 S01H** | The Party Escape The Jungle
+| **3.3206.9.01 S01H** | Keen Recovers Second Shard Of The Heart Of Bahamut
+| **3.3206.9.03 W03H** | Today
+| **3.3206.9.03 W03H** | Yuna Captures The Lady Of The Hearth

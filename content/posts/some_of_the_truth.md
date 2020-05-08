@@ -6,7 +6,7 @@ tags: ['lore']
 
 ---
 
-"Since life is a dream I think I'll stop eating and drinking so much," he told me, "do some ethereal
+Since life is a dream I think I'll stop eating and drinking so much," he told me, "do some ethereal
 daydreaming instead. Go in the mansion of the mind and close all the doors, not traveling in the
 back of this cart for 5 days & 5 nights, broke."
 

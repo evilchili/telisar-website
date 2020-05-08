@@ -9,7 +9,7 @@ The party made camp in the cavern beneath the Stone Forest, to rest and regain s
 
 As they travelled, Magnus's behaviour became increasingly erratic, impatient with any delay or deviation from direct action on finding and retrieving the residium, and increasingly reckless in his decisions.
 
-After hours of travel, the tunnel network led them to a cavern, at the far end of which, thrusting up out of the ground was the rooftop of a large stone building. A patrol of skeleton, apparently the remains of long-dead Dwarven guards, traversed the permiter of the rooftop, only to be quickly dispatched by the party. At the center of the rooftop they found an opening where once a trapdoor sat, the wood rotted away centuries ago. One by one they dropped into interior of the building.
+After hours of travel, the tunnel network led them to a cavern, at the far end of which, thrusting up out of the ground was the rooftop of a large stone building. A patrol of skeletons, apparently the remains of long-dead Dwarven guards, traversed the permiter of the rooftop, only to be quickly dispatched by the party. At the center of the rooftop they found an opening where once a trapdoor sat, the wood rotted away centuries ago. One by one they dropped into interior of the building.
 
 Inside they found a partially collapsed residence, the wooden furniture, tapestries, paintings and other furnishings all rotted away. Half buried in the rubble Keen found an intact treasure chest, which Magnus hacked open to reveal a bag of precious jewels. In one room Levani accidentally triggered a poison trap, revealing a secret compartment with spell scrolls and supplies.
 

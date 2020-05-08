@@ -1,12 +1,11 @@
 ---
 title: "Episode 24: The Paladin of Bahamut?"
 date: 2018-11-16T23:59:00
+description: The party stepped back in time briefly to replay the encounter with Yi-na-Hotep, since several players were absent in the previous session...
 campaigndate: Frydag, 20th of the Bear, 3206 ME
 tags: ['session']
 ---
 
-*The party stepped back in time briefly to replay the encounter with Yi-na-Hotep, since several
-players were absent in the previous session...*
 
 Yi-na-Hotep, Goddess of the Moon, invited the party to ask questions of her before she passed
 from the material plane. During the ensuing discussion, the party learned several things about the
@@ -31,7 +30,7 @@ sides of the Blood War. What more unlikely vessel for the power of the Platinum 
 be, she said, than Keen?
 
 Yi-na-Hotep also examined the Dragonhead coin, and revealed that it is an artifact that represents
-the balance of the Blood War -- Tiamat on once side, Bahamut on the other. She explained the reason
+the balance of the Blood War -- Tiamat on one side, Bahamut on the other. She explained the reason
 anyone who touches it is so drawn to it is because of a curse placed upon the coin. "Someone wants
 to make sure you have this," she said.
 
