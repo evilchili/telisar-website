@@ -1,0 +1,4 @@
+#!/bin/bash -e
+
+hugo -v
+rsync -av public/* nubbin.evilchi.li:/usr/local/deploy/telisar/project/www/

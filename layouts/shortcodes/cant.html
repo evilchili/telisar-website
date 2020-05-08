@@ -1,0 +1,8 @@
+<dl class="cant" style="cursor: pointer;" onclick="this.getElementsByTagName('div')[0].classList.toggle('thieves-cant');">
+    <dt><span class='block'>&#x25B2;</span><span class='text'>{{ .Get "title" | safeHTML }}</text></dt>
+    <dd>
+    <div class="thieves-cant">
+            {{.Inner | safeHTML }}
+        </div>
+    </dd>
+</dl>
