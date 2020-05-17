@@ -3,4 +3,4 @@
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
   <meta name="author" content="{{ .Params.Author | default .Site.Author.name }}" />
   <meta name="google-site-verification" content="VUmqPLCj8dqXEjuIFebq3GGE31CPZU08VdJd2RBq8kw" />
-  {{ .Hugo.Generator -}}
+  {{ hugo.Generator -}}

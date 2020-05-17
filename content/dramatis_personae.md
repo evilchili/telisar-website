@@ -3,7 +3,7 @@ title: "Dramatis Personae"
 date: 2019-09-22T10:48:09-07:00
 description: "The ever-expanding list of characters in our campaign, as compiled in my notebooks. This list includes personages the party has either met or identified, but excludes incidentals that have not been named. Details such as character motivations, knowledge, alignments, affiliations etc. will stay in my notebooks. :)"
 layout: wide
-markup: "mmark"
+markup: "md"
 tags: ['lore', 'DM']
 ---
 

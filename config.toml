@@ -49,6 +49,14 @@ pygmentsCodeFences = true
     weight = 90
 
   [[menu.main]]
+    identifier = "bestiary"
+    name = "Bestiary"
+    title = "Bestiary"
+    url = "/tags/monster/"
+    weight = 95
+
+
+  [[menu.main]]
     identifier = "maps"
     name = "Maps"
     title = "Maps and Imagery"

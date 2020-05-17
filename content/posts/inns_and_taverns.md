@@ -3,7 +3,7 @@ title: "Inns and Taverns"
 date: 2019-02-16T10:22:22
 
 tags: ['lore', 'DM']
-markup: "mmark"
+markup: "md"
 
 ---
 

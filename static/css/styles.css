@@ -33,7 +33,14 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background-color: #F1F1D4;
+
+  background: rgb(241,241,212);
+
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
   color: #333;
   font-family: telisar-manuscript, serif;
   font-size: 17px;
@@ -70,7 +77,7 @@ h2 {
 }
 
 #container > * {
-  width: 700px;
+  width: 800px;
   margin: 0px auto;
 }
 
@@ -630,4 +637,129 @@ dl.cant dd {
 
 .thieves-cant {
     font-family: telisar-thieves-cant !important;
+}
+
+
+/* Monster Stat Block */
+
+@media print, (min-width: 768px);
+.monster-stat-block {
+    -webkit-column-count: 2;
+    column-count: 2;
+}
+
+.monster-stat-block {
+    display:block;
+    clear:both;
+
+    background: rgb(241,241,212);
+    background: linear-gradient(135deg, rgba(241,241,212,1) 4%, rgba(215,203,151,1) 100%);
+
+    position: relative;
+    box-shadow: 0 0 8px #979AA4;
+    border: 1px solid #999;
+    padding: 15px;
+    margin: 50px 0;
+}
+
+.monster-stat-block .separator {
+    content: "";
+    display:block;
+    width: 100%;
+    margin: 10px 0px;
+    border-top: 3px solid #883333;
+}
+
+/* Stat block typography */
+
+.monster-stat-block {
+    font-family: Roboto,Helvetica,sans-serif;
+    font-size: 0.65em;
+}
+
+.monster-stat-block h2 {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #883333;
+}
+
+.monster-stat-block .monster-name {
+    font-family: 'Cantarell', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    font-variant: small-caps;
+    letter-spacing: -1px;
+    margin: 0;
+    margin-top: -10px;
+    color: #883333;
+}
+
+.monster-stat-block .monster-size {
+    font-family: telisar-manuscript, serif;
+    font-style: italic;
+    margin-top: -3px;
+    padding-left:2px;
+}
+
+.monster-stat-block .stat {
+    font-size:0.9em;
+    color: #883333;
+    font-weight: bold;
+}
+.monster-stat-block .stat .value {
+    color: #333;
+    font-weight:normal;
+    padding-left: 3px;
+}
+
+.monster-stat-block table {
+    border-bottom: none;
+    margin: 0;
+}
+.monster-stat-block table th {
+    font-size:0.8em;
+    color: #883333;
+    font-weight: bold;
+    text-align:center;
+}
+
+.monster-stat-block table tbody tr td {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #883333;
+    text-align:center;
+}
+.monster-stat-block td small {
+    font-size: 0.8em;
+    display:block;
+    font-weight: normal;
+    color: #333;
+}
+.monster-stat-block table tr:nth-child(even) {background-color: transparent; }
+
+.monster-stat-block p {
+    font-family: Roboto,Helvetica,sans-serif !important;
+    text-align: justify;
+}
+
+.monster-stat-block p strong::after {
+    content: '.';
+    display: inline;
+}
+
+.monster-stat-block p em {
+    padding-right: 5px;
+}
+
+.monster-stat-block p em::after {
+    content: ':';
+    display:inline;
+}
+
+
+#container main article div.dropcase .monster-stat-block p:first-of-type:first-letter {
+    font-family: inherit;
+    font-size: inherit;
+    margin: inherit;
+    line-height: inherit;
+    float: inherit;
 }
