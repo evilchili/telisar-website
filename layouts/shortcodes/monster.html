@@ -1,0 +1,87 @@
+{{ $monster := $.Page.Params.statblock }}
+<div class='monster-stat-block'>
+    <div class='monster-name'>
+        {{ safeHTML $monster.name }}
+    </div>
+    <div class='monster-size'>
+        {{ safeHTML $monster.size | humanize }} {{ safeHTML $monster.type }}, {{ safeHTML $monster.alignment }}
+    </div>
+
+    <br class='separator'>
+
+    <div class='stat'>
+        Armor Class <span class='value'>{{ $monster.AC | safeHTML }}</span>
+    </div>
+    <div class='stat'>
+        Hit Points <span class='value'>{{ $monster.HP | safeHTML }}</span>
+    </div>
+    <div class='stat'>
+        Speed <span class='value'>{{ $monster.speed | safeHTML }}</span>
+    </div>
+
+    <br class='separator'>
+
+    <table>
+        <tr>
+            <th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th>
+        </tr>
+        <tr>
+            <td>{{ if gt (int (index (split $monster.STR ",") 1)) 0 }}+{{ end }}{{ index (split $monster.STR ",") 1 }} <small>{{ index (split $monster.STR ",") 0 }}</small></td>
+            <td>{{ if gt (int (index (split $monster.DEX ",") 1)) 0 }}+{{ end }}{{ index (split $monster.DEX ",") 1 }} <small>{{ index (split $monster.DEX ",") 0 }}</small></td>
+            <td>{{ if gt (int (index (split $monster.CON ",") 1)) 0 }}+{{ end }}{{ index (split $monster.CON ",") 1 }} <small>{{ index (split $monster.CON ",") 0 }}</small></td>
+            <td>{{ if gt (int (index (split $monster.INT ",") 1)) 0 }}+{{ end }}{{ index (split $monster.INT ",") 1 }} <small>{{ index (split $monster.INT ",") 0 }}</small></td>
+            <td>{{ if gt (int (index (split $monster.WIS ",") 1)) 0 }}+{{ end }}{{ index (split $monster.WIS ",") 1 }} <small>{{ index (split $monster.WIS ",") 0 }}</small></td>
+            <td>{{ if gt (int (index (split $monster.CHA ",") 1)) 0 }}+{{ end }}{{ index (split $monster.CHA ",") 1 }} <small>{{ index (split $monster.CHA ",") 0 }}</small></td>
+        </tr>
+    </table>
+
+    <br class='separator'>
+
+    {{ if $monster.saving_throws }}
+    <div class='stat'>
+        Saving Throws <span class='value'>{{ $monster.saving_throws | safeHTML }}</span>
+    </div>
+    {{ end }}
+
+    {{ if $monster.skills }}
+    <div class='stat'>
+        Skills <span class='value'>{{ $monster.skills | safeHTML }}</span>
+    </div>
+    {{ end }}
+
+    {{ if $monster.resistances }}
+    <div class='stat'>
+        Damange Resistances <span class='value'>{{ $monster.resistances | safeHTML }}</span>
+    </div>
+    {{ end }}
+
+    {{ if $monster.immunities }}
+    <div class='stat'>
+        Condition Immunities <span class='value'>{{ $monster.immunities | safeHTML }}</span>
+    </div>
+    {{ end }}
+
+    {{ if $monster.saving_throws }}
+    <div class='stat'>
+        Senses <span class='value'>{{ $monster.senses | safeHTML }}</span>
+    </div>
+    {{ end }}
+
+    {{ if $monster.languages }}
+    <div class='stat'>
+        Languages <span class='value'>{{ $monster.languages | safeHTML }}</span>
+    </div>
+    {{ end }}
+
+    {{ if $monster.cr }}
+    <div class='stat'>
+        Challenge <span class='value'>{{ $monster.cr | safeHTML }}</span>
+    </div>
+    {{ end }}
+
+    <br class='separator'>
+
+    {{ .Inner |markdownify }}
+
+
+</div>
