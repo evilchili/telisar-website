@@ -99,12 +99,12 @@ then, a first for many years; "Well done," it said.
 \*
 
 Keen observed the ritual from the Shore; the spectral images of his friends surrounding him, their
-words coming to him as if on a wind. Death, the alabaster halfing in dark leathers and black makeup,
+words coming to him as if on a wind. Death, the alabaster halfling in dark leathers and black makeup,
 approached from the waiting Ferryman and his boat, the sand crunching under her boots. "Well, Keen,
 the boat's waiting, but your friends have given you a way back. What is it you want?"
 
 "I think I want to live," said Keen. And as he spoke the words, he felt the shadows close in on him,
-pulling him away from the Shore and into darkness. He screamed, and his screame became for an
+pulling him away from the Shore and into darkness. He screamed, and his scream became for an
 instance the draconic roar of creation, the roar that set the universe in motion. And then he was
 bound tight in darkness and suffocating.
 
@@ -119,7 +119,7 @@ He was alive. The relieved party rushed to his side, embracing him. "My friends,
 so glad to see you, I've missed you so much! I feel terrible."
 
 Arminius fell back against the wall, exhausted, offered a prayer of thanks to the fallen
-Bahamut. To his surpries, Keen heard the prayer echoing in his mind along with, he realized the
+Bahamut. To his surprise, Keen heard the prayer echoing in his mind along with, he realized the
 pleading voices of the faithful from all over Telisar. 
 
 The Order of Bahamut soon took their leave, Arminius clearly uncomfortable in Keen's presence, but
@@ -152,7 +152,7 @@ that treated males as little more than chattel. Why would these coins have the f
 Drow king stamped on them? Using his arcane focus and casting a spell of identify, Magnus confirmed
 Sirlius's suspicions: "This money is cursed."
 
-The party discused what this might mean; did the curse somehow extend to everything bought with the
+The party discussed what this might mean; did the curse somehow extend to everything bought with the
 money? "Hey, maybe that gnome at the Bank will have his shoes filled with sand because we deposited
 that money," grinned Sirlius.
 
