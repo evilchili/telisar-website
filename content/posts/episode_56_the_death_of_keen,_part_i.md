@@ -102,3 +102,12 @@ To pass the time?" And with those words she, the Ferryman creature and the boat,
 blackness of the Shore.
 
 Alone once more, Keen sat in the warm, black sand to regard the Ocean of Night.
+
+
+Keen Trap Status: Sprung
+
+Keen Trap Lethality Rating: Surprising!
+
+Party Slogan: "No More Adventures" 
+
+RP Ratiing: Awesome!
