@@ -104,25 +104,25 @@ approached from the waiting Ferryman and his boat, the sand crunching under her 
 the boat's waiting, but your friends have given you a way back. What is it you want?"
 
 "I think I want to live," said Keen. And as he spoke the words, he felt the shadows close in on him,
-pulling him away from the Shore and into darkness. He screamed, and his screamed became for an
+pulling him away from the Shore and into darkness. He screamed, and his screame became for an
 instance the draconic roar of creation, the roar that set the universe in motion. And then he was
 bound tight in darkness and suffocating.
 
 \*
 
-The diamond shone brilliant white through Artinius's clasped fingers before it shattered into dust,
-which sank into the clay-molded form of Keen and disappeared. Artinius opened his eyes, sweat
+The diamond shone brilliant white through Arminius's clasped fingers before it shattered into dust,
+which sank into the clay-molded form of Keen and disappeared. Arminius opened his eyes, sweat
 pouring from his face, and said, "I think it's done. But the stone... he should be... he's
-suffocating!" And with a few swings of his mace, Artinius cracked the clay around Keen's head and
+suffocating!" And with a few swings of his mace, Arminius cracked the clay around Keen's head and
 shoulders, pulling it away. Keen gasped lungfuls of air and dust, and broke into a fit of coughing.
 He was alive. The relieved party rushed to his side, embracing him. "My friends," he exclaimed, "I'm
 so glad to see you, I've missed you so much! I feel terrible."
 
-Artinius fell back against the wall, exhausted, offered a prayer of thanks to the fallen
+Arminius fell back against the wall, exhausted, offered a prayer of thanks to the fallen
 Bahamut. To his surpries, Keen heard the prayer echoing in his mind along with, he realized the
 pleading voices of the faithful from all over Telisar. 
 
-The Order of Bahamut soon took their leave, Artinius clearly uncomfortable in Keen's presence, but
+The Order of Bahamut soon took their leave, Arminius clearly uncomfortable in Keen's presence, but
 they left two guards "To ensure Keen's protection and keep the peace." Keen slipped the ring of
 bliss onto his finger and went to sleep, mind, soul and body all exhausted.
 
@@ -151,6 +151,12 @@ it. He realized then what he had overlooked previously: the Drow were a vicious,
 that treated males as little more than chattel. Why would these coins have the face of a very male
 Drow king stamped on them? Using his arcane focus and casting a spell of identify, Magnus confirmed
 Sirlius's suspicions: "This money is cursed."
+
+The party discused what this might mean; did the curse somehow extend to everything bought with the
+money? "Hey, maybe that gnome at the Bank will have his shoes filled with sand because we deposited
+that money," grinned Sirlius.
+
+To which Yuna replied, "We bought the diamond we used to bring back Keen with that money."
 
 
 Resurrection Ritual Rating: Nerve-Wracking
