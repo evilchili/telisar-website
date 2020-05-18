@@ -86,6 +86,12 @@ Yuna focused her own divinity and spoke to Keen directly, begging the soul of he
 to them, his family. Though all were moved to tears by her words, whether by the intensity of the
 ritual or her own roiling emotions she was unable to hold her focus, and the ritual rejected her.
 
+Next, Magnus attempted to focus his arcane will by means of a prayer-necklace of risidium, forcing a
+sympathetic resonance with the diamond focus and hoping to force open a path for the soul to
+re-enter the Prime Material thereby. He was successful, and the sympathetic vibrations of magon
+radiation emanating from the strange crystals were absorbed by the diamond, which glowed visibly
+brighter.
+
 Ara stepped forward next and spoke a prayer to Rillifane, beseeching the Elven god for aid on
 behalf of his fallen friend, offering surprisingly apropos wisdom from scripture read amongst his
 travels. But Rillifane did not look kindly upon Keen, and Ara's plea went unanswered.
