@@ -55,9 +55,15 @@
     </div>
     {{ end }}
 
-    {{ if $monster.immunities }}
+    {{ if $monster.damage_immunities }}
     <div class='stat'>
-        Condition Immunities <span class='value'>{{ $monster.immunities | safeHTML }}</span>
+        Damage Immunities <span class='value'>{{ $monster.damage_immunities | safeHTML }}</span>
+    </div>
+    {{ end }}
+
+    {{ if $monster.condition_immunities }}
+    <div class='stat'>
+        Condition Immunities <span class='value'>{{ $monster.condition_immunities | safeHTML }}</span>
     </div>
     {{ end }}
 

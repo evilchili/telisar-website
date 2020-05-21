@@ -19,8 +19,8 @@ statblock:
     CHA: 12,1
     skills: Athletics +9
     saving_throws: STR +9, CON +8
-    resistances: Damage from spells
-    immunities: 
+    damage_resistances: Damage from spells
+    damage_immunities: 
     senses: Passive Perception 10,  Darkvision 60ft
     languages: Elvish, Giant, Common
     cr:
