@@ -19,7 +19,7 @@ statblock:
     WIS: 13,1
     CHA: 6,-2
     saving_throws: STR +7, CON +7
-    damage_resistances: Bludgeoning, Piercing, and Slashing from Nonmagical Attacks
+    resistances: Bludgeoning, Piercing, and Slashing from Nonmagical Attacks
     damage_immunities: Acid
     senses: Darkvision 60 ft., Tremorsense 60 ft., Passive Perception 14
     cr: 9 (5,000 XP)

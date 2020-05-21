@@ -20,7 +20,7 @@ statblock:
     CHA: 1,-5
     skills:
     saving_throws:
-    damage_resistances: Piercing, Slashing
+    resistances: Piercing, Slashing
     damage_immunities:
     condition_immunities: Charmed, Grappled, Paralyzed, Petrified, Prone, Restrained
     senses: Blindsight 10 ft., Tremorsense 50ft, Passive Perception 10

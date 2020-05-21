@@ -5,9 +5,9 @@ tags: ['homebrew', 'monster']
 markup: md
 
 statblock:
-    name: "{{ humanize .Name }}"
+    name: "{{ humanize .Name | title }}"
     size: medium
-    type: creature
+    type: beast
     alignment: unaligned
     AC: 10
     HP: 100 (10d10 + 50)
@@ -21,7 +21,8 @@ statblock:
     skills:
     saving_throws:
     resistances:
-    immunities:
+    damage_immunities:
+    condition_immunities: 
     senses: Passive Perception 10
     languages: Common
     cr:
@@ -46,6 +47,10 @@ Flavour text goes here
 **Attribute** Description
 
 ## Legendary Reactions
+
+**Attribute** Description
+
+## Lair and Lair Actions
 
 **Attribute** Description
 
