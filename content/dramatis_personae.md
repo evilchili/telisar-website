@@ -8,7 +8,6 @@ tags: ['lore', 'DM']
 ---
 
 
-{.table .pure-table .table-wrapping .table-striped .table-responsive}
 | Name                   | Gender |  Race  | Description           | Last Known Whereabouts     | Notes
 | -----------------------|--------|--------|---------------------- | -------------------------- | -------------:
 | **Skonk**              | M      | Goblin |  green skin, underbite, muscular, left ear torn | Thorimfel Below (deceased) | Led a party of Black Tack goblins to kidnap the party
