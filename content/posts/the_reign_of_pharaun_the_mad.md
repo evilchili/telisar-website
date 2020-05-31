@@ -17,7 +17,7 @@ capital of Na'Aldrathzil. The rebellion was led by Pharaun, a slave in the Templ
 Queen who entered into a bargain with Vhaerun, son of Lolth, a Dark Selarine who rejects his
 infernal mother's notion of matriarchal supremacy [*refer to Chapter XI, On the Nature and Relations
 of the Selarine --Tobin*]. With dark powers granted him by his new patron, Pharaun slew his mistress
-the High Priestess of Lloth, and rallied to his cause the Drow males who believed themselves
+the High Priestess of Lolth, and rallied to his cause the Drow males who believed themselves
 oppressed.
 
 **2692 - 2892** Pharaun declared himself King of Undrek'thoz, and for the next two centuries his new
