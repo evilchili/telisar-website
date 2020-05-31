@@ -31,7 +31,7 @@ a series of crusades, bringing Vhareun worship and patriarchy to Drow settlement
 Underdark. The armies of Undrek'thoz called these wars the March of the Liberated, a title that
 still survives, though it seems ironically, in post-Restoration sources.
 
-**3162** The last March of the Liberated was apparently a disaster for Al'Drathzil, with much of the
+**3162** The last March of the Liberated was apparently a disaster for Na'Aldrathzil, with much of the
 military might of the capital defeated by organized militants of Lolth from Drow border states.
 Pharaun's power thus weakened, a secret cult of Lolth priestesses in the capital attempted a
 rebellion. This "First Rebellion of the Penitent" was defeated when the rebel leadership was
