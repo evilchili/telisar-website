@@ -25,9 +25,9 @@ little first-hand knowledge of either Underdark history or the working of curses
 temple's library contained a scholarly work called _Tobin's Grimoire_, which contained amongst
 several other topics a compendium of Underdark folk tales, histories, and stories.
 
+
 Sirlius examined the work closely, and with his superior understanding of written languages was able
-to identify <a href='{{ ref 'the_reign_of_pharaun_the_mad' }}'>key passages in Undercommon that
-spoke of an ancient Drow city, Na'Aldrathzil, where once reigned a Drow king, Pharaun the Mad</a>.
+to identify [key passages in Undercommon that spoke of an ancient Drow city, Na'Aldrathzil, where once reigned a Drow king, Pharaun the Mad](/posts/the_reign_of_pharaun_the_mad).
 The king was overthrown by the adherents of Lolth, the city sealed and a curse laid upon it such
 that any who should attempt to profit by the wealth or works of the Mad King and his followers
 should know only ruin. And it describe in general details the location of Na'Aldrathzil:
