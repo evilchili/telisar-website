@@ -26,7 +26,7 @@ The collective consciousness retreated from Ara and Magnus, whereupon Magnus con
 This he did, and the djinn stilled, hanging motionless in midair, its whirlwind form filling with luminescent fungal spores. What may become of the myconids and such a malevolent intelligence, none can say, but for now at least the danger has passed and the party is free to complete its quest to recover the residium crystal deposit and deliver it to Banu, the El Astrum Public Library's Adeptus Practicus Emeritius of Necromancy, whose geas Magnus is still struggling to resist.
 
 
-<a href='{{< ref "myconids_vs_zombies" >}}'>Mini-game Rating</a>: Pretty Not Bad
+[Mini-game Rating](myconids_vs_zombies): Pretty Not Bad
 
 DM Ambition Rating: Mad With Power
 

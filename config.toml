@@ -77,3 +77,9 @@ pygmentsCodeFences = true
     title = "Posts"
     url = "/posts/"
     weight = 100
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

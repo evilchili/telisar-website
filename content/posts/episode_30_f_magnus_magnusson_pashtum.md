@@ -30,8 +30,7 @@ its application were discovered every magic user in Telisar would persue it rele
 power to damage the very structure of the planes, twisting reality to the will of the user and
 making them more powerful than gods. It was this realization that led him to destroy the only record
 of research that documented residium's true nature more than 400 years ago, violating the terms of
-his <a href='{{< ref "the-library-card" >}}'>El Astrum Public Library Members Card</a> and
-relegating Felurius Magnus Magnusson Pashtum, highborn young wizard of Uman to the eternity in the
+his [El Astrum Public Library Members Card](the-library-card) and relegating Felurius Magnus Magnusson Pashtum, highborn young wizard of Uman to the eternity in the
 Library's Guard Cohort.
 
 Levani, Keen and Ara returned, their chase having ended in failure, and the party began to discuss

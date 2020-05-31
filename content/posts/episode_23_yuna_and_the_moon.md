@@ -29,8 +29,7 @@ Shaken but renewed they engaged the creature, and though its fearsome countenanc
 core, they dispatched the pitiful creature. As it dissipated, the supernatural coldness and darkness
 gave way to a large, empty chamber bathed in pale moonlight descending from murkey darkness above.
 
-The chamber contained five stone pillars; into each was carved a portion of <a href="{{< ref
-"/posts/yi-na-hotep-shames-the-gods" >}}">a different story of Yi-na-Hotep</a>.
+The chamber contained five stone pillars; into each was carved a portion of [a different story of Yi-na-Hotep](/posts/yi-na-hotep-shames-the-gods).
 
 The party risked a long rest to recover from their encounter. While they slept, two visions were
 visited upon those keeping watch: one a grey-skinned, broken-mouthed goliath dressed as a circus

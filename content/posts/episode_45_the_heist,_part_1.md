@@ -68,8 +68,7 @@ inn they could afford.
 
 * * * 
 
-After a <a href='{{< ref "/posts/episode_44_plans_and_complications.md" >}}'>long evening in the
-inn</a> during which the party learned some of Keen's history with "Handsome" Henry Smalls, saw him
+After a [long evening in the inn](/posts/episode_44_plans_and_complications) during which the party learned some of Keen's history with "Handsome" Henry Smalls, saw him
 manifesting magic powers for the first time, and were visited by Sabetha, they awoke on the morning
 of the day of Danta Kosht's proposed heist of the Pashtum Bank.
 

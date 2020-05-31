@@ -71,7 +71,7 @@ centre of the room. Keen placed the platinum statuette upon the pedestal, which 
 and a shaft of moonlight reached down from the ceiling, illuminating the room and revealing the
 floor, the walls and the ceiling itself to be covered in draconic script.
 
-The writing told the story of <a href="{{< ref "/posts/yi-na-hotep-and-the-five-suns" >}}">Yi-na-Hotep And The Five Suns</a>, and Keen realized
+The writing told the story of [Yi-na-Hotep And The Five Suns](/posts/yi-na-hotep-and-the-five-suns), and Keen realized
 that he was able to read the Draconic writing, a language he had never learned.
 
 An investigation of the room revealed another false wall, leading to a second chamber deeper inside

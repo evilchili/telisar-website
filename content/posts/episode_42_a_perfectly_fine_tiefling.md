@@ -9,7 +9,7 @@ Having dispatched the oblex that had taken the form of Lady Margoleth and her yo
 turned their attention immediately to their missing friend, Levani having been snatched away via
 magic during the fight.
 
-A quick search of the sitting room by Ara revealed <a href='{{< ref "the_diary_of_esme_margoleth" >}}'>Lady Margoleth's diary</a>, which revealed a mind
+A quick search of the sitting room by Ara revealed [Lady Margoleth's diary](the_diary_of_esme_margoleth), which revealed a mind
 being ravaged by time, and spoke of dark, arcane experiments being conducted by her husband in an
 attempt to repair the damage being done to her. Ara pocketed the book and the party left the
 Margoleth residence to search for Levani.
