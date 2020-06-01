@@ -11,7 +11,7 @@ Inns and Taverns in Telisar are named after the Major Arcana of the Tarot, for n
 refer directly to figures from Telisaran myth and folklore, the context of which implies the Major Arcana connection. Listed locations are 
 known to the players; undocumented locations they have not yet discovered.
 
-{.table .pure-table .table-striped .table-responsive}
+
 | Name                               | Location                   | Major Arcana
 | ---------------------------------- | -------------------------- | -------------:
 | **The Fool's Errand**              | South of Whitebridge       | 01 The Fool
