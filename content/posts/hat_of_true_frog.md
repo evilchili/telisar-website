@@ -19,6 +19,6 @@ Any living creature wearing this hat on their head must make a DC 18 wisdom savi
 
 The effect is ended by removing the hat, being knocked unconscious or killed, or with the effects of a wish spell.
 
-Once ended, the creature wearing the hat is immune to its effects for 24 hours.
+Once the effect is ended, the creature is immune to its effects for 24 hours.
 
 {{< /item >}}
