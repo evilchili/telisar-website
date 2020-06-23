@@ -1,22 +1,22 @@
-{{ $monster := $.Page.Params.statblock }}
-<div class='monster-stat-block'>
-    <div class='monster-name'>
-        {{ safeHTML $monster.name }}
+{{ $homebrew := $.Page.Params.statblock }}
+<div class='monster-stat-block homebrew-stat-block'>
+    <div class='homebrew-name'>
+        {{ safeHTML $homebrew.name }}
     </div>
-    <div class='monster-size'>
-        {{ safeHTML $monster.size | humanize }} {{ safeHTML $monster.type }}, {{ safeHTML $monster.alignment }}
+    <div class='homebrew-size'>
+        {{ safeHTML $homebrew.size | humanize }} {{ safeHTML $homebrew.type }}, {{ safeHTML $homebrew.alignment }}
     </div>
 
     <br class='separator'>
 
     <div class='stat'>
-        Armor Class <span class='value'>{{ $monster.AC | safeHTML }}</span>
+        Armor Class <span class='value'>{{ $homebrew.AC | safeHTML }}</span>
     </div>
     <div class='stat'>
-        Hit Points <span class='value'>{{ $monster.HP | safeHTML }}</span>
+        Hit Points <span class='value'>{{ $homebrew.HP | safeHTML }}</span>
     </div>
     <div class='stat'>
-        Speed <span class='value'>{{ $monster.speed | safeHTML }}</span>
+        Speed <span class='value'>{{ $homebrew.speed | safeHTML }}</span>
     </div>
 
     <br class='separator'>
@@ -26,62 +26,62 @@
             <th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th>
         </tr>
         <tr>
-            <td>{{ if gt (int (index (split $monster.STR ",") 1)) 0 }}+{{ end }}{{ index (split $monster.STR ",") 1 }} <small>{{ index (split $monster.STR ",") 0 }}</small></td>
-            <td>{{ if gt (int (index (split $monster.DEX ",") 1)) 0 }}+{{ end }}{{ index (split $monster.DEX ",") 1 }} <small>{{ index (split $monster.DEX ",") 0 }}</small></td>
-            <td>{{ if gt (int (index (split $monster.CON ",") 1)) 0 }}+{{ end }}{{ index (split $monster.CON ",") 1 }} <small>{{ index (split $monster.CON ",") 0 }}</small></td>
-            <td>{{ if gt (int (index (split $monster.INT ",") 1)) 0 }}+{{ end }}{{ index (split $monster.INT ",") 1 }} <small>{{ index (split $monster.INT ",") 0 }}</small></td>
-            <td>{{ if gt (int (index (split $monster.WIS ",") 1)) 0 }}+{{ end }}{{ index (split $monster.WIS ",") 1 }} <small>{{ index (split $monster.WIS ",") 0 }}</small></td>
-            <td>{{ if gt (int (index (split $monster.CHA ",") 1)) 0 }}+{{ end }}{{ index (split $monster.CHA ",") 1 }} <small>{{ index (split $monster.CHA ",") 0 }}</small></td>
+            <td>{{ if gt (int (index (split $homebrew.STR ",") 1)) 0 }}+{{ end }}{{ index (split $homebrew.STR ",") 1 }} <small>{{ index (split $homebrew.STR ",") 0 }}</small></td>
+            <td>{{ if gt (int (index (split $homebrew.DEX ",") 1)) 0 }}+{{ end }}{{ index (split $homebrew.DEX ",") 1 }} <small>{{ index (split $homebrew.DEX ",") 0 }}</small></td>
+            <td>{{ if gt (int (index (split $homebrew.CON ",") 1)) 0 }}+{{ end }}{{ index (split $homebrew.CON ",") 1 }} <small>{{ index (split $homebrew.CON ",") 0 }}</small></td>
+            <td>{{ if gt (int (index (split $homebrew.INT ",") 1)) 0 }}+{{ end }}{{ index (split $homebrew.INT ",") 1 }} <small>{{ index (split $homebrew.INT ",") 0 }}</small></td>
+            <td>{{ if gt (int (index (split $homebrew.WIS ",") 1)) 0 }}+{{ end }}{{ index (split $homebrew.WIS ",") 1 }} <small>{{ index (split $homebrew.WIS ",") 0 }}</small></td>
+            <td>{{ if gt (int (index (split $homebrew.CHA ",") 1)) 0 }}+{{ end }}{{ index (split $homebrew.CHA ",") 1 }} <small>{{ index (split $homebrew.CHA ",") 0 }}</small></td>
         </tr>
     </table>
 
     <br class='separator'>
 
-    {{ if $monster.saving_throws }}
+    {{ if $homebrew.saving_throws }}
     <div class='stat'>
-        Saving Throws <span class='value'>{{ $monster.saving_throws | safeHTML }}</span>
+        Saving Throws <span class='value'>{{ $homebrew.saving_throws | safeHTML }}</span>
     </div>
     {{ end }}
 
-    {{ if $monster.skills }}
+    {{ if $homebrew.skills }}
     <div class='stat'>
-        Skills <span class='value'>{{ $monster.skills | safeHTML }}</span>
+        Skills <span class='value'>{{ $homebrew.skills | safeHTML }}</span>
     </div>
     {{ end }}
 
-    {{ if $monster.resistances }}
+    {{ if $homebrew.resistances }}
     <div class='stat'>
-        Damange Resistances <span class='value'>{{ $monster.resistances | safeHTML }}</span>
+        Damange Resistances <span class='value'>{{ $homebrew.resistances | safeHTML }}</span>
     </div>
     {{ end }}
 
-    {{ if $monster.damage_immunities }}
+    {{ if $homebrew.damage_immunities }}
     <div class='stat'>
-        Damage Immunities <span class='value'>{{ $monster.damage_immunities | safeHTML }}</span>
+        Damage Immunities <span class='value'>{{ $homebrew.damage_immunities | safeHTML }}</span>
     </div>
     {{ end }}
 
-    {{ if $monster.condition_immunities }}
+    {{ if $homebrew.condition_immunities }}
     <div class='stat'>
-        Condition Immunities <span class='value'>{{ $monster.condition_immunities | safeHTML }}</span>
+        Condition Immunities <span class='value'>{{ $homebrew.condition_immunities | safeHTML }}</span>
     </div>
     {{ end }}
 
-    {{ if $monster.saving_throws }}
+    {{ if $homebrew.saving_throws }}
     <div class='stat'>
-        Senses <span class='value'>{{ $monster.senses | safeHTML }}</span>
+        Senses <span class='value'>{{ $homebrew.senses | safeHTML }}</span>
     </div>
     {{ end }}
 
-    {{ if $monster.languages }}
+    {{ if $homebrew.languages }}
     <div class='stat'>
-        Languages <span class='value'>{{ $monster.languages | safeHTML }}</span>
+        Languages <span class='value'>{{ $homebrew.languages | safeHTML }}</span>
     </div>
     {{ end }}
 
-    {{ if $monster.cr }}
+    {{ if $homebrew.cr }}
     <div class='stat'>
-        Challenge <span class='value'>{{ $monster.cr | safeHTML }}</span>
+        Challenge <span class='value'>{{ $homebrew.cr | safeHTML }}</span>
     </div>
     {{ end }}
 

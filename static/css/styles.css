@@ -648,7 +648,7 @@ dl.cant dd {
     column-count: 2;
 }
 
-.monster-stat-block {
+.homebrew-stat-block {
     display:block;
     clear:both;
 
@@ -662,7 +662,7 @@ dl.cant dd {
     margin: 50px 0;
 }
 
-.monster-stat-block .separator {
+.homebrew-stat-block .separator {
     content: "";
     display:block;
     width: 100%;
@@ -672,17 +672,17 @@ dl.cant dd {
 
 /* Stat block typography */
 
-.monster-stat-block {
+.homebrew-stat-block {
     font-family: Roboto,Helvetica,sans-serif;
     font-size: 0.65em;
 }
 
-.monster-stat-block h2 {
+.homebrew-stat-block h2 {
     padding-bottom: 5px;
     border-bottom: 1px solid #883333;
 }
 
-.monster-stat-block .monster-name {
+.homebrew-stat-block .homebrew-name {
     font-family: 'Cantarell', sans-serif;
     font-weight: 700;
     font-size: 2em;
@@ -693,70 +693,70 @@ dl.cant dd {
     color: #883333;
 }
 
-.monster-stat-block .monster-size {
+.homebrew-stat-block .homebrew-size {
     font-family: telisar-manuscript, serif;
     font-style: italic;
     margin-top: -3px;
     padding-left:2px;
 }
 
-.monster-stat-block .stat {
+.homebrew-stat-block .stat {
     font-size:0.9em;
     color: #883333;
     font-weight: bold;
 }
-.monster-stat-block .stat .value {
+.homebrew-stat-block .stat .value {
     color: #333;
     font-weight:normal;
     padding-left: 3px;
 }
 
-.monster-stat-block table {
+.homebrew-stat-block table {
     border-bottom: none;
     margin: 0;
 }
-.monster-stat-block table th {
+.homebrew-stat-block table th {
     font-size:0.8em;
     color: #883333;
     font-weight: bold;
     text-align:center;
 }
 
-.monster-stat-block table tbody tr td {
+.homebrew-stat-block table tbody tr td {
     font-size: 1.1em;
     font-weight: bold;
     color: #883333;
     text-align:center;
 }
-.monster-stat-block td small {
+.homebrew-stat-block td small {
     font-size: 0.8em;
     display:block;
     font-weight: normal;
     color: #333;
 }
-.monster-stat-block table tr:nth-child(even) {background-color: transparent; }
+.homebrew-stat-block table tr:nth-child(even) {background-color: transparent; }
 
-.monster-stat-block p {
+.homebrew-stat-block p {
     font-family: Roboto,Helvetica,sans-serif !important;
     text-align: justify;
 }
 
-.monster-stat-block p strong::after {
+.homebrew-stat-block p strong::after {
     content: '.';
     display: inline;
 }
 
-.monster-stat-block p em {
+.homebrew-stat-block p em {
     padding-right: 5px;
 }
 
-.monster-stat-block p em::after {
+.homebrew-stat-block p em::after {
     content: ':';
     display:inline;
 }
 
 
-#container main article div.dropcase .monster-stat-block p:first-of-type:first-letter {
+#container main article div.dropcase .homebrew-stat-block p:first-of-type:first-letter {
     font-family: inherit;
     font-size: inherit;
     margin: inherit;
