@@ -28,7 +28,7 @@ statblock:
     cr:
 ---
 
-A graduate of Madame Elethi's Finishing School For Girls, Sabetha is a refined, educated and
+A graduate of Madame Elethi's Finishing School For Girls, Sabetha (she/her) is a refined, educated and
 brilliant woman. A gifted dancer, she performs often at Zandilar's, the club and casino owned by
 Madame Elethi. She is also rumoured to be Elethi's most trusted lieutenant: a dangerous and capable
 assassin, tracker and spellcaster so feared that much of Madame Elethi's reputation as a woman not
