@@ -1,0 +1,40 @@
+{{ $homebrew := $.Page.Params.statblock }}
+<div class='homebrew-stat-block'>
+    <div class='homebrew-name'>
+        {{ safeHTML $homebrew.name }}
+    </div>
+    <div class='homebrew-type'>
+        {{ safeHTML $homebrew.level | humanize }} Level {{ safeHTML $homebrew.school | humanize}}
+    </div>
+
+    <br class='separator'>
+
+    <div class='stat'>
+        Casting Time: <span class='value'>{{ $homebrew.casting_time | safeHTML }}</span>
+    </div>
+
+    <div class='stat'>
+        Range: <span class='value'>{{ $homebrew.range }}</span>
+    </div>
+
+    <div class='stat'>
+        Components: <span class='value'>{{ $homebrew.components }}</span>
+    </div>
+
+    <div class='stat'>
+        Duration: <span class='value'>{{ $homebrew.duration }}</span>
+    </div>
+
+    <div class='stat'>
+        Attack/Save: <span class='value'>{{ $homebrew.attack_or_save }}</span>
+    </div>
+
+    <div class='stat'>
+        Damage/Effect: <span class='value'>{{ $homebrew.effect }}</span>
+    </div>
+
+    <br class='separator'>
+
+    {{ .Inner | markdownify }}
+
+</div>

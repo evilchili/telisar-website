@@ -1,0 +1,17 @@
+{{ $homebrew := $.Page.Params.statblock }}
+<div class='homebrew-stat-block'>
+    <div class='homebrew-name'>
+        {{ safeHTML $homebrew.name }}
+    </div>
+    <div class='homebrew-type'>
+        {{ safeHTML $homebrew.type | humanize }}{{ if or ($homebrew.rarity) ($homebrew.school) }},
+        {{ if $homebrew.rarity }}{{ safeHTML $homebrew.rarity | humanize}}{{ end }}
+        {{ if $homebrew.school }}{{ safeHTML $homebrew.school | humanize}}{{ end }}
+        {{ end }}
+    </div>
+
+    <br class='separator'>
+
+    {{ .Inner | markdownify }}
+
+</div>

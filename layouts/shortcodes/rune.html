@@ -1,0 +1,12 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+{{ $spoilers := .Get "spoilers" }}
+<li 
+{{ if $spoilers }}
+style='cursor: pointer;' onclick="this.getElementsByTagName('div')[0].style.display=((this.getElementsByTagName('div')[0].style.display=='none')?'':'none');"
+{{ end }}
+>
+    <img src="{{ .Get "src" }}" title="Click to Reveal" alt="A Draconic Runeform; click to reveal details.">
+    <div {{ if $spoilers }}style="display:none;"{{ end }}>
+     <strong>{{ .Get "title" }}. </strong> {{.Inner | markdownify }}
+    </div>
+</li>

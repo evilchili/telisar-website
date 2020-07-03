@@ -362,7 +362,6 @@ a:hover {
 
 .image, figure img, img {
   width: 100%;
-  border: 1px solid #000;
   box-shadow: 0 3px 3px #bbbbbb;
 }
 
@@ -762,4 +761,57 @@ dl.cant dd {
     margin: inherit;
     line-height: inherit;
     float: inherit;
+}
+
+.runes {
+  display: block;
+  margin-top: 10px;
+  padding: 0px;
+  font-family: Roboto,Helvetica,sans-serif;
+}
+
+.runes ul {
+  display: block;
+  list-style-type: none;
+  padding: 0px;
+  font-family: Roboto,Helvetica,sans-serif;
+}
+
+.runes ul:after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+
+.runes ul li {
+    display: block;
+    margin-bottom: 20px;
+    padding-right: 10px;
+    width: 48%;
+    float:left;
+}
+
+.tile img, .runes ul li img {
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #333 outset;
+
+    background: rgb(246,248,249); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(246,248,249,1) 0%, rgba(229,235,238,1) 50%, rgba(215,222,227,1) 51%, rgba(245,247,249,0.3) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,0.3) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,0.3) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.runes ul li img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.runes ul li div {
+    display: block;
+    vertical-align: top;
+    margin-left: 60px;
+    margin-right: 10px;
 }

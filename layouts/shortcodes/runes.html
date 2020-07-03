@@ -1,0 +1,10 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+<div class='homebrew-stat-block'>
+    <div class='homebrew-name'>Runes of {{ .Get 0 }}</div>
+    <br class='separator'>
+    <div class='runes'>
+    <ul>
+{{ .Inner }}
+    </ul>
+    </div>
+</div>
