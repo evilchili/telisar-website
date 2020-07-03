@@ -119,7 +119,7 @@ This form will disrupt and repel arcane energy from the target.
 {{< rune spoilers=true src="/static/runes/effect_slashing.png" title="Form of Effect: Slashing" >}}Cause, resist or dispel slashing damage{{< /rune >}}
 {{< rune spoilers=true src="/static/runes/effect_force.png" title="Form of Effect: Force" >}}Cause, resist or dispel force damage{{< /rune >}}
 {{< rune spoilers=true src="/static/runes/effect_cold.png" title="Form of Effect: Cold" >}}Cause, resist or dispel cold effects{{< /rune >}}
-{{< rune spoilers=true src="/static/runes/effect_fire.png" title="Form of Effect: Fire" >}}Cause, resist or dispel fire effects{{< /rune >}}
+{{< rune src="/static/runes/effect_fire.png" title="Form of Effect: Fire" >}}Cause, resist or dispel fire effects{{< /rune >}}
 {{< rune spoilers=true src="/static/runes/effect_lightning.png" title="Form of Effect: Lightning" >}}Cause, resist or dispel lightning effects{{< /rune >}}
 {{< rune spoilers=true src="/static/runes/effect_thunder.png" title="Form of Effect: Thunder" >}}Cause, resist or dispel thunder effects{{< /rune >}}
 {{< rune spoilers=true src="/static/runes/effect_haste.png" title="Form of Effect: Haste" >}}Cause, resist or dispel hasting effects{{< /rune >}}
