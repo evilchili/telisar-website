@@ -1,93 +1,103 @@
 {{ $homebrew := $.Page.Params.statblock }}
 <div class='monster-stat-block homebrew-stat-block'>
-    <div class='homebrew-name'>
-        {{ safeHTML $homebrew.name }}
-    </div>
-    <div class='homebrew-size'>
-        {{ safeHTML $homebrew.size | humanize }} {{ safeHTML $homebrew.type }}, {{ safeHTML $homebrew.alignment }}
-    </div>
-
-    <br class='separator'>
-
-    <div class='stat'>
-        Armor Class <span class='value'>{{ $homebrew.AC | safeHTML }}</span>
-    </div>
-    <div class='stat'>
-        Hit Points <span class='value'>{{ $homebrew.HP | safeHTML }}</span>
-    </div>
-    <div class='stat'>
-        Speed <span class='value'>{{ $homebrew.speed | safeHTML }}</span>
+    <div class='keep-together'>
+        <div class='homebrew-name' style="cursor: pointer;" onclick="document.getElementById('{{ safeHTML $homebrew.name }}-stats').style.display=((document.getElementById('{{ safeHTML $homebrew.name }}-stats').style.display=='none')?'':'none');">
+            {{ safeHTML $homebrew.name }}
+        </div>
+        <div class='homebrew-size'>
+            {{ safeHTML $homebrew.size | humanize }} {{ safeHTML $homebrew.type }}{{if $homebrew.alignment }}, {{ safeHTML $homebrew.alignment }}{{ end }}
+        </div>
     </div>
 
-    <br class='separator'>
+    <div id='{{ safeHTML $homebrew.name }}-stats' style='display:none;'>
 
-    <table>
-        <tr>
-            <th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th>
-        </tr>
-        <tr>
-            <td>{{ if gt (int (index (split $homebrew.STR ",") 1)) 0 }}+{{ end }}{{ index (split $homebrew.STR ",") 1 }} <small>{{ index (split $homebrew.STR ",") 0 }}</small></td>
-            <td>{{ if gt (int (index (split $homebrew.DEX ",") 1)) 0 }}+{{ end }}{{ index (split $homebrew.DEX ",") 1 }} <small>{{ index (split $homebrew.DEX ",") 0 }}</small></td>
-            <td>{{ if gt (int (index (split $homebrew.CON ",") 1)) 0 }}+{{ end }}{{ index (split $homebrew.CON ",") 1 }} <small>{{ index (split $homebrew.CON ",") 0 }}</small></td>
-            <td>{{ if gt (int (index (split $homebrew.INT ",") 1)) 0 }}+{{ end }}{{ index (split $homebrew.INT ",") 1 }} <small>{{ index (split $homebrew.INT ",") 0 }}</small></td>
-            <td>{{ if gt (int (index (split $homebrew.WIS ",") 1)) 0 }}+{{ end }}{{ index (split $homebrew.WIS ",") 1 }} <small>{{ index (split $homebrew.WIS ",") 0 }}</small></td>
-            <td>{{ if gt (int (index (split $homebrew.CHA ",") 1)) 0 }}+{{ end }}{{ index (split $homebrew.CHA ",") 1 }} <small>{{ index (split $homebrew.CHA ",") 0 }}</small></td>
-        </tr>
-    </table>
+    <div class='keep-together'>
+        <br class='separator'>
 
-    <br class='separator'>
+        <div class='stat'>
+            Armor Class <span class='value'>{{ $homebrew.AC | safeHTML }}</span>
+        </div>
+        <div class='stat'>
+            Hit Points <span class='value'>{{ $homebrew.HP | safeHTML }}</span>
+        </div>
+        <div class='stat'>
+            Speed <span class='value'>{{ $homebrew.speed | safeHTML }}</span>
+        </div>
 
-    {{ if $homebrew.saving_throws }}
-    <div class='stat'>
-        Saving Throws <span class='value'>{{ $homebrew.saving_throws | safeHTML }}</span>
+        <br class='separator'>
+
+        <table>
+            <tr>
+                <th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th>
+            </tr>
+            <tr>
+                <td>{{ if gt (int (index (split $homebrew.STR ",") 1)) 0 }}+{{ end }}{{ index (split $homebrew.STR ",") 1 }} <small>{{ index (split $homebrew.STR ",") 0 }}</small></td>
+                <td>{{ if gt (int (index (split $homebrew.DEX ",") 1)) 0 }}+{{ end }}{{ index (split $homebrew.DEX ",") 1 }} <small>{{ index (split $homebrew.DEX ",") 0 }}</small></td>
+                <td>{{ if gt (int (index (split $homebrew.CON ",") 1)) 0 }}+{{ end }}{{ index (split $homebrew.CON ",") 1 }} <small>{{ index (split $homebrew.CON ",") 0 }}</small></td>
+                <td>{{ if gt (int (index (split $homebrew.INT ",") 1)) 0 }}+{{ end }}{{ index (split $homebrew.INT ",") 1 }} <small>{{ index (split $homebrew.INT ",") 0 }}</small></td>
+                <td>{{ if gt (int (index (split $homebrew.WIS ",") 1)) 0 }}+{{ end }}{{ index (split $homebrew.WIS ",") 1 }} <small>{{ index (split $homebrew.WIS ",") 0 }}</small></td>
+                <td>{{ if gt (int (index (split $homebrew.CHA ",") 1)) 0 }}+{{ end }}{{ index (split $homebrew.CHA ",") 1 }} <small>{{ index (split $homebrew.CHA ",") 0 }}</small></td>
+            </tr>
+        </table>
+
+        <br class='separator'>
+
+        {{ if $homebrew.saving_throws }}
+        <div class='stat'>
+            Saving Throws <span class='value'>{{ $homebrew.saving_throws | safeHTML }}</span>
+        </div>
+        {{ end }}
+
+        {{ if $homebrew.skills }}
+        <div class='stat'>
+            Skills <span class='value'>{{ $homebrew.skills | safeHTML }}</span>
+        </div>
+        {{ end }}
+
+        {{ if $homebrew.resistances }}
+        <div class='stat'>
+            Damange Resistances <span class='value'>{{ $homebrew.resistances | safeHTML }}</span>
+        </div>
+        {{ end }}
+    
+        {{ if $homebrew.damage_immunities }}
+        <div class='stat'>
+            Damage Immunities <span class='value'>{{ $homebrew.damage_immunities | safeHTML }}</span>
+        </div>
+        {{ end }}
+    
+        {{ if $homebrew.condition_immunities }}
+        <div class='stat'>
+            Condition Immunities <span class='value'>{{ $homebrew.condition_immunities | safeHTML }}</span>
+        </div>
+        {{ end }}
+    
+        {{ if $homebrew.saving_throws }}
+        <div class='stat'>
+            Senses <span class='value'>{{ $homebrew.senses | safeHTML }}</span>
+        </div>
+        {{ end }}
+    
+        {{ if $homebrew.languages }}
+        <div class='stat'>
+            Languages <span class='value'>{{ $homebrew.languages | safeHTML }}</span>
+        </div>
+        {{ end }}
+    
+        {{ if $homebrew.cr }}
+        <div class='stat'>
+            Challenge <span class='value'>{{ $homebrew.cr | safeHTML }}</span>
+        </div>
+        {{ end }}
+    
+        <br class='separator'>
+    
     </div>
-    {{ end }}
-
-    {{ if $homebrew.skills }}
-    <div class='stat'>
-        Skills <span class='value'>{{ $homebrew.skills | safeHTML }}</span>
-    </div>
-    {{ end }}
-
-    {{ if $homebrew.resistances }}
-    <div class='stat'>
-        Damange Resistances <span class='value'>{{ $homebrew.resistances | safeHTML }}</span>
-    </div>
-    {{ end }}
-
-    {{ if $homebrew.damage_immunities }}
-    <div class='stat'>
-        Damage Immunities <span class='value'>{{ $homebrew.damage_immunities | safeHTML }}</span>
-    </div>
-    {{ end }}
-
-    {{ if $homebrew.condition_immunities }}
-    <div class='stat'>
-        Condition Immunities <span class='value'>{{ $homebrew.condition_immunities | safeHTML }}</span>
-    </div>
-    {{ end }}
-
-    {{ if $homebrew.saving_throws }}
-    <div class='stat'>
-        Senses <span class='value'>{{ $homebrew.senses | safeHTML }}</span>
-    </div>
-    {{ end }}
-
-    {{ if $homebrew.languages }}
-    <div class='stat'>
-        Languages <span class='value'>{{ $homebrew.languages | safeHTML }}</span>
-    </div>
-    {{ end }}
-
-    {{ if $homebrew.cr }}
-    <div class='stat'>
-        Challenge <span class='value'>{{ $homebrew.cr | safeHTML }}</span>
-    </div>
-    {{ end }}
-
-    <br class='separator'>
 
     {{ .Inner |markdownify }}
 
+    </div>
+    </dd>
+    </dl>
 
 </div>
