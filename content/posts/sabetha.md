@@ -58,11 +58,17 @@ melancholy so profound as to leave audiences in tears.
 
 {{< monster >}}
 
-**Sorcerous Assassin** Sabetha is a 5th level spellcaster with 9 sorcery points. Her Spell Attack is +9 and her Spell Save
-DC is 19.
+**Innate Spellcaster** Sabetha's spellcasting ability is Charisma (Spell Attack +9, Spell Save DC 19). She can innately cast the following spells, requiring no material components:
 
-Sabetha knows the following spells: Chill Touch, Frosbite, Message, Prestidigitation, Thaumaturgy, True Strike, Comprehend Languages, 
-Disguise Self, Sleep, Darkness, Detect Thoughts, Hellish Rebuke, Hold Person, Misty Step, Teleportation Circle, Animate Objects.
+At Will: Chill Touch, Frosbite, Message, Prestidigitation, Thaumaturgy, True Strike, Comprehend Languages, Telepathy
+
+Thrice Per Day Each: Misty Step, Dimension Door, Detect Thoughts, Darkness
+
+Once Per Long Rest Each: Disguise Self, Sleep, Hold Person, Teleportation Circle, Animate Objects.
+
+**Assassinate** During her first turn, Sabetha has advantage on attack rolls against any creature that hasn't taken a turn. Any hit Sabetha scores against a surprised creature is a critical hit.
+
+**Evasion** If Sabetha is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, Sabetha instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.
 
 ## Actions
 
