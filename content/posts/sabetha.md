@@ -27,7 +27,7 @@ statblock:
     languages: telepathy
     cr:
 ---
-{{< figure src="/static/NPCs/sabetha.png" class="portrait float-right" >}}{{< class "text" >}}
+{{< figure link="/static/NPCs/sabetha.png" thumb="-thumb" class="portrait float-right" >}}{{< class "text" >}}
 A graduate of Madame Elethi's Finishing School For Girls, Sabetha (she/her) is a refined, educated and
 brilliant woman. A gifted dancer, she performs often at Zandilar's, the club and casino owned by
 Madame Elethi. She is also rumoured to be Elethi's most trusted lieutenant: a dangerous and capable
