@@ -108,7 +108,7 @@ is turned for 1 minute or until it takes damage.
 can sense anything affected by the hallow spell or know the location of any celestial, fiend, undead
 within 60 ft. that is not behind total cover. He can use this action once per long rest.
 
-**Lay on Hands** Batok has a pool of healing power that can restore 50 HP per long rest. As an
+**Lay on Hands** Bartok has a pool of healing power that can restore 50 HP per long rest. As an
 action, he can touch a creature to restore any number of HP remaining in the pool, or 5 HP to
 either cure a disease or neutralize a poison affecting the creature.
 
