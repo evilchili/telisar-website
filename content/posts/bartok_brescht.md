@@ -96,9 +96,9 @@ next turn. The maul regains 1d4 + 1 expended charges daily at dawn.
 **Unarmed Strike** Melee Attack +10 to hit, reach 5ft., one target. Hit: 7 Bludgeoning damage.
 
 **Channel Divinity: Sacred Weapon** As an action Bartok can imbue a weapon with positive energy. For
-1 minute, the weapon is considered magical, you add +1 to attack rolls, it emits bright light for 20
+1 minute, the weapon is considered magical, Bartok adds +1 to attack rolls, it emits bright light for 20
 ft. and dim light for 20 ft beyond that. Bartok can end the effect as part of any other action, if
-you are no longer holding the weapon, or if you fall unconscious.
+he is no longer holding the weapon, or if he falls unconscious.
 
 **Channel Divinity: Turn the Unholy** As an action, Bartok can censure fiends and undead. Each fiend or
 undead that can see or hear him within 30 ft. must make a WIS saving throw (DC 12). On failure, it
