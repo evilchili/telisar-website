@@ -20,9 +20,9 @@ challenge your greatness? In Kings of Uman it's not the biggest lie that wins, i
 ## Basic Rules
 
 A City consists of 7 Games, each played in initiative order. Players begin on the 4th Tier and move
-up one tier for each game they win (called a RISE) and down a tier for each game they lose (called a
-DROP). If a player DROPS out of the 7th Tier, they are OUT, eliminated from the City. The player
-who survives the entire City and RISES highest is declared the King of Uman.
+up one Tier for each game they win (called a RISE) and down a Tier for each game they lose (called a
+DROP). If a player DROPS out of the 7th Tier, they are OUT, eliminated from the City. Players 
+who survive the entire City and RISES highest are declared the Kings of Uman.
 
 ### Requirements
 
@@ -34,39 +34,46 @@ A full City of Kings of Uman requires the following:
 - A third d8 for each player; the PEASANT DIE.
 - A d20 for each player to roll initiative.
 
+The PEASANT DIE is city Tier where the player is allowed to live in Uman; they keep this secret. The KING
+DIE is a player's declaration of where they should be allowed to live (because all Kings are liars).
+The CITY DIE tracks the player's score, and represents the Tier they have bluffed their way into
+(lower score is better, representing higher Tiers in the city).
 
-### Playing a Game
+### City Setup
 
-#### Game Setup
-
-If this is the first Game in the City:
+Before the first Game of a City:
 
 1. Choose one player to manage the GAME DIE. Place it face up displaying the number 7.
 1. Each player places a CITY DIE in front of them, the number 4 face up.
 
-On subsequent Games:
+### Playing the Game
+
+#### Game Setup:
 
 1. Decrement the GAME DIE by one.
-1. Players retain their existing CITY DIE value; do not reset them.
+1. Roll for initiative.
+
+Players retain their existing CITY DIE value; do not reset them.
 
 #### Round 1
 
-1. Roll for initiative.
-1. Every player rolls the PEASANT DIE in secret, and notes its value. This represents the Tier of
-   Uman the player actually deserves to live on.
-1. Players take turns following initiative order. On their turn each  player must MOVE to a Tier
-   from 1 to 7, 1 being the noblest and 7 being the most common. They place the KING DIE in front of
-   them and turn it face up on the Tier they are claiming; they then say something like "Today's my
-   lucky day, fellas, I'm 3rd Tier!"
+1. Every player rolls the PEASANT DIE in secret and notes its value.
+1. Players take turns following initiative order. On their turn, each player must MOVE to a Tier of
+   Uman they wish to live on, by changing their KING DIE to a value between 1 and 7. They might say
+   something like, "Today's my lucky day, fellas, I'm moving to 3rd Tier!"
 
 #### Subsequent Rounds
 
-1. On their turn a player may either MOVE again or HOLD. A player may declare a MOVE to any Tier,
-   regardless of the current value of the KING DIE. To HOLD, the player declares the current value
-   of their KING DIE is their final position. Once a player HOLDS they cannot MOVE again this Game.
-1. The Game continues in rounds of initiative order until all remaining players HOLD. 
+1. Players may start their turn with a CHALLENGE of another player's Tier. When a player issues a
+   CHALLENGE, the two players reveal their PEASANT DIEs to each other, keeping them hidden from
+   other players. The winner of the challenge is the player who tells the largest truth, or smallest
+   lie (see Scoring Challenges, below).
+1. If a player succeeds in a CHALLENGE or does not issue a CHALLENGE, they may now MOVE to a
+   different Tier by changing their KING DIE to any number from 1 to 7. If the player does not MOVE,
+   they HOLD.
+1. The Game continues in rounds of initiative order until all remaining players HOLD in the same
+   round or all players but one are eliminated from the Game.
 1. The Game is Scored (see Scoring, below).
-1. If two or more players remain, a new Game begins.
 
 #### End of the Games
 
@@ -77,24 +84,15 @@ highest in Umani society and are declared the Kings of Uman.
 
 Play ends immediately if all players but one are OUT; the remaining player is the winner.
 
-#### Challenges
-
-Once a player has MOVED at least once in a game, they may use their reaction to CHALLENGE another
-player's MOVE. When a player is CHALLENGED, both they and the challenged player move immediately to
-scoring, and do not play the remainder of the Game.
-
-During the first round, players must have moved before they can challenge another player. 
-
-A HOLD cannot be challenged.
-
 #### Scoring
 
-At the end of a Game the winning player is the one who told the biggest lie without getting caught.
+If a player's KING DIE is greather than their PEASANT DIE they are lying. At the end of a Game the
+winning player is the one who told the biggest lie without getting caught.
 
 All players reveal their PEASANT DICE. The winner is the player for whom the value of the
-KING DIE is greater than that of their PEASANT DIE by the widest margin.  For example, in this
+KING DIE is greater than that of their PEASANT DIE by the widest margin. For example, in this
 sample scoring Keen wins because although Sirlius claimed the best tier, Keen moved from 7th to
-3rd Tier in one Game. Ties are permitted.
+3rd Tier in one Game.
 
 | Player | KING DIE | PEASANT DIE | Difference
 |--------|----------|-------------| -----------
@@ -102,29 +100,30 @@ sample scoring Keen wins because although Sirlius claimed the best tier, Keen mo
 | Magnus | 4        | 5           | 1
 | Keen   | 3        | 7           | 4
 
+Each winning player RISES by decrementing their CITY DIE by one, representing their newly improved
+station in the city of Uman. All other players still in the game DROP, incrementing their CITY DIE
+by one. If a player's CITY DIE ever reaches 8, they are OUT (eliminated from the City).
 
-Each winning player RISES by decrementing their CITY DIE by one, representing their newly improved station in
-the city of Uman. All other players DROP, incrementing their CITY DIE by one. If a player's CITY DIE
-ever reaches 8, they are OUT (eliminated from the City).
+In the event of a tie, both players RISE.
 
 Players already on the 1st Tier who RISE keep their CITY DIE at one.
 
 ##### Scoring Challenges
 
-In a challenge, the player who tells truth, or the smallest lie, wins.
+Being caught in a lie is bad. When a CHALLENGE is issued, the player telling the smallest lie wins. If one player
+is telling the truth, they win. If both players are telling the truth, the player telling the largest truth wins.
 
-If a player's KING DIE is less than or equal to their PEASANT DIE they are telling the truth and they win the
-challenge automatically. Otherwise, the player who tells the smallest lie wins. 
-
-For example, if Magnus challenged Sirlius in the example below, Magnus would RISE and Sirlius would DROP.
+For example, if Magnus challenged Sirlius in the example below, Magnus would win the CHALLENGE:
 
 | Player | KING DIE | PEASANT DIE | Difference
 |--------|----------|-------------| -----------
 | Sirlius | 1       | 4           | 3
 | Magnus | 4        | 5           | 1
 
+When a player loses a challenge, they DROP, and are eliminated from the Game. If the player issuing
+the CHALLENGE wins, they may continue with their turn with either a MOVE or a HOLD.
 
-Ties, including when both players are telling the truth, go to the challenged player.
+If a CHALLENGE ends in a tie, both players are eliminated from the Game but neither DROPs.
 
 ----
 
