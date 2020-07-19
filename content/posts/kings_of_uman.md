@@ -34,7 +34,7 @@ A full City of Kings of Uman requires the following:
 - A third d8 for each player; the PEASANT DIE.
 - A d20 for each player to roll initiative.
 
-The PEASANT DIE is city Tier where the player is allowed to live in Uman; they keep this secret. The KING
+The PEASANT DIE is the city Tier where the player is allowed to live in Uman; they keep this secret. The KING
 DIE is a player's declaration of where they should be allowed to live (because all Kings are liars).
 The CITY DIE tracks the player's score, and represents the Tier they have bluffed their way into
 (lower score is better, representing higher Tiers in the city).
