@@ -1,10 +1,13 @@
+#  name: git-gateway
+#  branch: master # Branch to update (optional; defaults to master)
+#  #api_root: https://api.github.com
+#  #base_url: https://api.netlify.com
+#  #auth_endpoint: auth
+#  site_domain: localhost:1313
+
 backend:
-  name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
-  #api_root: https://api.github.com
-  #base_url: https://api.netlify.com
-  #auth_endpoint: auth
-  site_domain: localhost:1313
+  name: github
+  repo: evilchili/telisar-website
 
 
 # These lines should *not* be indented
@@ -12,16 +15,30 @@ media_folder: "static/static" # Media files will be stored in the repo under sta
 public_folder: "/static" # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
-  - name: "posts" # Used in routes, e.g., /admin/collections/blog
-    label: "Content" # Used in the UI
-    folder: "content" # The path to the folder where the documents are stored
+  - name: "."
+    label: "Top-Level Content"
+    folder: "content"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - {label: "Campaign Date", name: "campaigndate", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Markup", name: "markup", widget: "string"}
+
+  - name: "posts"
+    label: "Posts" # Used in the UI
+    folder: "content/posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - {label: "Campaign date", name: "campaigndate", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: 'Description', name: 'description', widget: 'text' }
+      - {label: "Campaign Date", name: "campaigndate", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", widget: "markdown"}
-      - {label: "Markup", name: "md", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Markup", name: "markup", widget: "string"}

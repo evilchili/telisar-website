@@ -1,4 +1,3 @@
-
 ---
 title: "A Tale from Ara’s Past"
 date: 2018-06-10T22:54:06
