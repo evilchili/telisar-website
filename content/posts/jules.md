@@ -1,40 +1,36 @@
 ---
-Title: "Jules"
-date: 2020-06-29T20:18:57-07:00
-tags: ['homebrew', 'npc']
+Title: Jules
+date: 2020-06-30T03:18:57.000Z
+tags:
+  - homebrew
+  - npc
 markup: md
-
 statblock:
-    name: "Jules Ultarson"
-    size: Dwarf
-    type: Rogue
-    alignment: ??
-    AC: ??
-    HP: ??
-    speed: ??
-    STR: ??,0
-    DEX: ??,0
-    CON: ??,0
-    INT: ??,0
-    WIS: ??,0
-    CHA: ??,0
-    skills:
-    saving_throws:
-    resistances:
-    damage_immunities:
-    condition_immunities: 
-    senses:
-    languages: Common, Dwarfish
-    cr:
+  name: Jules Ultarson
+  size: Dwarf
+  type: Rogue
+  alignment: '??'
+  AC: '??'
+  HP: '??'
+  speed: '??'
+  STR: '??,0'
+  DEX: '??,0'
+  CON: '??,0'
+  INT: '??,0'
+  WIS: '??,0'
+  CHA: '??,0'
+  skills: null
+  saving_throws: null
+  resistances: null
+  damage_immunities: null
+  condition_immunities: null
+  senses: null
+  languages: 'Common, Dwarfish'
+  cr: null
+published: true
 ---
 
-Born Julia Ultardottir, Jules (she/her or they) is a non-binary Dwarven rogue, standing 4'6 with the
-stocky build typical of her kind, though years as a message runner has built a leaner, more wiry
-musculature. Her long, curly red hair is generally unkept, pulled back from her green eyes and
-secured in a loose half-up ponytail with leather straps. It is matched by her prodigious red beard,
-which extends to a scruffy point at her clavicle. She is 26 and the only child of Julia and Ultar
-Ultarson, owners of the Greencrack Copper Mine on the Thorimfel Plateau, a region high in the
-Redfall mountains. 
+Born Julia Ultardottir, Jules (she/her or they) is a non-binary Dwarven rogue, standing 4'6 with the stocky build typical of her kind, though years as a message runner has built a leaner, more wiry musculature. Her long, curly red hair is generally unkept, pulled back from her green eyes and secured in a loose half-up ponytail with leather straps. It is matched by her prodigious red beard, which extends to a scruffy point at her clavicle. She is 26 and the only child of Julia and Ultar Ultarson, owners of the Greencrack Copper Mine on the Thorimfel Plateau, a region high in the Redfall mountains. 
 
 Jules spent her youth as a runner, quickly moving messages and deliveries for her father's company
 and its clients, and later acting as escort for trader caravans moving in and out of Whitebridge.
