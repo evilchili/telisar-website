@@ -1,6 +1,11 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
+  #api_root: https://api.github.com
+  #base_url: https://api.netlify.com
+  #auth_endpoint: auth
+  site_domain: localhost:1313
+
 
 # These lines should *not* be indented
 media_folder: "static/static" # Media files will be stored in the repo under static/images/uploads
