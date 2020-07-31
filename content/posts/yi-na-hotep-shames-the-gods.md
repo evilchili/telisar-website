@@ -1,11 +1,14 @@
-
 ---
-title: "Yi-na-Hotep Shames The Gods"
-date: 2018-11-02T23:22:00
-description: A story, carved into stone pillars deep in the inner sanctum of the Temple of the Moon...
-tags: ['lore', 'dragonborn']
+title: Yi-na-Hotep Shames the Gods
+description: A story, carved into stone pillars deep in the inner sanctum of the
+  Temple of the Moon...
+campaigndate: "-"
+date: 2018-11-03T06:22:00.000Z
+tags:
+  - lore
+  - dragonborn
+markup: md
 ---
-
 There are still no suns in the sky. The Land is still dark, and the People are still living in darkness. 
 
 The Five Tribes of the People are saying to the Gods, "The crops are not growing during the day! We
