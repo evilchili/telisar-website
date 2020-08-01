@@ -27,9 +27,8 @@ statblock:
   senses: null
   languages: 'Common, Dwarfish'
   cr: null
-published: true
 ---
-
+{{< figure link="/static/NPCs/jules.png" thumb="-thumb" class="portrait float-right" >}}{{< class "text" >}}
 Born Julia Ultardottir, Jules (she/her or they) is a non-binary Dwarven rogue, standing 4'6 with the stocky build typical of her kind, though years as a message runner has built a leaner, more wiry musculature. Her long, curly red hair is generally unkept, pulled back from her green eyes and secured in a loose half-up ponytail with leather straps. It is matched by her prodigious red beard, which extends to a scruffy point at her clavicle. She is 26 and the only child of Julia and Ultar Ultarson, owners of the Greencrack Copper Mine on the Thorimfel Plateau, a region high in the Redfall mountains. 
 
 Jules spent her youth as a runner, quickly moving messages and deliveries for her father's company
@@ -57,6 +56,7 @@ kobolds destroyed.
 Following the events of the Liberation of Whitebridge, Jules has taken up a position in the royal
 household of Whibraxis, the newly-declared dragon king, for whom she acts as advisor, messenger, and
 spy.
+{{< /class >}}
 
 
 {{< monster >}}

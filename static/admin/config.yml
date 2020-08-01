@@ -30,11 +30,11 @@ collections:
       - {label: "Markup", name: "markup", widget: "string"}
 
   - name: "posts"
-    label: "Posts" # Used in the UI
-    folder: "content/posts" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
+    label: "Posts"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: 'Description', name: 'description', widget: 'text' }
       - {label: "Campaign Date", name: "campaigndate", widget: "string"}
@@ -42,3 +42,21 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Markup", name: "markup", widget: "string"}
+
+  - name: "bestiary"
+    label: "Bestiary"
+    folder: "content/beastiary"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: 'Description', name: 'description', widget: 'text' }
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Markup", name: "markup", widget: "string"}
+      - label: Stat Block
+        name: statblock
+        fields:
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Name2", name: "name2", widget: "string"}
