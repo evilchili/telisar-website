@@ -77,7 +77,6 @@ h2 {
 }
 
 #container > * {
-  width: 800px;
   margin: 0px auto;
 }
 
@@ -86,13 +85,6 @@ h2 {
   margin: 20px auto;
 }
 
-
-@media only screen and (max-width: 800px) {
-  #container > * {
-    width: auto;
-    margin: 0 1.2em;
-  }
-}
 
 #container header {
   margin-top: 1em;
@@ -126,15 +118,6 @@ h2 {
   margin-left: 1em;
 }
 
-@media only screen and (max-width: 800px) {
-  #container header ul {
-    float: none;
-  }
-  #container header ul li {
-    margin: 0 1em 0 0;
-  }
-}
-
 #container nav {
   margin-bottom: 1em;
   padding: 0.5em 0;
@@ -151,7 +134,7 @@ h2 {
   padding: 0;
   list-style: none;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 #container nav ul li {
@@ -164,13 +147,12 @@ h2 {
 
 #container main {
   flex: 1 0 0;
-  line-height: 1.5;
-  font-size: 1.2rem;
-}
-
-#container.wide main {
-    width: 95%;
-    margin: 1em auto;
+  line-height: 1.2;
+  max-width: calc(100% - 100px);
+  background: rgba(215,203,151,0.3);
+  padding: 10px;
+  box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.25);
+  width: 100%;
 }
 
 
@@ -258,6 +240,8 @@ time.campaign-date {
 
 #container main article {
     font-size: 1.2em;
+    max-width: 800px;
+    margin: auto;
 }
 
 #container main article p {
@@ -330,7 +314,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #container footer {
   border-top: solid 1px #AAA;
-  max-width:800px;
 }
 
 #container footer h6 {
