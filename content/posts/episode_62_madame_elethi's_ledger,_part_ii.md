@@ -1,7 +1,7 @@
 ---
-title: "Episode 62 Madame Elethi's Ledger, Part Ii"
+title: "Episode 62: Madame Elethi's Ledger, Part II"
 date: 2020-08-09T20:27:36-07:00
-campaigndate: 
+campaigndate: Mimdag, 2nd of the Fox, 3207 ME
 tags: ['session']
 ---
 
