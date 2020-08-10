@@ -68,14 +68,14 @@ large basket of vegetables. Magnus, drawing on centuries of guarding stairwells,
 the terrified staff to hand over the food, and dismissed them to the kitchens.
 
 Ara sent Sabetha another message asking for directions; she suggested they needed to proceed five
-storeys up. This meant re-entering the tower, so the party did so, relieved to find the two guards
-having abandoned the doorway. They made their way across the large foyer, passing under a massive
-painting of Madame Elethi herself: a striking half-elf albino of advanced but uncertain age. They
-ascended the stair and found the second floor of the tower to be a grand dining hall in the midst of
-final preparations for an early supper. Yuna and Magnus deposited the remaining food, Magnus having 
-sampled one chicken dinner extensively on the way up, and the party quickly moved to climb the
-remaining stairs. They passed two more floors, each behind large, heavy oak doors, until they
-arrived at the top floor: Madame Elethi's office.
+storeys up. She also warned the party to have "an exit strategy." This meant re-entering the tower,
+so the party did so, relieved to find the two guards having abandoned the doorway. They made their
+way across the large foyer, passing under a massive painting of Madame Elethi herself: a striking
+half-elf albino of advanced but uncertain age. They ascended the stair and found the second floor of
+the tower to be a grand dining hall in the midst of final preparations for an early supper. Yuna and
+Magnus deposited the remaining food, Magnus having sampled one chicken dinner extensively on the way
+up, and the party quickly moved to climb the remaining stairs. They passed two more floors, each
+behind large, heavy oak doors, until they arrived at the top floor: Madame Elethi's office.
 
 The large Dwarven-style brass doors stood unlocked, and Keen pushed them silently aside and entered
 the office, followed by his companions. Inside they found a grand room with a domed ceiling some 40
