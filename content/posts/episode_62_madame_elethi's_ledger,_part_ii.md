@@ -48,7 +48,7 @@ find someone to help them locate Madame Elethi's ledger, or to continue explorin
 
 They elected not to try the kitchen staff, and instead continued upwards for several more storeys.
 Ara, leading the party, heard voices above, and silently motioned them to stop. He crept forward
-alone, and found the stairs ended in a landing at another wooden door. This wood stood ajar, and he
+alone, and found the stairs ended in a landing at another wooden door. This door stood ajar, and he
 could hear two women in conversation, though in a language he could not understand. He did his best
 to repeat what they said using the party's Residium Binding Telepathy, but his companions could not
 understand him. As they used the link to discuss their next move, Magnus and Yuna, at the rear of
