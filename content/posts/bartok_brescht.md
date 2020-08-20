@@ -29,10 +29,11 @@ statblock:
     portrait: '{{< figure link="/static/NPCs/bartok.png" thumb="-thumb" class="portrait float-right" >}}'
 ---
 
+{{< figure link="/static/NPCs/bartok.png" thumb="-thumb" class="portrait float-right" >}}
 {{< class "text" >}}
 Bartok Brescht is the Captain-General of the Uman City Watch and the leader of House Brescht, one
 of the seven ruling families of Uman. He is a towering, imposing half-orc standing 6'6" with broad
-shoulders and a powerful, barrel-chested physique. His skin is grey, turning faintly greenish at the
+shoulders and a powerful, barrel-chested physique. His skin is a pale green, turning faintly grey at the
 extremities. His eyes, too, are green, piercing and intelligent. Bartok's salt-and-pepper hair, worn
 in a short military cut, is the only evidence of his age; perhaps his early 60s. Bartok's incisor
 tusks are small white points protruding just above his lower lip, more closely resembling inverted
