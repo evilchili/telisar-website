@@ -68,10 +68,15 @@ Sunlight Sensitivity. Madame Elethi cannot recover HP while in direct sunlight, 
 **Spellcasting** Madame Elethi is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). Madame Elethi has the following wizard spells prepared:
 
 Cantrips (at will): mage hand, prestidigitation, ray of frost
+
 1st level (4 slots): comprehend languages, fog cloud, sleep
+
 2nd level (3 slots): detect thoughts, gust of wind, mirror image
+
 3rd level (3 slots): animate dead, bestow curse, nondetection
+
 4th level (3 slots): blight, greater invisibility
+
 5th level (1 slot): dominate person
 
 
