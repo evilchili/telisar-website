@@ -65,10 +65,10 @@ Magnus found his stake and with no hesitation strode to the bed and pulled aside
 The party debated for a few tense moments how to escape Madame Elethi's Finishing school. In the end, Magnus snatched up the jewelry box and under the cover of Whisper's Pass Without Trace spell retraced their steps. Quickly and quietly the moved up the stairs, down the passage way between row upon row of dirt-filled coffins, until they reached the Dwarven tunnels carved deep into the mountainside. After a few tense minutes crossing the bridge where Yuna was first attacked by Vampire Spawn and recrossing the treacherous path across the Ratway, the party found themselves safely out of Elethi's lair and back in the tunnels beneath the 4th Tier of Uman. After an hour's travel they exited the tunnels, seemingly without detection, or witness, to their questionable activities.
 
 
-Homebrew Vampire Lore: Unexpected
+Homebrew Vampire Lore: Unexpected?
 
 DM Boss Battle Level: C-
 
 Party Boss Battle Level: S
 
-RP Rating: Awesome
+RP Rating: Awesome!
