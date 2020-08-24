@@ -1,5 +1,5 @@
 ---
-title: "Episode 63 Session Madame Elethi's Ledger, Part III"
+title: "Episode 63: Madame Elethi's Ledger, Part III"
 date: 2020-08-23T19:36:37-07:00
 campaigndate: Mimdag, 2nd of the Fox, 3207 ME
 tags: ['session']
