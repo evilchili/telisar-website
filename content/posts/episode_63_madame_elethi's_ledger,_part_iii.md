@@ -5,7 +5,7 @@ campaigndate: Mimdag, 2nd of the Fox, 3207 ME
 tags: ['session']
 ---
 
-"Now then," said Madame Elethi, "Mr. Keen, perhaps we can speak without reservations, as friends do. Let us discuss the possibility of working together, to our mutual benefit, yes?"
+Now then," said Madame Elethi, "Mr. Keen, perhaps we can speak without reservations, as friends do. Let us discuss the possibility of working together, to our mutual benefit, yes?"
 
 "Keen?" said Sirlius, in a worried tone.
 

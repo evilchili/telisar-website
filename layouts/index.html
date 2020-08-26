@@ -1,32 +1,31 @@
 {{ define "main" }}
-
       <section id="home">
-        <ul>
-          {{ range $index, $page := first 10 (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) }}
-
-          {{ if eq $index 0 }}
-          <li class='first'>
-            <article>
-                <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1> 
-                {{ partial "aside" . }}
-                <div class='description'>{{ safeHTML .Params.description }}</div>
-                <div class="{{ if eq .Params.dropcase false}}{{else}}dropcase{{ end }}">
-                {{.Content}}
-                </div>
-            </article>
-          </li>
-
-          <li class='older'><h3><a href="/posts/">Recent Posts</a></h3></li>
-
-          {{ else }}
-
-          <li class='list'>
-            <h4><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h4>
-          </li>
-
-          {{ end }}
-
-          {{ end }}
-        </ul>
+          <span class='about'>
+            <a href="{{ ref . "welcome_to_telisar" }}">Welcome to Telisar</a>. This site is a compendium of information
+            about <em>Noobhammer!</em>, a Dungeons and Dragons 5th Edition campaign I am running for a few of my friends. We've been playing
+            twice a month (mostly!) since November 2017, and we're still going strong. Below you'll find recent session
+            summaries and lore, including short stories, worldbuilding, homebrew mechanics, and whatever else I
+            come up with. <a href="/tags/monster">I also maintain a beastiary</a> containing homebrew critters I have
+            used to...entertain the party. Thanks for visiting! &nbsp;&nbsp;--<a href="https://mastodon.social">evilchili</a>
+          </span>
+          <div class='recent'>
+              <h2>Recent Sessions</h2>
+              {{ range $index, $page := first 5 (.Site.RegularPages.RelatedTo (keyVals "tags" "session"))}}
+              <p>
+                  <h3><a href="{{ $page.Permalink }}" title="{{ $page.Title }}">{{ .Title }}</a></h3> 
+                  <span class='campaigndate'>{{ .Params.campaigndate }}</span>
+                  {{$page.Summary}}
+              </p>
+              {{ end }}
+          </div>
+          <div class='recent'>
+              <h2>Recent Lore</h2>
+              {{ range $index, $page := first 5 (.Site.RegularPages.RelatedTo (keyVals "tags" "lore"))}}
+              <p>
+                  <h3><a href="{{ $page.Permalink }}" title="{{ $page.Title }}">{{ .Title }}</a></h3> 
+                  {{$page.Summary}}
+              </p>
+              {{ end }}
+          </div>
       </section>
 {{ end }}

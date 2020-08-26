@@ -6,7 +6,7 @@ description: "A letter, written by Keen's lover and delivered unwittingly by Kee
 dropcase: false
 ---
 
-{{< cant title="This message is encoded in Thieves Cant." >}}
+{{< cant title="This message is encoded in Thieves Cant; click to decode." >}}
 
 Lord Blacktongue,
 <p>

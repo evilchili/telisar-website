@@ -2,13 +2,13 @@
 title: "The Truthseekers, or Down and Out on the Westfalls 6th"
 date: 2019-08-24T12:03:39-07:00
 tags: ['lore']
+description: "Truthseekers are not welcome in Mimir's Temple, for Truth is not a rabbit in a hole to be ferreted out. You cannot catch it, kill it, stuff and mount it; cannot put it on display. Truth is the eternal burning fire of revelation within you. If you have smothered it, Mimir can give you the spark, but She will not tend your fire for you.
+<p>
+Truth is absolute, and only Mimir can reveal it to you.
+</p>
+-– Sutra 93, \"The Two Noble Truths, One of Which is Probably Wrong\",  <u>Jinsa's White Book</u>"
+
 ---
-
-> <i>Truthseekers are not welcome in Mimir's Temple, for Truth is not a rabbit in a hole to be ferreted out. You cannot catch it, kill it, stuff and mount it; cannot put it on display. Truth is the eternal burning fire of revelation within you. If you have smothered it, Mimir can give you the spark, but She will not tend your fire for you.
-
-> Truth is absolute, and only Mimir can reveal it to you.</i>
-
-> – Sutra 93, "The Two Noble Truths, One of Which is Probably Wrong", <u>Jinsa's White Book</u>
 
 I argued to my compatriots in the mine that if we banded together and demanded more equitable stakes
 in the profits, management would have to give in to us. They agreed, but someone did the math and

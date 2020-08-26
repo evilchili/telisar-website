@@ -21,13 +21,6 @@ pygmentsCodeFences = true
 [menu]
 
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    title = "Welcome To Telisar"
-    url = "/about/"
-    weight = -110
-
-  [[menu.main]]
     identifier = "timeline"
     name = "Timeline"
     title = "Timeline"
@@ -73,8 +66,8 @@ pygmentsCodeFences = true
 
   [[menu.main]]
     identifier = "posts"
-    name = "Posts"
-    title = "Posts"
+    name = "All Posts"
+    title = "All Posts"
     url = "/posts/"
     weight = 100
 

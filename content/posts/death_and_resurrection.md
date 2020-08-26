@@ -5,31 +5,7 @@ description: "Resurrection mechanics extending D&D 5e basic rules."
 tags: ['lore', 'homebrew']
 ---
 
-*While there is no actual prohibition against the raising of the dead in the orthodox religions of
-Telisar, the power to do so is extremely rare and it is generally understood that to truly raise the
-dead is Necromancy in its purest form, a violation of the natural order and an attempt to subvert
-Fate.  It is perhaps ironic that the one orthodox faith that breaks from this view is the Cult of
-Syf, goddess of Fate, which teaches that Will is an organizing principle of Destiny rather than
-subservient to it, and celebrates mortal acts of will sufficient to alter a man's destiny. Therefore
-it is the canny adventurer in need that seeks out a cleric or paladin of Syf, who of their peers are
-most likely to engage in acts of resurrection on a No-Questions-Asked policy.*
-
-*Regardless of religious order, several spells are known to exist that can return the dead to life,
-among them Revivify, Reincarnate, Raise the Dead and Resurrection. Each has its limitations and
-costs, and regardless of the methods invoked by the arcane practitioner, returning a soul to the
-material plane is a traumatic process. Disfigurements and madness are common when the casting is
-successful at all, and it frequently fails even when invoked correctly. The reasons for this are not
-well understood, but certain reputable tomes on the subject (many of which I fear were unfortunately
-lost in the recent unpleasantries suffered by the El Astra Public Library's Necromancy Wing) have
-speculated that a resurrection can be contested both by the soul of the departed and even by certain
-celestial or infernal stakeholders.*
-
-*But I think this is at best a partial answer, and turn again to
-the writings of Anaraxus the Foul. If the Ferryman is indeed more than a mycellium-induced
-hallucination, then it follows that orthodoxy is myopic, and the "natural order" (if there is such a
-thing) is far stranger than any of us truly know.*
-
-&nbsp;&nbsp;&nbsp;--Excerpts from Adeptus Banu's private journals, 3206 ME (unpublished)
+><p>While there is no actual prohibition against the raising of the dead in the orthodox religions of Telisar, the power to do so is extremely rare and it is generally understood that to truly raise the dead is Necromancy in its purest form, a violation of the natural order and an attempt to subvert Fate.  It is perhaps ironic that the one orthodox faith that breaks from this view is the Cult of Syf, goddess of Fate, which teaches that Will is an organizing principle of Destiny rather than subservient to it, and celebrates mortal acts of will sufficient to alter a man's destiny. Therefore it is the canny adventurer in need that seeks out a cleric or paladin of Syf, who of their peers are most likely to engage in acts of resurrection on a No-Questions-Asked policy.</p><p>Regardless of religious order, several spells are known to exist that can return the dead to life, among them Revivify, Reincarnate, Raise the Dead and Resurrection. Each has its limitations and costs, and regardless of the methods invoked by the arcane practitioner, returning a soul to the material plane is a traumatic process. Disfigurements and madness are common when the casting is successful at all, and it frequently fails even when invoked correctly. The reasons for this are not well understood, but certain reputable tomes on the subject (many of which I fear were unfortunately lost in the recent unpleasantries suffered by the El Astra Public Library's Necromancy Wing) have speculated that a resurrection can be contested both by the soul of the departed and even by certain celestial or infernal stakeholders.</p><p>But I think this is at best a partial answer, and turn again to the writings of Anaraxus the Foul. If the Ferryman is indeed more than a mycellium-induced hallucination, then it follows that orthodoxy is myopic, and the "natural order" (if there is such a thing) is far stranger than any of us truly know.</p><p>&nbsp;&nbsp;&nbsp;--Excerpts from Adeptus Banu's private journals, 3206 ME (unpublished)</p>
 
 ### Resurrection Skill Challenges
 

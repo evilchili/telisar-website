@@ -2,6 +2,7 @@
 title: "Maps and Imagery"
 description: "Occasionally I will produce maps of various types either as an aid for myself when running the game and/or for the players as artifacts."
 date: 2019-05-25T17:33:16
+layout: wide
 tags: ["lore", "dm"]
 ---
 

@@ -1,0 +1,21 @@
+    <div class='sidebar'>
+        {{ range $i, $gallery := .Params.gallery }}
+        <div class='gallery {{ if index $gallery "class" }}{{ $gallery.class }}{{ end }}'>
+            {{ if index $gallery "title" }}
+                <h3>{{ $gallery.title }}</h3>
+            {{ end }}
+            {{ range $j, $image := $gallery.images }}
+                {{ $link := $image.source }}
+                {{ if $image.thumb }}
+                    {{ $link = replaceRE "^(.+).(.{3})$" "$1-thumb.$2" $image.source }}
+                {{ end }}
+                <a href="{{ .source | relURL }}">
+                    <img src='{{ $link |relURL }}'
+                    {{ if .style }}style='{{ $image.style }}'{{ end }}
+                    {{ if .caption }}title="{{ $image.caption }}" alt="{{ $image.caption }}"{{ end }}
+                >
+                </a>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>

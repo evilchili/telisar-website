@@ -1,0 +1,153 @@
+{{ $homebrew := .Page.Params.statblock }}
+<div class='statblock {{ $homebrew.category }}'>
+    <div class='keep-together'>
+        <div class='homebrew-name' style="cursor: pointer;" onclick="document.getElementById('{{ safeHTML $homebrew.name }}-stats').style.display=((document.getElementById('{{ safeHTML $homebrew.name }}-stats').style.display=='none')?'':'none');">
+            {{ safeHTML $homebrew.name }}
+        </div>
+        {{ if eq ($homebrew.category) ("monster") }}
+        <div class='homebrew-size'>
+            {{ safeHTML $homebrew.size | humanize }} {{ safeHTML $homebrew.type }}{{if $homebrew.alignment }}, {{ safeHTML $homebrew.alignment }}{{ end }}
+        </div>
+        {{ end }}
+        {{ if eq ($homebrew.category) ("spell") }}
+        <div class='homebrew-size'>
+            {{ safeHTML $homebrew.level | humanize }} Level {{ safeHTML $homebrew.school | humanize}}
+        </div>
+        {{ end }}
+        {{ if eq ($homebrew.category) ("item") }}
+        <div class='homebrew-size'>
+            {{ safeHTML $homebrew.type | humanize }}{{ if or ($homebrew.rarity) ($homebrew.school) }},
+            {{ if $homebrew.rarity }}{{ safeHTML $homebrew.rarity | humanize}}{{ end }}
+            {{ if $homebrew.school }}{{ safeHTML $homebrew.school | humanize}}{{ end }}
+            {{ end }}
+        </div>
+        {{ end }}
+     </div>
+
+    <div id='{{ safeHTML $homebrew.name }}-stats' style='display:none;'>
+
+    {{ if eq ($homebrew.category) ("spell") }}
+        <br class='separator'>
+    
+        <div class='stat'>
+            Casting Time: <span class='value'>{{ $homebrew.casting_time | safeHTML }}</span>
+        </div>
+    
+        <div class='stat'>
+            Range: <span class='value'>{{ $homebrew.range }}</span>
+        </div>
+
+        <div class='stat'>
+            Components: <span class='value'>{{ $homebrew.components }}</span>
+        </div>
+    
+        <div class='stat'>
+            Duration: <span class='value'>{{ $homebrew.duration }}</span>
+        </div>
+    
+        <div class='stat'>
+            Attack/Save: <span class='value'>{{ $homebrew.attack_or_save }}</span>
+        </div>
+    
+        <div class='stat'>
+            Damage/Effect: <span class='value'>{{ $homebrew.effect }}</span>
+        </div>
+    
+        <br class='separator'>
+    {{ end }}
+
+    {{ if eq ($homebrew.category) ("monster") }}
+    <div class='keep-together'>
+        <br class='separator'>
+
+        <div class='stat'>
+            Armor Class <span class='value'>{{ $homebrew.AC | safeHTML }}</span>
+        </div>
+        <div class='stat'>
+            Hit Points <span class='value'>{{ $homebrew.HP | safeHTML }}</span>
+        </div>
+        <div class='stat'>
+            Speed <span class='value'>{{ $homebrew.speed | safeHTML }}</span>
+        </div>
+
+        <br class='separator'>
+
+        <div class='ability-scores'>
+            <ul class='header'>
+                <li>STR</li>
+                <li>DEX</li>
+                <li>CON</li>
+                <li>INT</li>
+                <li>WIS</li>
+                <li>CHA</li>
+            </ul>
+            <ul class='score'>
+                <li>{{ if gt (int (index (split $homebrew.STR ",") 1)) 0 }}+{{ end }}{{ index (split $homebrew.STR ",") 1 }}<br><small>{{ index (split $homebrew.STR ",") 0 }}</small></li>
+                <li>{{ if gt (int (index (split $homebrew.DEX ",") 1)) 0 }}+{{ end }}{{ index (split $homebrew.DEX ",") 1 }}<br><small>{{ index (split $homebrew.DEX ",") 0 }}</small></li>
+                <li>{{ if gt (int (index (split $homebrew.CON ",") 1)) 0 }}+{{ end }}{{ index (split $homebrew.CON ",") 1 }}<br><small>{{ index (split $homebrew.CON ",") 0 }}</small></li>
+                <li>{{ if gt (int (index (split $homebrew.INT ",") 1)) 0 }}+{{ end }}{{ index (split $homebrew.INT ",") 1 }}<br><small>{{ index (split $homebrew.INT ",") 0 }}</small></li>
+                <li>{{ if gt (int (index (split $homebrew.WIS ",") 1)) 0 }}+{{ end }}{{ index (split $homebrew.WIS ",") 1 }}<br><small>{{ index (split $homebrew.WIS ",") 0 }}</small></li>
+                <li>{{ if gt (int (index (split $homebrew.CHA ",") 1)) 0 }}+{{ end }}{{ index (split $homebrew.CHA ",") 1 }}<br><small>{{ index (split $homebrew.CHA ",") 0 }}</small></li>
+            </ul>
+        </div>
+
+        <br class='separator'>
+
+        {{ if $homebrew.saving_throws }}
+        <div class='stat'>
+            Saving Throws <span class='value'>{{ $homebrew.saving_throws | safeHTML }}</span>
+        </div>
+        {{ end }}
+
+        {{ if $homebrew.skills }}
+        <div class='stat'>
+            Skills <span class='value'>{{ $homebrew.skills | safeHTML }}</span>
+        </div>
+        {{ end }}
+
+        {{ if $homebrew.resistances }}
+        <div class='stat'>
+            Damange Resistances <span class='value'>{{ $homebrew.resistances | safeHTML }}</span>
+        </div>
+        {{ end }}
+    
+        {{ if $homebrew.damage_immunities }}
+        <div class='stat'>
+            Damage Immunities <span class='value'>{{ $homebrew.damage_immunities | safeHTML }}</span>
+        </div>
+        {{ end }}
+    
+        {{ if $homebrew.condition_immunities }}
+        <div class='stat'>
+            Condition Immunities <span class='value'>{{ $homebrew.condition_immunities | safeHTML }}</span>
+        </div>
+        {{ end }}
+    
+        {{ if $homebrew.saving_throws }}
+        <div class='stat'>
+            Senses <span class='value'>{{ $homebrew.senses | safeHTML }}</span>
+        </div>
+        {{ end }}
+    
+        {{ if $homebrew.languages }}
+        <div class='stat'>
+            Languages <span class='value'>{{ $homebrew.languages | safeHTML }}</span>
+        </div>
+        {{ end }}
+    
+        {{ if $homebrew.cr }}
+        <div class='stat'>
+            Challenge <span class='value'>{{ $homebrew.cr | safeHTML }}</span>
+        </div>
+        {{ end }}
+    
+        <br class='separator'>
+    </div>
+    {{ end }}
+
+    {{ $homebrew.description |markdownify }}
+
+    </div>
+    </dd>
+    </dl>
+</div>

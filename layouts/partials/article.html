@@ -1,14 +1,36 @@
 <article>
-
-    <h1>{{ .Title }}</h1>
-
-    {{ if not .Params.meta }}
-        {{ partial "aside" . }}
-    {{ end }}
-
-    <div class='description'>{{ safeHTML .Params.description }}</div>
-    <div class="{{ if eq .Params.dropcase false}}{{else}}dropcase{{ end }}">
-    {{.Content}}
+    <div class='title'>
+        <h1>{{ .Title }}</h1>
+        <ul id='tags'>
+            {{ if .Params.tags }}
+            <li>
+                {{ range $i, $t := .Params.tags }}
+                    {{ if $i }}, {{ end }}
+                    <a class='tag' href="/tags/{{$t | urlize }}/">{{ $t }}</a>
+                {{ end }}
+            </li>
+            {{end}}
+        </ul>
     </div>
-
+    <div class='content {{ if .Params.layout }}{{ .Params.layout }}{{ end }}'>
+        {{ if or (.Params.campaigndate) (.Params.description) }}
+        <div class='description'>
+            {{ if .Params.campaigndate }}
+                <time class='campaigndate'>{{ .Params.campaigndate }}</time>
+            {{ end }}
+            {{ if .Params.description }}
+                {{ safeHTML .Params.description }}
+            {{ end }}
+        </div>
+        {{ end }}
+        {{ if .Params.statblock }}
+        {{ partial "statblock" . }}
+        {{ end }}
+        <div class="{{ if eq .Params.dropcase false}}{{else}}dropcase{{ end }}">
+            {{.Content}}
+        </div>
+    </div>
+    {{ if .Params.gallery }}
+    {{ partial "sidebar" . }}
+    {{ end }}
 </article>

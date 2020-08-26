@@ -1,6 +1,7 @@
 {{ define "main" }}
 
 <section id="list">
+    <div class='content'>
 
     {{ $baseurl := .Site.BaseURL }}
 
@@ -19,13 +20,13 @@
         {{ range .Pages }}
         <li>
             <a href="{{ .Permalink }}">{{ if .Draft }}DRAFT: {{end}}{{ .Title | markdownify }}</a>
-            <time class="date-meta">{{ .Date.Format "Jan 2" }}</time>
+            <time class="date-meta">{{ .Date.Format "2006-01-02" }}</time>
         </li>
         {{ end }}
     </ul>
     
     {{ end }}
-
+    </div>
 </section>
 
 {{ template "_internal/pagination.html" . }}

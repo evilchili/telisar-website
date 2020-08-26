@@ -3,9 +3,9 @@ title: "The Telisaran Calendar"
 date: 2017-12-21T17:33:16
 description: "Syfdag kindle fate’s first light<br>Mimdag have a secret might<br>Wodag have the strength to fight<br>Thordag curse the wrong, avenge the right<br>Freydag love fair beauty’s sight<br>&nbsp;&nbsp;&nbsp;--Dwarven nursery rhyme"
 tags: ["lore"]
+gallery:
+    - source: /static/calendar.jpg
 ---
-
-{{< figure src="/static/calendar.jpg" >}}
 
 The Telisaran calendar derives from a mixture of the traditions of the Dwarven settlers who reached the Eastern shores of Telisar at the start of the Modern Era, and those of the Dragonborn peoples already there. 
 
