@@ -21,13 +21,6 @@ pygmentsCodeFences = true
 [menu]
 
   [[menu.main]]
-    identifier = "timeline"
-    name = "Timeline"
-    title = "Timeline"
-    url = "/timeline/"
-    weight = -100
-
-  [[menu.main]]
     identifier = "sessions"
     name = "Sessions"
     title = "Session Summaries"
