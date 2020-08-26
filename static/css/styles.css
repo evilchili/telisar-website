@@ -194,10 +194,10 @@ section#home .about {
     max-width: 850px;
     flex: 0 0 calc(100%; - 40px);
     margin: 20px auto;
+    padding: 0px 20px;
 }
 
 section#home .recent {
-    flex: 0 0 calc(50% - 50px);
     margin: 0px;
     text-align: justify;
     line-height: 1.2;
@@ -548,6 +548,9 @@ tr td:last-child {
         display: flex;
         flex-direction: row;
         flex-flow: row wrap;
+    }
+    section#home .recent {
+        flex: 0 0 calc(50% - 50px);
     }
 }
 
