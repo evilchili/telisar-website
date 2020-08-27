@@ -169,7 +169,6 @@ footer ul li {
 }
 
 .post-nav ul, ul.pagination {
-  width: 1200px;
   background: rgb(255,255,255);
   background: linear-gradient(180deg, rgba(255,255,255,1) 0%, #f7e5ab 100%);  
   display: flex;
