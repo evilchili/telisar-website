@@ -1,0 +1,130 @@
+#!/usr/bin/env python
+import os
+import subprocess
+import glob
+
+from slugify import slugify
+from fire import Fire
+
+HUGO = '/usr/local/bin/hugo'
+
+
+class Posts:
+    """
+    Generate the correct path names for specific post archetypes, and define post-editing callbacks.
+    """
+    content_dir = 'content'
+
+    def __init__(self):
+        self.working_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+        self.session_counter_path = os.path.join(self.working_dir, 'session_counter')
+        self._valid_types = []
+
+    def _get_session(self):
+        try:
+            with open(self.session_counter_path) as f:
+                self.session_counter = int(f.read())
+        except (OSError, TypeError):
+            self.session_counter = 1
+
+    def _update_session_counter(self):
+        with open(self.session_counter_path, 'wb') as f:
+            f.write(self.session_counter + 1)
+
+    def _filename(self, title, prefix='', path='posts'):
+        fn = slugify(title, separator='_')
+        if prefix:
+            fn = slugify(f'{prefix} {fn}', separator='_')
+        return os.path.join(path, f'{fn}.md')
+
+    @property
+    def valid_types(self):
+        if not self._valid_types:
+            for pathname in glob.glob(os.path.join(self.working_dir, 'archetypes/*.md')):
+                self._valid_types.append(os.path.basename(pathname)[:-3])
+        return self._valid_types
+
+    def get_pathname(self, archetype, *args):
+        return self._filename(title=' '.join(args))
+
+    def session(self, *args):
+        return self._filename(title=' '.join(args), path='posts', prefix=f'episode_{self.session_counter}')
+
+    def monster(self, *args):
+        return self._filename(title=' '.join(args), path='beastiary')
+
+    def _session_callback(self, pathname, result):
+        if os.path.exists(os.path.join(self.working_dir, self.content_dir, pathname)):
+            self.update_session_counter()
+            print("Successfully created '{pathname}' for session {self.session_counter}.")
+        print("Post abandoned; session counter not incremented.")
+
+
+class CLI:
+    def __init__(self):
+        self._posts = Posts()
+
+    def _hugo(self, archetype, pathname):
+        return subprocess.call([HUGO, 'new', '-k', archetype, '--editor', os.environ['EDITOR'], pathname])
+
+    def _callback(self, archetype, result):
+        try:
+            callback = getattr(self._posts, f'_{archetype}_callback')
+        except AttributeError:
+            return
+        return callback(archetype, result)
+
+    def new(self, archetype=None, *args):
+        """
+        Launch the hugo editor for a new post of the specified archetype. When called wihtout parameters, list the
+        supported archetypes.
+
+        Usage:
+
+        new
+        new ARCHTYPE TITLE
+
+        Parmeters:
+
+        ARCHETYPE       Any archetype defined in the hugo archtetypes directory.
+        TITLE           The title of the post.
+
+        """
+        if not archetype:
+            print('\n'.join(self._posts.valid_types))
+            return
+        if archetype not in self._posts.valid_types:
+            return f"Unsupported archetype: {archetype}. Valid types: {self._posts.valid_types}"
+        if not args:
+            return help(CLI.new)
+        try:
+            post = getattr(self._posts, archetype)(*args)
+        except AttributeError:
+            post = self._posts.get_pathname(archetype, *args)
+
+        result = self._hugo(archetype, post)
+        self._callback(post, result)
+
+    def publish(self, edit=False):
+        """
+        Update the live website, commit changes and push the current branch. Pass --edit the edit the commit message.
+
+        Usage:
+            site publish
+            site publish --edit
+        """
+        subprocess.check_call([HUGO, '-v'])
+        subprocess.check_call([
+            'rsync', '-av',
+            'public/*',
+            'nubbin.evilchi.li:/usr/local/deploy/telisar/project/www/'
+        ])
+        args = ['git', 'commit', '-a']
+        if not edit:
+            args += ['-m', 'publish checkpoint']
+        subprocess.check_call(args)
+        subprocess.check_call(['git', 'push'])
+
+
+if __name__ == '__main__':
+    Fire(CLI())
