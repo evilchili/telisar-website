@@ -3,10 +3,12 @@ import os
 import subprocess
 import glob
 
+from tempfile import NamedTemporaryFile
 from slugify import slugify
 from fire import Fire
 
 HUGO = '/usr/local/bin/hugo'
+TELISAR = os.path.expanduser('~/dnd/telisar')
 
 
 class Posts:
@@ -18,16 +20,13 @@ class Posts:
     def __init__(self):
         self.working_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
         self.session_counter_path = os.path.join(self.working_dir, 'session_counter')
+        self._session_counter = None
         self._valid_types = []
 
-    def _get_session(self):
-        try:
-            with open(self.session_counter_path) as f:
-                self.session_counter = int(f.read())
-        except (OSError, TypeError):
-            self.session_counter = 1
+    def abspath(self, post):
+        return os.path.join(self.working_dir, self.content_dir, post)
 
-    def _update_session_counter(self):
+    def update_session_counter(self):
         with open(self.session_counter_path, 'wb') as f:
             f.write(self.session_counter + 1)
 
@@ -36,6 +35,16 @@ class Posts:
         if prefix:
             fn = slugify(f'{prefix} {fn}', separator='_')
         return os.path.join(path, f'{fn}.md')
+
+    @property
+    def session_counter(self):
+        if not self._session_counter:
+            try:
+                with open(self.session_counter_path) as f:
+                    self._session_counter = int(f.read())
+            except (OSError, TypeError):
+                self._session_counter = 1
+        return self._session_counter
 
     @property
     def valid_types(self):
@@ -53,11 +62,39 @@ class Posts:
     def monster(self, *args):
         return self._filename(title=' '.join(args), path='beastiary')
 
-    def _session_callback(self, pathname, result):
-        if os.path.exists(os.path.join(self.working_dir, self.content_dir, pathname)):
+    def get_campaign_date(self):
+        return subprocess.run(
+            [os.path.join(TELISAR, 'calendar'), 'today', 'short'],
+            stdout=subprocess.PIPE
+        ).stdout.decode('utf-8').strip()
+
+    def get_episode_title(self, args):
+        title = ' '.join([s.capitalize() for s in args])
+        return f'Episode {self.session_counter}: {title}'
+
+    def insert_metadata(self, path, **metadata):
+        # todo: make this do actual yaml but without trashing the markdown etc.
+        with NamedTemporaryFile(delete=False) as temp_fh:
+            in_metadata = False
+            with open(path) as post_fh:
+                for line in post_fh:
+                    if line == '---\n':
+                        in_metadata = not in_metadata
+                    if in_metadata:
+                        for (key, value) in metadata.items():
+                            line = line.replace(key, value)
+                    temp_fh.write(line.encode())
+        os.rename(temp_fh.name, path)
+
+    def _session_callback(self, post, result, args, kwargs):
+        path = self.abspath(post)
+        if os.path.exists(path):
+            self.insert_metadata(
+                path,
+                TITLE=self.get_episode_title(args),
+                CAMPAIGN_DATE=self.get_campaign_date(),
+            )
             self.update_session_counter()
-            print("Successfully created '{pathname}' for session {self.session_counter}.")
-        print("Post abandoned; session counter not incremented.")
 
 
 class CLI:
@@ -65,17 +102,21 @@ class CLI:
         self._posts = Posts()
 
     def _hugo(self, archetype, pathname):
-        subprocess.check_call(['git', 'stash'])
-        return subprocess.call([HUGO, 'new', '-k', archetype, '--editor', os.environ['EDITOR'], pathname])
+        # subprocess.check_call(['git', 'stash'])
+        return subprocess.call([HUGO, 'new', '-k', archetype, pathname])
 
-    def _callback(self, archetype, result):
+    def _editor(self, post):
+        return subprocess.call([os.environ['EDITOR'], self._posts.abspath(post)])
+
+    def _callback(self, archetype, post, result, args, kwargs):
         try:
             callback = getattr(self._posts, f'_{archetype}_callback')
-        except AttributeError:
+        except AttributeError as e:
+            print(e)
             return
-        return callback(archetype, result)
+        return callback(post, result, args, kwargs)
 
-    def new(self, archetype=None, *args):
+    def new(self, archetype=None, *args, **kwargs):
         """
         Launch the hugo editor for a new post of the specified archetype. When called wihtout parameters, list the
         supported archetypes.
@@ -104,7 +145,8 @@ class CLI:
             post = self._posts.get_pathname(archetype, *args)
 
         result = self._hugo(archetype, post)
-        self._callback(post, result)
+        self._callback(archetype, post, result, args, kwargs)
+        self._editor(post)
 
     def update(self):
         """

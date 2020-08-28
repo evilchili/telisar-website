@@ -1,6 +1,6 @@
 ---
-title: "{{ humanize .Name | title }}"
+title: "TITLE"
 date: {{ .Date }}
-campaigndate: 
+campaigndate: CAMPAIGN_DATE
 tags: ['session']
 ---
