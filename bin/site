@@ -168,8 +168,8 @@ class CLI:
         """
         args = ['git', 'commit', '-a']
         if not edit:
-            args += ['-m', 'publish checkpoint']
-        subprocess.check_call(args)
+            args += ['-m', '"publish checkpoint"']
+        subprocess.check_call(' '.join(args), shell=True)
         subprocess.check_call(['git', 'push'])
 
     def publish(self, edit=False):
