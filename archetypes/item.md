@@ -5,15 +5,13 @@ tags: ['homebrew', 'item']
 markup: md
 
 statblock:
+    category: item
     name: "{{ humanize .Name | title }}"
-    rarity:
+    type: Item
+    rarity: Common
+    description: |
+        **Attribute** Descrption
+
+        **Attribute** Descrption
 
 ---
-
-{{< item >}}
-
-**Attribute** Descrption
-
-**Attribute** Descrption
-
-{{< /item >}}

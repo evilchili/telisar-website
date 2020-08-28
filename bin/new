@@ -9,7 +9,7 @@ else
     if [ "$TYPE" = "monster" ]; then
         SUBDIR="posts"
     else
-        SUBDIR="bestiary"
+        SUBDIR="beastiary"
     fi
     /usr/local/bin/hugo new -k $TYPE --editor $EDITOR "$SUBDIR/$FILENAME"
 fi
