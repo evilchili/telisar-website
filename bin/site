@@ -65,6 +65,7 @@ class CLI:
         self._posts = Posts()
 
     def _hugo(self, archetype, pathname):
+        subprocess.check_call(['git', 'stash'])
         return subprocess.call([HUGO, 'new', '-k', archetype, '--editor', os.environ['EDITOR'], pathname])
 
     def _callback(self, archetype, result):
@@ -114,16 +115,17 @@ class CLI:
             site publish --edit
         """
         subprocess.check_call([HUGO, '-v'])
-        subprocess.check_call([
+        subprocess.check_call(' '.join([
             'rsync', '-av',
-            'public/*',
+            os.path.join(self._posts.working_dir, 'public', '*'),
             'nubbin.evilchi.li:/usr/local/deploy/telisar/project/www/'
-        ])
+        ]), shell=True)
         args = ['git', 'commit', '-a']
         if not edit:
             args += ['-m', 'publish checkpoint']
         subprocess.check_call(args)
         subprocess.check_call(['git', 'push'])
+        subprocess.check_call(['git', 'stash', 'pop'])
 
 
 if __name__ == '__main__':
