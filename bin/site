@@ -106,13 +106,36 @@ class CLI:
         result = self._hugo(archetype, post)
         self._callback(post, result)
 
+    def update(self):
+        """
+        Publish and then save (commit and push) changes.
+
+        Usage:
+            site update
+        """
+        self.publish()
+        self.save()
+
+    def save(self, edit=False):
+        """
+        Commit changes and push the current branch. Pass --edit the edit the commit message.
+
+        Usage:
+            site save
+            site save --edit=True
+        """
+        args = ['git', 'commit', '-a']
+        if not edit:
+            args += ['-m', 'publish checkpoint']
+        subprocess.check_call(args)
+        subprocess.check_call(['git', 'push'])
+
     def publish(self, edit=False):
         """
-        Update the live website, commit changes and push the current branch. Pass --edit the edit the commit message.
+        Update the live website.
 
         Usage:
             site publish
-            site publish --edit
         """
         subprocess.check_call([HUGO, '-v'])
         subprocess.check_call(' '.join([
@@ -120,12 +143,7 @@ class CLI:
             os.path.join(self._posts.working_dir, 'public', '*'),
             'nubbin.evilchi.li:/usr/local/deploy/telisar/project/www/'
         ]), shell=True)
-        args = ['git', 'commit', '-a']
-        if not edit:
-            args += ['-m', 'publish checkpoint']
-        subprocess.check_call(args)
-        subprocess.check_call(['git', 'push'])
-        subprocess.check_call(['git', 'stash', 'pop'])
+        subprocess.call(['git', 'stash', 'pop'])
 
 
 if __name__ == '__main__':
