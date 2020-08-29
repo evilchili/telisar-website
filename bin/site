@@ -119,8 +119,7 @@ class CLI:
     def _callback(self, archetype, post, result, args, kwargs):
         try:
             callback = getattr(self._posts, f'_{archetype}_callback')
-        except AttributeError as e:
-            print(e)
+        except AttributeError:
             return
         return callback(post, result, args, kwargs)
 
