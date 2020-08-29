@@ -102,7 +102,7 @@ class CLI:
         self._posts = Posts()
 
     def _hugo(self, archetype, pathname):
-        # subprocess.check_call(['git', 'stash'])
+        subprocess.check_call(['git', 'stash'])
         return subprocess.call([HUGO, 'new', '-k', archetype, pathname])
 
     def _editor(self, post):
