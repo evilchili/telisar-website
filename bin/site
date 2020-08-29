@@ -64,7 +64,7 @@ class Posts:
 
     def get_campaign_date(self):
         return subprocess.run(
-            [os.path.join(TELISAR, 'calendar'), 'today', 'short'],
+            [os.path.join(TELISAR, 'timeline'), 'today', 'short'],
             stdout=subprocess.PIPE
         ).stdout.decode('utf-8').strip()
 
