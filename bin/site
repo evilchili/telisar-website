@@ -2,13 +2,18 @@
 import os
 import subprocess
 import glob
+import dotenv
 
 from tempfile import NamedTemporaryFile
 from slugify import slugify
 from fire import Fire
 
+from telisar.reckoning import campaign
+
 HUGO = '/usr/local/bin/hugo'
 TELISAR = os.path.expanduser('~/dnd/telisar')
+
+dotenv.load_dotenv()
 
 
 class Posts:
@@ -21,6 +26,7 @@ class Posts:
         self.working_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
         self.session_counter_path = os.path.join(self.working_dir, 'session_counter')
         self._session_counter = None
+        self._timeline = None
         self._valid_types = []
 
     def abspath(self, post):
@@ -28,13 +34,21 @@ class Posts:
 
     def update_session_counter(self):
         with open(self.session_counter_path, 'wb') as f:
-            f.write(self.session_counter + 1)
+            val = self.session_counter + 1
+            f.write(str(val).encode())
 
     def _filename(self, title, prefix='', path='posts'):
         fn = slugify(title, separator='_')
         if prefix:
             fn = slugify(f'{prefix} {fn}', separator='_')
         return os.path.join(path, f'{fn}.md')
+
+    @property
+    def timeline(self):
+        if not self._timeline:
+            datafile = os.path.expanduser(os.path.expandvars(os.getenv('TIMELINE_DATAFILE')))
+            self._timeline = campaign.Timeline(datafile)
+        return self._timeline
 
     @property
     def session_counter(self):
@@ -62,12 +76,6 @@ class Posts:
     def monster(self, *args):
         return self._filename(title=' '.join(args), path='beastiary')
 
-    def get_campaign_date(self):
-        return subprocess.run(
-            [os.path.join(TELISAR, 'timeline'), 'today', 'short'],
-            stdout=subprocess.PIPE
-        ).stdout.decode('utf-8').strip()
-
     def get_episode_title(self, args):
         title = ' '.join([s.capitalize() for s in args])
         return f'Episode {self.session_counter}: {title}'
@@ -92,7 +100,7 @@ class Posts:
             self.insert_metadata(
                 path,
                 TITLE=self.get_episode_title(args),
-                CAMPAIGN_DATE=self.get_campaign_date(),
+                CAMPAIGN_DATE=self.timeline.today.short,
             )
             self.update_session_counter()
 
@@ -102,7 +110,7 @@ class CLI:
         self._posts = Posts()
 
     def _hugo(self, archetype, pathname):
-        subprocess.check_call(['git', 'stash'])
+        # subprocess.check_call(['git', 'stash'])
         return subprocess.call([HUGO, 'new', '-k', archetype, pathname])
 
     def _editor(self, post):
