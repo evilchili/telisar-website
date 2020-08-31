@@ -1,5 +1,5 @@
 ---
-Title: "Draconic Runecasting"
+title: "Draconic Runecasting"
 date: 2020-06-22T21:30:22-07:00
 tags: ['homebrew', 'spell']
 

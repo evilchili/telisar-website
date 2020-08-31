@@ -1,5 +1,5 @@
 ---
-Title: "Bartok Brescht"
+title: "Bartok Brescht"
 date: 2020-07-12T10:09:56-07:00
 tags: ['homebrew', 'npc']
 

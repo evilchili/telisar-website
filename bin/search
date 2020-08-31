@@ -1,82 +1,13 @@
 #!/usr/bin/env python
 
-from whoosh import index
-from whoosh.fields import Schema, TEXT, KEYWORD, ID
-from whoosh.qparser import QueryParser
-
-import textwrap
-import html2markdown
-import os
-import re
-
+from telisar import search
 from fire import Fire
+import os
+import dotenv
 
+SOURCE_PATH_VARIABLE = 'WEBSITE_SOURCE_PATH'
+DATA_PATH_VARIABLE = 'SEARCH_INDEX_PATH'
 
-class Indexer:
+dotenv.load_dotenv()
 
-    schema = Schema(
-        filename=ID(stored=True),
-        title=TEXT(stored=True),
-        content=TEXT(stored=True),
-        tags=KEYWORD
-    )
-
-    def __init__(self):
-        self._index = None
-
-    @property
-    def index(self):
-        if not self._index:
-            if not os.path.exists("search_index"):
-                os.mkdir("search_index")
-                self._index = index.create_in("search_index", self.schema)
-                self.build(self._index)
-            else:
-                self._index = index.open_dir("search_index")
-        return self._index
-
-    def _add_to_index(self, ix, path):
-        writer = ix.writer()
-        with open(path) as post:
-            writer.add_document(
-                filename=path,
-                title=path,
-                content=post.read(),
-                tags='session',
-            )
-            writer.commit()
-
-    def build(self, index):
-        for root, dirs, files in os.walk("content/posts"):
-            for filename in files:
-                self._add_to_index(index, os.path.join(root, filename))
-
-
-class Searcher:
-
-    def __init__(self):
-        self.ix = Indexer()
-
-    def query(self, *args):
-        parser = QueryParser("content", schema=self.ix.schema)
-        query = parser.parse(' '.join(args))
-
-        with self.ix.index.searcher() as searcher:
-
-            results = searcher.search(query)
-            results.fragmenter.maxchars = 300
-            results.fragmenter.surround = 50
-
-            count = len(results)
-            print(f"Your query {args} yielded {count} results. Showing the top 5:")
-
-            for result in results[0:5]:
-                print(f"{result.score:0.2f}: {result['title']}")
-                highlights = result.highlights("content", top=2)
-                highlights = re.sub(r'<b class=".+?">', '<b>', highlights)
-                md = html2markdown.convert(highlights)
-                print(textwrap.indent(textwrap.fill(f'...{md}...', width=120), prefix='    '))
-                print()
-
-
-Fire(Searcher)
+Fire(search.Searcher(os.environ[SOURCE_PATH_VARIABLE], os.environ[DATA_PATH_VARIABLE]))

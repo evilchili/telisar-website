@@ -1,5 +1,5 @@
 ---
-Title: Jules Ultarson
+title: Jules Ultarson
 date: 2020-06-30T03:18:57.000Z
 tags:
   - homebrew

@@ -1,5 +1,5 @@
 ---
-Title: "Sabetha"
+title: "Sabetha"
 date: 2020-06-28T13:17:25-07:00
 tags: ['homebrew', 'npc']
 gallery:

@@ -1,5 +1,5 @@
 ---
-Title: "Hat of True Frog"
+title: "Hat of True Frog"
 date: 2020-06-22T21:04:56-07:00
 tags: ['homebrew', 'item']
 
