@@ -1,5 +1,5 @@
 ---
-Title: "Myrndottir's Marvelous Menagerie"
+title: "Myrndottir's Marvelous Menagerie"
 date: 2020-09-03T22:10:04-07:00
 tags: ['homebrew', 'item']
 markup: md
