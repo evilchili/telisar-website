@@ -36,8 +36,8 @@ pygmentsCodeFences = true
 
   [[menu.main]]
     identifier = "bestiary"
-    name = "Bestiary"
-    title = "Bestiary"
+    name = "Beastiary"
+    title = "Beastiary"
     url = "/tags/monster/"
     weight = 95
 
