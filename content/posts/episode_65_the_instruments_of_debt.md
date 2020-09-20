@@ -13,7 +13,7 @@ The party, somewhat nonplussed by this admission, defended their ability to this
 
 This news silenced the party briefly, but seemed to corroborate the news Reva Soonrop had related to them the previous night. Sirlius and Magnus attempted to pursue the matter, but Sabetha paid little attention as she looked more closely at the ledger. "It's encoded!" she declared, filling the party's minds with shocking Infernal profanities. Yuna and Sirlius traded shocked looks. "Wait, I know this cipher here. It's a simple code Elethi's Wards use to trade simple messages. This list... yes, I'm here, do you see?" She held up the ledger, pointing to a page that quite unknown to Sabetha the party had already decrypted themselves. "I bet these numbers are a combination." 
 
-"A combintaion?" Sirlius asked. "Isn't that a little obvious?"
+"A combination?" Sirlius asked. "Isn't that a little obvious?"
 
 "The thing about people who buy expensive security systems is they stop thinking about security." Sabetha stood suddenly. "I need to get into that vault."
 
@@ -37,13 +37,13 @@ On the far side of the room was a small chamber similar to the one they descende
 
 The party followed her into the final chamber: Madame Elethi's private vault. Three large wooden shelves stood before them, flush against the wall, covered in a variety of rare, magical items. Sabetha reached forward to pick up an amulet on one shelf. Instead, her hand disappeared into the illusory shelf and with a sucking breath pulled her charred, blackened fingers quickly back. With a final Infernal swear, Sabetha declared she was done with Elethi, done with this Vault, and done with Uman. She turned and strode out of the vault.
 
-The party spent a few minutes investigating the shelves. Sirlius, using detect magic, realized that not only were the shelves a Major Image, behind each image was a planar eruption of bizarre construction: three razer-thin intersections of Elemental Planess, Lightning, Ice and Fire cover the true shelves. Sirlius reached through the Elemental Plane of Fire and grasped a random item: a wand. Whisper too found a wand, which she playfully waved through the air, accidentally casting a spell on Ara, whose face pulled into a rictus of a large, toothy smile.
+The party spent a few minutes investigating the shelves. Sirlius, using detect magic, realized that not only were the shelves a Major Image, behind each image was a planar eruption of bizarre construction: three razor-thin intersections of Elemental Planes, Lightning, Ice and Fire cover the true shelves. Sirlius reached through the Elemental Plane of Fire and grasped a random item: a wand. Whisper too found a wand, which she playfully waved through the air, accidentally casting a spell on Ara, whose face pulled into a rictus of a large, toothy smile.
 
-While the party was investigating the vault, the exhausted and weakened Magnus, who had stayed in Elethi's chambers intent on guarding the stairs, was suprised by the stealthy approach of a single vampire spawn that had escaped the guard. It attacked, sinking its fangs into the warrior. Magnus alerted the party via the risidium binding telepathy, and as he struggled against the create the party raced back through the subchambers to help their friend. Keen snagged a scroll case of some sort from the magical shelves before leaving the vault.
+While the party was investigating the vault, the exhausted and weakened Magnus, who had stayed in Elethi's chambers intent on guarding the stairs, was surprised by the stealthy approach of a single vampire spawn that had escaped the guard. It attacked, sinking its fangs into the warrior. Magnus alerted the party via the risidium binding telepathy, and as he struggled against the create the party raced back through the subchambers to help their friend. Keen snagged a scroll case of some sort from the magical shelves before leaving the vault.
 
 Ara practically flew across the trap floor and quickly scaled the tube to engage the spawn and help Magnus. Yuna soon followed with the help of Sirlius's Spider Climb spell and cast Turn Undead on the monster.
 
-Meanwhile, Keen, Sirlius and Whisper found themselves trapped at the bottom of a 15 foot tube. Whisper tried to climb onto Sirlius's shoulders, but the tiefling warlock collapsed under the meager weight of the old kenku lady. As they struggled, Keen lept and springing off Whisper's shoulder with the dexterity of a natural acrobat summersaulted out of the tube, landing on his feet and engaging the vampire.
+Meanwhile, Keen, Sirlius and Whisper found themselves trapped at the bottom of a 15 foot tube. Whisper tried to climb onto Sirlius's shoulders, but the tiefling warlock collapsed under the meager weight of the old kenku lady. As they struggled, Keen leapt and springing off Whisper's shoulder with the dexterity of a natural acrobat summersaulted out of the tube, landing on his feet and engaging the vampire.
 
 
 Acrobatics Level: S
