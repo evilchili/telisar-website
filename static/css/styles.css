@@ -69,8 +69,7 @@ a:hover {
   color: #AA5555;
 }
 
-
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, dl.spoiler dt {
     font-family: telisar-manuscript, serif;
     font-weight: normal;
     text-transform: uppercase;
@@ -354,7 +353,7 @@ blockquote, dl.cant {
     break-inside: avoid-column;
 }
 
-.statblock {
+.statblock, dl.spoiler {
     margin: 20px auto;
     padding: 10px;
     background: rgb(255,255,255);

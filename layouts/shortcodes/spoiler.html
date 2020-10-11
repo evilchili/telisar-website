@@ -1,8 +1,8 @@
-<dl class="spoiler" style="cursor: pointer;" onclick="this.getElementsByTagName('div')[0].style.display=((this.getElementsByTagName('div')[0].style.display=='none')?'':'none');">
-    <dt><span class='block'>&#x25B2;</span><span class='text'>{{ .Get "title" | safeHTML }}</text></dt>
+<dl class="spoiler" onclick="this.getElementsByTagName('div')[0].style.display=((this.getElementsByTagName('div')[0].style.display=='none')?'':'none');">
+    <dt><span class='text'>{{ .Get "title" | safeHTML }}</span></dt>
     <dd>
         <div style="display:none;">
-            {{.Inner | safeHTML }}
+            {{.Inner |markdownify }}
         </div>
     </dd>
 </dl>
