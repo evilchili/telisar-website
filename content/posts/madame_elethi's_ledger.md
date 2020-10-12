@@ -164,7 +164,7 @@ DEATH OF KEEN REQ HENRY SMALLS 1000GP 500 ADV TRIVIAL STUDENTS OR OPEN BOUNTY MU
 
 **Gynaral Pashtum (3167 - 3188)** Female. Twin sister to Temon. Graduate, class of 3187. Slain by Belik Brescht while executing #371.
 
-**Temon Pashtum (3169 - ?)**: Male. Twin brother to Gynaral. Left Uman 3188 following death of Gynaral.
+**Temon Pashtum (3167 - ?)**: Male. Twin brother to Gynaral. Left Uman 3188 following death of Gynaral.
 
 **Jeffry Pashtum (3187 - 3206)** Male, human. Began clerking at the Bank in 3204. Gambler. UPDATE: Killed (#397) after losing deposits intended for the vault while gambling.
 
