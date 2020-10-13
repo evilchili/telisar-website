@@ -166,7 +166,7 @@ DEATH OF KEEN REQ HENRY SMALLS 1000GP 500 ADV TRIVIAL STUDENTS OR OPEN BOUNTY MU
 
 **Temon Pashtum (3167 - ?)**: Male. Twin brother to Gynaral. Left Uman 3188 following death of Gynaral.
 
-**Jeffry Pashtum (3187 - 3206)** Male, human. Began clerking at the Bank in 3204. Gambler. UPDATE: Killed (#397) after losing deposits intended for the vault while gambling.
+**Jeffry Pashtum (3187 - 3206)** Male. Began clerking at the Bank in 3204. Gambler. UPDATE: Killed (#397) after losing deposits intended for the vault while gambling. Known associates: Rimbal Knacklebun, Drakosh Brescht.
 
 #### General Comments
 
@@ -190,23 +190,43 @@ Contracts requiring direct action on Bank not advisable. Duergar security circum
 * One student per year provided to Pashtum family, on condition student be reported as killed to family. Students disappear; reasons unknown. Efforts to locate post facto unsuccessful thus far.
 
 
-<!-- 
-Brescht: born 3147
-parents died 3188
+### BRESCHT
 
-MYRNDOTTIR
+* Interests: Watch, private security, weapons merchants
+* Predominant Ancestry: Half-Orc
+* Current Heads: Bartok, Aralir
 
-SIMBALI
+#### Dossiers
 
-BRECHT
+**Drakosh (3129 - 3188)** Father to Belik and Bartok. Killed (#371). Brother Master Inquisitor, Martial Order of Bahamut (ex-communicated; circumstances unclear). Captain-General of the Watch, 3168 - 3174. Taciturn, severe, inflexible. Abandoned official duties following death of Umila.
 
-RASMUSSON
+**Umila (3117 - 3169)** Wife to Drakosh, mother to Belik and Bartok. Died of disease. Mudslide Pits Unarmed Champion 3149 - 3155. Ex-mercenary. Details of relationship with Drakosh unknown. Responsible for expanding Brescht interests into private security and weapons.
 
-NACKLEBUN
+**Belik (3144 - 3188)** First-born son. Captain-General of the Watch beginning 3170, succeeding Drakosh. Naive, petty, quick-to-anger. Inflexible as Drakosh and tough as Umila but lacking both shrewdness and vision. City Watch infiltrated, controlled by competing interests during his tenure. Killed (#371). Suspect failed attempt to blackmail House Simbali.
 
-FULLFOOT
+**Bartok (3147 - )** Second-born son. Martial Order of Bahamut 3162 - ??,  known rank of Brother Defender of the Light (Cleric). Married Aralir am Yvia 3177, relocated to Zikrin's Eyes (?). Joined Temple of Woden (Paladin) date unknown. Assumed Captain-General of City Watch 3188 following deaths of Drakosh and Belik. Genuinely believes in justice; believes he is the avatar of Woden in Uman.
 
--->
+**Aralir am Yvia (3103  - )** Wife to Bartok. Half-elf. History prior to 3188 unknown. Runs family business interests, turning increased profits yearly 3192 onward, predominantly on external investments. Avoids expansion of business in Uman. Rarely seen in public.
+
+**Drakosh (3186 - )** Son of Bartok and Aralir. Known associates: Jeffry Pashtum, Rimbal Knacklebun. Adolescence spent in petty crime, theft, vandalism. Left Uman 3200; whereabouts unknown but likely Eastriver.
+
+#### General Notes
+
+Founding family. Financial status prior to diversification strained, reliant on protection fees. Bulk of wealth now from private guard contracts (3rd Tier and up), mine security, caravan escorts, smithing and weapons trading. Watch funded through common taxation administered through Pashtum Bank.
+
+#### Regarding the Watch
+
+The Uman City Watch under Bartok Brescht has become an efficient and trusted organization. Longstanding contracts with House Myrndottir provide enchanted and anti-magic tooling. Bartok's elite guard formidable warriors, trained by Bartok himself. Direct confrontation with guard acceptable for appropriate contract remuneration, but elite guard involvement likely to include Bartok directly; not recommended.
+
+Parties deemed "Threat to the Peace" are disappeared. Brescht compound on 2nd Tier rumoured to house secret high-security prison compound. All attempts to secure access or intelligence unsuccessful thus far.
+
+#### Intelligence
+
+* Drakosh, J. Pashtum, R. Knacklebun formed gang ("Kings of Uman") circa 3198. Suspects in death of wine merchant in Simbali compound, 3199. Investigation squashed by Bartok Brescht. Suspect blackmail of House Pashtum by House Simbali to exert pressure on Brescht.
+
+* Legal protection for Wards operations, bounties within Uman established 3121, renewed 3181. Bartok bound by House honor to provide guarantee of safe passage for all operatives involved in registered bounties (see pp. 13 - 18). 
+
+* Brescht likely to deal if integrity of Watch threatened or safety of 5th and lower threatened, but easily provoked. Any direct threats to family likely to encounter extreme response.
 
 {{< /spoiler >}}
 
