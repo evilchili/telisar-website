@@ -228,5 +228,64 @@ Parties deemed "Threat to the Peace" are disappeared. Brescht compound on 2nd Ti
 
 * Brescht likely to deal if integrity of Watch threatened or safety of 5th and lower threatened, but easily provoked. Any direct threats to family likely to encounter extreme response.
 
+### MYRNDOTTIR
+
+* Interests: Manufacturing, Alchemy, Arcane Research
+* Predominant Ancestry: Dwarf, Human
+* Current Head: Kirshen
+
+#### Dossiers
+
+**Muzzah (2914 - 3116)** Half-Dwarf, father of Kirschen. Wizard, artificer. Died of natural causes. Repeat client (#317, #323, #324, #351). 
+
+**Hyel (3021 - 3204)** Half-Dwarf. Husband to Kirshen. Died of natural causes.
+
+**Kirshen (3101? - )** Human. Mother to Ciyâch, Ginny and Janey. Wizard. Kindly, gentle-spoken. Extremely Paranoid. Controls House interests, directly managing arcane and alchemical concerns.
+
+**Ciyâch (3163 - )** Human male. First-born to Kirschen and Hyel. Ostensibly manages mining industry subsidiaries, reporting to Kirshen. 
+
+**Ginny, Janey (3179 - )** Identical twin daughters to Kirshen and Hyel. Human. Left Uman 3199. Graduates, class of 3198. Service waived for compensation rendered. Known agents of Skink. Known associates: Henry Smalls, Lord Blackwell, Keen. 
+
+#### General Notes
+
+Founding family. Secured long-standing contracts with Houses Rasmusson and  Knacklebun to supply industrial machinery, gem, mineral and ore processing. Contracted to House Brescht for anti-magic defense and enchantments. Muzzah repeatedly targeted key arcane / artificer innovators in other houses to maintain primacy, secured House's expansive wealth. Kirshen borne 3101, assumed control of House interests 3124. Expanded on enchanting and defensive armaments business to both Watch and private concerns, under the "Grandmother Myrndottir's" subsidiary.
+
+#### Intelligence
+
+* Kirshen powerful arcane practitioner and extremely paranoid. Direct confrontation with House not recommended. Dotes on Ciyâch; leverage by threatening son's safety or reputation. Can be provoked by suggestion of unknown enemies plotting against House interests.
+* Ciyâch: idiot. Business affairs maintained quietly by staff unbeknownst to  Kirshen.
+* Ginny and Janey sent to employ of Lord Blackwell 3199; joined Spectacular Spectacular shortly thereafter. Graduates; school records indicate gifted practitioners of spycraft.
+* House dealings with Skink apparent result of extorted or leveraged position. Circumstances unclear but Kirshen clearly under Blackwell influence; internal Uman contracts being delayed in favour of external shipments. Brescht likely to take dim view of Skink business.
+
+### Knacklebun
+
+* Interests: Mining (metals)
+* Predominant Ancestry: gnome
+* Current Heads: Panaver, Glintering
+
+#### Dossiers
+
+**Glintering (3054 - )** Male. Formerly employed by House Rasmusson; co-founded Knacklebun Silver Mine 3172 with Panaver. Crass, rough, speciesist. Intensely disliked by most Houses. Husband to Panaver (married 3172).
+
+**Panaver (3043 - )** Male. Formerly employed by House Rasmusson; Husband to Glintering. Vain. Inferiority complex. Hates dwarfs, Wiph Rasmusson in particular.
+
+**Panaver Rimbal (3186 - )** First-born son (surrogate) to Glintering and Panaver. Known associates: Jeffry Pashtum, Drakosh Brescht. Adolescence spent in petty crime, theft, vandalism.
+
+#### General Comments
+
+House established 3172. Purchased remaining House Throgdottir assets following collapse 3184. Glintering and Panaver both former employees of House Rasmusson. Repeatedly agitated for miner's rights. Established Umani Rock Gnome Precious Metals Mining Collective, 3168, drawing conflict from both House Rasumusson and House Fullfoot.
+
+House Knacklebun viewed either with disdain or bemusement by founding families, but financial positioning solid due extremely lucky strikes on major silver and iron veins. Rasmusson and Knacklebun openly hostile, competitive over mining rights in Redfall hills.
+
+House has expanded rapidly, with many 3rd and 4th-tier concerns headed by extended Knacklebun family. By custom, first-born sons expected to be named Panaver in deference to head of family.
+
+#### Intelligence
+
+* Knacklebun rights to first silver vein secured by contract theft of new Rasmusson prospector reports (#367). First-born sons expected to provide aid and assistance to Wards on contract when asked.
+* Umani Rock Gnome Precious Metals Mining Collective enjoys unwavering support from Gnomish population; only guild to be sanctioned by the city not controlled by Fullfoot.
+* Rimbal kidnapped by The Community, fanatics following Mera Maryndottir. Rescued by Keen and Associates; motivations unknown. 
+
+
+
 {{< /spoiler >}}
 
