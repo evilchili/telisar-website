@@ -257,7 +257,7 @@ Founding family. Secured long-standing contracts with Houses Rasmusson and  Knac
 * Ginny and Janey sent to employ of Lord Blackwell 3199; joined Spectacular Spectacular shortly thereafter. Graduates; school records indicate gifted practitioners of spycraft.
 * House dealings with Skink apparent result of extorted or leveraged position. Circumstances unclear but Kirshen clearly under Blackwell influence; internal Uman contracts being delayed in favour of external shipments. Brescht likely to take dim view of Skink business.
 
-### Knacklebun
+### KNACKLEBUN
 
 * Interests: Mining (metals)
 * Predominant Ancestry: gnome
