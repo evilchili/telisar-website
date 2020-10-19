@@ -3,7 +3,7 @@
 title: "Magnus’s Dream"
 date: 2017-12-21T17:25:43
 
-tags: ['lore', 'magnus']
+tags: ['lore', 'magnus', 'dream']
 ---
 You leave this place, this vault. You fly overground, across hills and stone and rock, and plummet down into the Earth, seeking joy. You feel your body extend, for miles, all through the earth. The warmth and the colours take hold, and you hear your own voice, raised in a chorus of echoes a thousand thousand times: “We are joy,” it says, “Your joy was lost for a time, but we are returned.” And you feel; you know, know the joy as the truth at the core of yourselves, and you are at peace for a time.
 

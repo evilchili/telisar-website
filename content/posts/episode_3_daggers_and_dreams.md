@@ -3,7 +3,7 @@
 title: "Episode 3: Daggers And Dreams"
 date: 2017-12-21T17:23:34
 campaigndate: Wodag, 43th Of The Lion, 3206 ME
-tags: ['session']
+tags: ['session', 'dream']
 ---
 
 Holed up in an empty treasure vault, the party risks a rest to recover their strength and heal. Not long into their rest Magnus discovers them, though bloodied and near death himself. Magnus begins inspecting his wounds, and scraping some spores off. He stuffs something slightly glowing (moss? lichen?) into the larger wounds and binds that into place. It doesn’t look particularly well done. They party has a brief discussion about what might have led to their goblin captors to choose them in particular, but no answers are yet forthcoming.
