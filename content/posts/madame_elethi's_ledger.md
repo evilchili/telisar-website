@@ -293,7 +293,7 @@ House has expanded rapidly, with many 3rd and 4th-tier concerns headed by extend
 
 #### Dossiers
 
-*Selarine* (?? - ) Male elf of advanced age; date of birth unknown. Projects magnanimity and good cheer. Prominent member, Temple of Freya. Hedonist. Personal history unknown.
+**Selarine** (?? - ) Male elf of advanced age; date of birth unknown. Projects magnanimity and good cheer. Prominent member, Temple of Freya. Hedonist. Personal history unknown.
 
 #### General Notes
 
