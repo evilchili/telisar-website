@@ -236,13 +236,13 @@ Parties deemed "Threat to the Peace" are disappeared. Brescht compound on 2nd Ti
 
 #### Dossiers
 
-**Muzzah (2914 - 3116)** Half-Dwarf, father of Kirschen. Wizard, artificer. Died of natural causes. Repeat client (#317, #323, #324, #351). 
+**Muzzah (2914 - 3116)** Half-Dwarf, father of Kirshen. Wizard, artificer. Died of natural causes. Repeat client (#317, #323, #324, #351). 
 
 **Hyel (3021 - 3204)** Half-Dwarf. Husband to Kirshen. Died of natural causes.
 
 **Kirshen (3101? - )** Human. Mother to Ciyâch, Ginny and Janey. Wizard. Kindly, gentle-spoken. Extremely Paranoid. Controls House interests, directly managing arcane and alchemical concerns.
 
-**Ciyâch (3163 - )** Human male. First-born to Kirschen and Hyel. Ostensibly manages mining industry subsidiaries, reporting to Kirshen. 
+**Ciyâch (3163 - )** Human male. First-born to Kirshen and Hyel. Ostensibly manages mining industry subsidiaries, reporting to Kirshen. 
 
 **Ginny, Janey (3179 - )** Identical twin daughters to Kirshen and Hyel. Human. Left Uman 3199. Graduates, class of 3198. Service waived for compensation rendered. Known agents of Skink. Known associates: Henry Smalls, Lord Blackwell, Keen. 
 
@@ -285,6 +285,37 @@ House has expanded rapidly, with many 3rd and 4th-tier concerns headed by extend
 * Umani Rock Gnome Precious Metals Mining Collective enjoys unwavering support from Gnomish population; only guild to be sanctioned by the city not controlled by Fullfoot.
 * Rimbal kidnapped by The Community, fanatics following Mera Maryndottir. Rescued by Keen and Associates; motivations unknown. 
 
+### SIMBALI
+
+* Interests: Brewing, Wine, Spirits, transport, intelligence
+* Predominant ancestry: Elf
+* Current Head: Selarine 
+
+#### Dossiers
+
+*Selarine* (?? - ) Male elf of advanced age; date of birth unknown. Projects magnanimity and good cheer. Prominent member, Temple of Freya. Hedonist. Personal history unknown.
+
+#### General Notes
+
+Founding family. Extensive land holdings throughout Telisar, notably: Simbali Eastriver Vineyards (el Qatra), Simbali Redfall, and Simbali 7 Isles. Notable commercial interests include Simbali Uman (wine, spirits), Simbali el Astrum (information, research, intelligence?),  Simbali Transport (import/export, trade caravans, mercenary companies?). Financial status unknown; majority of holdings managed outside Pashtum Bank.
+
+Reputation obviously fabricated but no-one willing to speak against Selarine. Prefers misdirection, proxied leverage through intermediaries to direct action.
+
+Dangerous. Contracts contrary to Simbali interests not advisable.
+
+#### Intelligence
+
+* Uman founding charter (2694 M.E.) includes signature of "S. Simbali;" Selarine claims this is him. Uncorroborated, but possible. 
+* Suspected financial support of House Pashtum during construction of Pashtum Bank, circa 2700
+* Simbali Uman compound (2nd Tier) includes several warehouses; bulk of wine stores, spirits housed on-site.
+* Contract with Pashtum Bank for regular seasonal deliveries from warehouses, 9 barrels, per, contents unknown.
+* Suspected involvement in #371, death of Drakosh, Umila and Belik Pashtum, 3188. Contract secured by K. Myrndottir; suspect Selarine response to failed blackmail attempt by Belik.
+* Suspected involvement in collapse of House Throgdottir, 3184
+* Suspected financial involvement with Skink, circa 3190s
+* Suspected financial involvement with Danta Kosht, circa 3200
+* Suspected blackmail of E. Pashtum to pressure Brescht over suppression of investigation into death of wine merchant, 3199
+* "Simbali Private Reserves" consists of five different wines: Simbali Red, Simbali White, Simbali Green, Simbali Blue, Simbali Black. Sold as luxury brand wines, but when mixed with particular alchemical catalysts provide  arcane influence. Simbali Black mixed with powdered black opal yields effects similar to Zone of Truth spell. Other catalysts unknown.
+* Knowledge of Private Reserve catalysts possible leverage? 
 
 
 {{< /spoiler >}}
