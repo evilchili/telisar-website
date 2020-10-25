@@ -10,7 +10,15 @@
         {{ end }}
     </div>
 
-    <br class='separator'>
+    <div class='keep-together'>
+        <br class='separator'>
+
+        {{ if $homebrew.AC }}
+        <div class='stat'>
+            Armor Class <span class='value'>{{ $homebrew.AC | safeHTML }}</span>
+        </div>
+        {{ end }}
+    </div>
 
     {{ .Inner | markdownify }}
 

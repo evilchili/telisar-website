@@ -26,6 +26,18 @@
 
     <div id='{{ safeHTML $homebrew.name }}-stats' style='display:none;'>
 
+    {{ if eq ($homebrew.category) ("item") }}
+        <div class='keep-together'>
+            <br class='separator'>
+            {{ if or ($homebrew.AC) }}
+            <div class='stat'>
+                Armor Class <span class='value'>{{ $homebrew.AC | safeHTML }}</span>
+            </div>
+            <br class='separator'>
+            {{ end }}
+        </div>
+    {{ end }}
+
     {{ if eq ($homebrew.category) ("spell") }}
         <br class='separator'>
     
