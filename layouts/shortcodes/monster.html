@@ -56,7 +56,13 @@
 
         {{ if $homebrew.resistances }}
         <div class='stat'>
-            Damange Resistances <span class='value'>{{ $homebrew.resistances | safeHTML }}</span>
+            Damage Resistances <span class='value'>{{ $homebrew.resistances | safeHTML }}</span>
+        </div>
+        {{ end }}
+
+        {{ if $homebrew.vulnerabilities }}
+        <div class='stat'>
+            Damage Vulnerabilities <span class='value'>{{ $homebrew.vulnerabilities | safeHTML }}</span>
         </div>
         {{ end }}
     

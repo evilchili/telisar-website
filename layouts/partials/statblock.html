@@ -122,6 +122,12 @@
             Damange Resistances <span class='value'>{{ $homebrew.resistances | safeHTML }}</span>
         </div>
         {{ end }}
+
+        {{ if $homebrew.vulnerabilities }}
+        <div class='stat'>
+            Damage Vulnerabilities <span class='value'>{{ $homebrew.vulnerabilities | safeHTML }}</span>
+        </div>
+        {{ end }}
     
         {{ if $homebrew.damage_immunities }}
         <div class='stat'>
