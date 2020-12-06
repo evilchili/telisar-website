@@ -71,3 +71,12 @@ layout: wide
 | **3.3206.9.01 S01H** | Keen Recovers Second Shard Of The Heart Of Bahamut
 | **3.3206.9.03 W03H** | Today
 | **3.3206.9.03 W03H** | Yuna Captures The Lady Of The Hearth
+| **3.3206.9.04 T04H** | Keen Slain By Stonebreaker Spiders
+| **3.3206.9.05 F05H** | Keen Resurrected By Arminius
+| **3.3207.1.01 S01F** | Uman Invaded By Demons
+| **3.3207.1.02 M02F** | The Party Slays Madame Elethi
+| **3.3207.1.03 W03F** | The Party Meets Reva Soonrop
+| **3.3207.1.03 W03F** | The Party Raids Madame Elethi'S Vault
+| **3.3207.1.04 T04F** | The Party Rescues The Mad Mage From Gozer The Gozerian
+| **3.3207.1.05 F05F** | The Party Faces The Umani Tribunal
+| **3.3207.1.05 F05F** | Today
