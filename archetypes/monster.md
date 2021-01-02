@@ -11,6 +11,7 @@ tags:
 #      thumb: false
 
 statblock:
+  category: monster
   name: "{{ humanize .Name | title }}"
   size: medium
   type: beast

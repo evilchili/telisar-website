@@ -1,5 +1,5 @@
 ---
-Title: "{{ humanize .Name | title }}"
+title: "{{ humanize .Name | title }}"
 date: {{ .Date }}
 tags: ['homebrew', 'item']
 markup: md

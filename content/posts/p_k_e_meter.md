@@ -1,5 +1,5 @@
 ---
-Title: "P. K. E. Meter"
+title: "P. K. E. Meter"
 date: 2020-10-07T21:41:09-07:00
 tags: ['homebrew', 'item', 'wraithbusters']
 markup: md

@@ -1,5 +1,5 @@
 ---
-Title: "Residium Accelerator Pack"
+title: "Residium Accelerator Pack"
 date: 2020-10-06T21:10:12-07:00
 tags: ['homebrew', 'item', 'wraithbusters']
 markup: md

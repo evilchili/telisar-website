@@ -1,5 +1,5 @@
 ---
-Title: "Box of Incorporeal Imprisonment"
+title: "Box of Incorporeal Imprisonment"
 date: 2020-10-07T19:08:38-07:00
 tags: ['homebrew', 'item', 'wraithbusters']
 markup: md

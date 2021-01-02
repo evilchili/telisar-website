@@ -1,5 +1,5 @@
 ---
-Title: "Enchanted Leather Jumpsuit"
+title: "Enchanted Leather Jumpsuit"
 date: 2020-10-24T20:17:31-07:00
 tags: ['homebrew', 'item', 'wraithbusters']
 
