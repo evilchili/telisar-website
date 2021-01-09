@@ -68,3 +68,4 @@ opened.
 
 **Making an Offering** The value of an offering is determined by its utility to a Dragonborn adventurer from millenia ago, and roughly ranked by item rarity. A common item can generally be swapped for any other common item; two common items might be swapped for an uncommon item, four uncommon items might be swapped for a rare item, and so on, at the DM's discretion. Raw currency can be offered to match the value of an item. Knowledge may also be offered, in the form of books, scrolls and parchments. The value of the knowledge will be adjudicated by the DM.
 
+*Adapted from Sentinel in Darkness, _Creature Codex_, Kobold Press, pp 323.*
