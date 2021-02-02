@@ -2,4 +2,4 @@
 from fire import Fire
 from telisar.cli import calendar
 
-Fire(calendar())
+Fire(calendar)
