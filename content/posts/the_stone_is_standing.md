@@ -18,7 +18,7 @@ Atop the stairway of bone<br>
 The stone is standing<br>
 On Odebelioth's Bluff<br>
 On the way to al Ilised<br>
-South of our home<br>
+South to our home<br>
 <p>
 The stone is standing<br>
 Though lost you may be<br>
