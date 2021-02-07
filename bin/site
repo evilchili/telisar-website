@@ -199,6 +199,11 @@ class CLI:
             os.path.join(self._posts.working_dir, 'public', '*'),
             'nubbin.evilchi.li:/usr/local/deploy/telisar/project/www/'
         ]), shell=True)
+        subprocess.check_call(' '.join([
+            'rsync', '-av', '--delete',
+            os.path.join(self._posts.working_dir, 'search_index', '*'),
+            'nubbin.evilchi.li:/usr/local/deploy/telisar/project/telisar-website/search_index'
+        ]), shell=True)
         subprocess.call(['git', 'stash', 'pop'])
 
     def dm(self):
