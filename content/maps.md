@@ -7,6 +7,7 @@ tags: ["lore", "dm"]
 ---
 
 {{< gallery >}}
+  {{< figure src="/static/telisar_annotated.jpg" caption="A map of the Thorimfel Plateau in northern Telisar, hand-drawn, of dubious accuracy. Purchased by Ara from Anthol's Amazing Arcana." >}}
   {{< figure src="/static/thorimfel_map.jpg" caption="A map of the Thorimfel Plateau in northern Telisar, hand-drawn, of dubious accuracy. Purchased by Ara from Anthol's Amazing Arcana." >}}
   {{< figure src="/static/whitebridge.jpg" caption="An annotated map of the town of Whitebridge. Found in the basement of the Temple of Syf." >}}
   {{< figure src="/static/dissian_catacombs.jpg" caption="Dungon Master's aide: a simplified rendering of the Dissian Catacombs" >}}
