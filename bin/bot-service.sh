@@ -13,4 +13,4 @@ exec 3>"$info"
 DATE=`date '+%Y-%m-%d %H:%M:%S'`
 echo "Hammer-bot service started at ${DATE} in ${BOT_ROOT}" | systemd-cat -p info
 
-/usr/bin/env python3 $BOT_ROOT/bot
+/usr/bin/env python3 $BOT_ROOT/site dm bot
