@@ -85,7 +85,7 @@ header {
 }
 
 header .content {
-    color: #D9B645;
+    color: #A2B672;
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px;
@@ -100,7 +100,6 @@ header h1 {
 
 header h1 a, header h1 a:visited {
   color: #D9B645;
-  letter-spacing: 0.1em;
 }
 
 nav {
@@ -303,7 +302,7 @@ main {
 }
 
 article h1 {
-    color: #73A037;
+    color: #000;
     display: block;
     width: 100%;
     margin: 0;
@@ -333,7 +332,7 @@ main article div.text::first-letter {
     margin: 0.1em;
     margin-left: 0;
     float: left;
-    color: #D9B645;;
+    color: #D9B645;
     padding: 16px 4px 0px 4px;
     line-height: 0.9;
     background: #28371C;
@@ -390,11 +389,11 @@ blockquote, dl.cant {
     font-variant: small-caps;
     margin: 0;
     margin-top: -10px;
-    color: #28371C;
+    color: #73A037;
 }
 
 .statblock .homebrew-name:hover {
-    color: #73A037;
+    color: #28371C;
 }
 
 .statblock .homebrew-size {

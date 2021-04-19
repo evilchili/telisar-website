@@ -2,6 +2,9 @@
 title: "Hat of True Frog"
 date: 2020-06-22T21:04:56-07:00
 tags: ['homebrew', 'item']
+gallery:
+    - images:
+      - source: /static/froghat.png
 
 statblock:
     category: item
