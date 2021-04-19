@@ -31,7 +31,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #efe1be;
+  background: #D5EFBC;
   color: #333;
   font-family: telisar-manuscript, serif;
   font-size: 1.3rem;
@@ -62,11 +62,11 @@ footer {
 }
 
 a, a:visited {
-  color: #883333;
+  color: #73A037;
   text-decoration: none;
 }
 a:hover {
-  color: #AA5555;
+  color: #7B2E1C;
 }
 
 h1, h2, h3, h4, h5, h6, dl.spoiler dt {
@@ -75,17 +75,17 @@ h1, h2, h3, h4, h5, h6, dl.spoiler dt {
     text-transform: uppercase;
     font-style: normal;
     line-height: 1;
-    color: #883333;
+    color: #28371C;
 }
 
 header {
     width: 100%;
-    background-color: #883333;
+    background-color: #28371C;
     padding-left: 20px;
 }
 
 header .content {
-    color: #d4af37;
+    color: #D9B645;
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px;
@@ -99,7 +99,7 @@ header h1 {
 }
 
 header h1 a, header h1 a:visited {
-  color: #d4af37;
+  color: #D9B645;
   letter-spacing: 0.1em;
 }
 
@@ -149,7 +149,7 @@ section#list .count {
     color: #999;
 }
 nav ul li a:hover, #tags li a:hover {
-    color: #883333;
+    color: #28371C;
 }
 
 footer ul {
@@ -169,7 +169,7 @@ footer ul li {
 
 .post-nav ul, ul.pagination {
   background: rgb(255,255,255);
-  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, #f7e5ab 100%);  
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, #A2B672 100%);  
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -247,7 +247,7 @@ article, section {
 .title {
     padding: 10px 20px;
     background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 20%, #f7e5ab 100%);  
+    background: linear-gradient(0deg, rgba(255,255,255,1) 20%, #A2B672 100%);  
     flex: 0 0 calc(100% - 40px);
     order: 1;
 }
@@ -303,7 +303,7 @@ main {
 }
 
 article h1 {
-    color: #AA5555;
+    color: #73A037;
     display: block;
     width: 100%;
     margin: 0;
@@ -333,10 +333,10 @@ main article div.text::first-letter {
     margin: 0.1em;
     margin-left: 0;
     float: left;
-    color: #d4af37;
+    color: #D9B645;;
     padding: 16px 4px 0px 4px;
     line-height: 0.9;
-    background: #883333;
+    background: #28371C;
 }
 
 blockquote, dl.cant {
@@ -357,7 +357,7 @@ blockquote, dl.cant {
     margin: 20px auto;
     padding: 10px;
     background: rgb(255,255,255);
-    background: linear-gradient(135deg, rgba(255,255,255,1) 40%, #f7e5ab 100%);  
+    background: linear-gradient(135deg, rgba(255,255,255,1) 40%, #A2B672 100%);  
     border: 1px solid #AAA;
 }
 
@@ -366,7 +366,7 @@ blockquote, dl.cant {
     display:block;
     width: 100%;
     margin: 10px 0px;
-    border-top: 3px solid #883333;
+    border-top: 3px solid #28371C;
 }
 
 /* Stat block typography */
@@ -378,7 +378,7 @@ blockquote, dl.cant {
 
 .statblock h2, h3, h4, h5, h6 {
     padding-bottom: 5px;
-    border-bottom: 1px solid #883333;
+    border-bottom: 1px solid #28371C;
     text-transform: capitalize;
 }
 
@@ -390,11 +390,11 @@ blockquote, dl.cant {
     font-variant: small-caps;
     margin: 0;
     margin-top: -10px;
-    color: #883333;
+    color: #28371C;
 }
 
 .statblock .homebrew-name:hover {
-    color: #AA5555;
+    color: #73A037;
 }
 
 .statblock .homebrew-size {
@@ -406,7 +406,7 @@ blockquote, dl.cant {
 
 .statblock .stat {
     font-size:0.9em;
-    color: #883333;
+    color: #28371C;
     font-weight: bold;
 }
 .statblock .stat .value {
@@ -424,7 +424,7 @@ blockquote, dl.cant {
   list-style: none;
   margin: 0 auto;
   padding: 0;
-  color: #883333;
+  color: #28371C;
   font-weight: bold;
 }
 .statblock .ability-scores ul li {
