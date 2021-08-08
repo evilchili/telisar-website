@@ -1,0 +1,30 @@
+---
+title: "Episode 86: Into the Feywild, Part X (Oh, Rats)"
+date: 2021-08-08T07:50:21-07:00
+campaigndate: ???
+tags: ['session']
+---
+
+Hundreds of cranium rats swarmed around the party. To their horror, they merged into a golem with elongated arms, thick legs and a massive central mass all formed of writhing, crawling rats. The headless figure stood 15 feet tall, looming over the party. At the center of the chest the glowing brains merged into a parody of eyes seething with malice. It attacked, slamming a massive fist into Ara and leaving behind a swarm of rats that covered his body. Though Whisper, Ara, and Keen were able to land some attacks their weapons were of little use against the undulating mass. Sirlius's fire and thunder spells worked better, but with the screech of a thousand rats the golem stunned the party in place. Swarms of rats broke off from the figure and quickly enveloped the party, biting and scratching. When they recovered their wits they found that the cranium rats were not simply attacking, but emptying their pockets of coin: each rat pulled gold or platinum from their packs and bags.
+
+When the rats discovered the cursed platinum the party had found in the house of Esme Margoleth, however, the tenor of the encounter changed. The golem created a mouth of sorts, and in scratching, shrill Undercommon demanded to know how the adventurers had come by it. A tense standoff followed while Magnus, who was fluent in Undercommon, explained about the house in Uman. He learned that the cranium rats were refugees of a city in the Underdark -- Na'Aldrathzil -- which had been invaded by Illithid. Magnus recognized the name as the city whose fragmented history he had learned of from a tome of knowledge he had studied in a temple in Uman. That account suggested the city had been the seat of a patriarchal uprising under a King named Pharaun, and for its folly was cursed by Lolth. The rats confirmed this account, saying that they were all that remained of Pharaun's followers; when a traitor in their ranks welcomed the Illithid into Na'Aldrathzil, Pharaun's loyal subjects transformed themselves into cranium rats and fled. The city was eventually sealed by priestesses of Lolth to contain the Illithid threat, and a curse placed upon it and all who would seek to profit from the works of Pharaun.
+
+Magnus understood that since that time the rats have been seeking to recover Pharaun's treasure -- the platinum -- in the hopes that by returning it they might break the seal and be able to reclaim their home. It had been centuries though and they despaired of ever succeeding, and so had turned their efforts to amassing a fortune of mundane currency in the faint hopes that if not the pieces, then the value, would be sufficient to break the seal. From the party they learned the very Drow who betrayed the city to the mindflayers, Pharaun's chamberlain and court wizard Solaufein Mak'lethz, had fled to Uman, taking the royal coffers with him.
+
+The rats suspected Solaufein's betrayal was the result of madness brought upon him by an artifact they named the Sceptre of Mak'lethz. The party recognized the pattern, suspecting that the sceptre might be another Shard of the Heart of Bahamut. They agreed to work with the rats to try and break the seal on Na'Aldrathzil and gain entrance to the city. They surrendered what cursed platinum they had, and told the rats to make their way to the city of Uman -- the rest of the platinum was either in circulation already, or stored in the Pashtum Bank. The rats agreed to meet the party at the Topwater Gates outside Na'Aldrathzil. Before leaving they took the platinum, leaving behind some thousands of gold in exchange.
+
+The party left the Freeling Hideaway then and camped in the ruins of the Elven city of Amouradiath, to prepare for their next task: an assault on the very heart of the Winter Court. Sirlius kept watch, and conjured a raven familiar. Though he had done this countless times before, the strange, arcane substance of the Feywild caused the ritual to behave strangely. Sirlius sensed the weirdness, but decided to see what would happen anyway. Upon completing the ritual he was satisfied to see a large black raven appear, as expected. However, the raven regarded its surroundings and in a weary voice muttered, "Oh, not again."
+
+Sirlius was delighted that his familiar could speak, and asked its name. Disgusted by this Feywild social faux pas, the raven only sighed, muttering, "Tourists." It tucked its head under its wing as if to sleep. To its disappointment Sirlius continued to engage it in conversation. The raven's attitude did not improve. When it became clear he would get nothing more from the raven, Sirlius resumed his watch but fell asleep almost instantly.
+
+For many days now, Keen had been plagued by constant whispers of Bahamut worshippers, their prayers leaking into his mind. He'd been mostly successful at ignoring them, but this night a voice came through into his dreams, clear and loud and earnest. A small child, a girl named Seema, prayed to the Platinum Queen to make her sick mother well. Keen was astonished and unnerved to discover that she could hear his thoughts, and he was forced to respond to her pleas. Keen told Seema that he was not Bahamut, but another god named Ara am Akiir Pleased To Meetcha. The child accepted this, but asked for help nonetheless. Still attempting to get rid of her, Keen told her that he would grant her some of his power to make her mother well but she should do it herself, and to stop praying to him or he would get angry. Seema thanked him, naming him "Kiiri."
+
+In the morning, a tightness gripped Keen's soul. He found that though he was simply lying to the girl to get rid of her, a bargain was struck nonetheless; a small portion of his life essence had been drained away and transferred to her. And something inside him, something as yet beneath his conciousness, was disappointed.
+
+Rat Levels: Stabilizing
+
+Underdark Quest Status: Pending?
+
+Keen's Divinity Performance Rating: Needs Improvement
+
+RP Rating: Awesome!
