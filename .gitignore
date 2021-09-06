@@ -2,3 +2,4 @@ public/
 env/
 .env
 search_index/
+.DS_Store
