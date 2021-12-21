@@ -190,8 +190,13 @@ section#home {
 section#home .about {
     max-width: 850px;
     flex: 0 0 calc(100%; - 40px);
-    margin: 20px auto;
-    padding: 0px 20px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+section#home .about img {
+    max-width: 850px;
 }
 
 section#home .recent {
