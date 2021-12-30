@@ -197,6 +197,8 @@ section#home .about {
 
 section#home .about img {
     max-width: 850px;
+    margin: 0px auto;
+    width:99%;
 }
 
 section#home .recent {
