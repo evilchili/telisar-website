@@ -192,13 +192,13 @@ section#home .about {
     flex: 0 0 calc(100%; - 40px);
     margin: 0px auto;
     margin-bottom: 20px;
-    padding: 0px;
+    padding: 0px 10px;
 }
 
 section#home .about img {
     max-width: 850px;
     margin: 0px auto;
-    width:99%;
+    width: 100%;
 }
 
 section#home .recent {
