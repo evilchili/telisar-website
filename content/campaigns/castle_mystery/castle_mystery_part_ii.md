@@ -1,7 +1,7 @@
 ---
 title: "Castle Mystery, Part II: Reunions, RP frog business, and reckless consequence combat"
 date: 2021-10-04T20:08:27-07:00
-tags: ['session', 'carameldropz']
+tags: ['carameldropz', 'castle mystery']
 ---
 
 While the party proceeded to explore the rest of the castle, Cithrel and Dahlia doubled back and freed Xinas from his stasis pod. Upon questioning, Cithrel offered information regarding her research into the missing villagers, the premises, and the previous tenants who mysteriously disappeared a few years prior - the Chasteler family. She promised that after returning Dahlia back to Galehaven she would return to the forests just to the north of the castle and wait to intercept and protect any villagers that the party would manage to free. They parted ways and Xinas returned to the company of his motley crew.

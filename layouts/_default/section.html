@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+<section id="list">
+    <div class='content'>
+
+    {{ $baseurl := .Site.BaseURL }}
+
+    {{ if eq .Data.Singular "tag" }}
+        <h2>#{{ .Title | lower }}</h2>
+    {{ else }}
+        <h2>{{ .Title }}</h2>
+    {{ end }}
+
+    {{ .Content }}
+
+    {{ if (eq .Params.include_list true)}}
+
+    {{ range (.Paginate (.Data.Pages.GroupByDate "2006")).PageGroups  }}
+
+    <h3>{{ .Key }}</h3>
+    <ul>
+        {{ range .Pages }}
+        <li>
+            <a href="{{ .Permalink }}">{{ if .Draft }}DRAFT: {{end}}{{ .Title | markdownify }}</a>
+            <time class="date-meta">{{ .Date.Format "2006-01-02" }}</time>
+        </li>
+        {{ end }}
+    </ul>
+    
+    {{ end }}
+    {{ end }}
+    </div>
+</section>
+
+{{ template "_internal/pagination.html" . }}
+
+{{ end }}

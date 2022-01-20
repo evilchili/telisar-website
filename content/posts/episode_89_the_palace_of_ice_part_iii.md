@@ -1,5 +1,5 @@
 ---
-title: "Episode 91: The Palace of Ice, Part III"
+title: "Episode 89: The Palace of Ice, Part III"
 date: 2021-11-21T20:22:45-08:00
 campaigndate: ???
 tags: ['session']

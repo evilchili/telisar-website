@@ -1,7 +1,7 @@
 ---
 title: "Castle Mystery, Part VIII: Death, Destruction, Departures, and Debts Paid"
 date: 2022-01-19T20:29:03-08:00
-tags: ['session']
+tags: ['carameldropz', 'castle mystery']
 ---
 
 The party scrambled to find their footing as the tower floor crumbled around them. Most of them, including rescued captives and a number of the stasis pods, fell down to the 1st floor. The tower groaned and creaked around them, and it was quite clear the entire tower was unstable. While most of the group assisted with helping secure more prisoners from the remaining stasis pods or escorting the ones already freed to safety, Aldon bolted downstairs in an attempt to find Pistachio who had disappeared down the well.

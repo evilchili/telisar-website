@@ -2,7 +2,7 @@
 title: "Castle Mystery, Part VII: Resistance, Retaliation, Rebirth, and Rescues
 "
 date: 2021-12-20T16:29:23-08:00
-tags: ['session', 'carameldropz']
+tags: ['carameldropz', 'castle mystery']
 ---
 Combat ensued, with a number of harrowing close calls. Loopy, at the mercy of the large coral smasher sahuagin, nearly perished on a few occasions but kept getting healed back up. Marret managed to also hold on despite being harried by the malenti woman’s spiritual weapon and a smaller sahuagin. Pistachio attempted to attack with pixie dust, whittling away the malenti scientist’s legendary resistances - but also was knocked unconscious. Aldon dispatched another of the coral smashers and was also able to help stabilize Pistachio.Tarn, meanwhile was unable to escape the stasis pod and was forced into an unwilling sleep. Xinas, in close quarters with the malenti scientist and her bodyguard, managed to get a few hits in but was savagely attacked and killed.
 

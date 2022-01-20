@@ -1,7 +1,7 @@
 ---
 title: "Castle Mystery, Part I:  Gods, Goofs, Gear, and Gross Stuff"
 date: 2021-09-20T20:58:27-07:00
-tags: ['session', 'carameldropz']
+tags: ['carameldropz', 'castle mystery']
 ---
 
 The village of Galehaven has been plagued by mysterious disappearances for the last few months. It started first with smaller creatures and the occasional livestock, but now it has progressed to villagers. Desperate to track down the source of these disappearances the village heads have put forward a reward to anyone who can track down whatever or whoever is responsible, put an end to it, and hopefully return the ones who had gone missing.

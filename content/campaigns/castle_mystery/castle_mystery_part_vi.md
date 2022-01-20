@@ -1,7 +1,7 @@
 ---
 title: "Castle Mystery, Part VI: Pranks, Perpetrators, and Punishments"
 date: 2021-12-17T19:38:13-08:00
-tags: ['session', 'carameldropz']
+tags: ['carameldropz', 'castle mystery']
 ---
 
 Contemplating their next step, the party decided it would be better to risk a long rest again rather than pushing on ahead with depleted spell slots and a weakened little miss. They opted to retreat to the library and board up the door, taking turns with a watch. First up was Pistachio and Xinas, who decided it would be hilarious to prank a sleeping Loopy by attaching an illusion to one of his boots - a large illusory lit circle affixed to the bottom of his boot, expanding outward with a message of “Chosen One” written in Minotaur and an arrow pointing in the direction of Loopy.

@@ -1,7 +1,7 @@
 ---
 title: "Castle Mystery, Part III: Chaotic Combat, Collected Captives, and Close Calls"
 date: 2021-10-26T19:03:51-07:00
-tags: ['session', 'carameldropz']
+tags: ['carameldropz', 'castle mystery']
 ---
 
 The party immediately began attempting to free the trapped figures from the stasis pod, though they were harried by the sounds of snarls echoing up from the well and heavy footfalls encroaching from the stairs. Determined to not abandon the captives, the party held their ground at the stairwell while Tarn, Loopy, and Pistachio hurried to extract the elven man and Loopy’s mother. Just before combat commenced, Pistachio was able to help a frantic Loopy free his mother, who was ejected out onto the ground - alive but coughing and disoriented.

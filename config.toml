@@ -21,10 +21,10 @@ pygmentsCodeFences = true
 [menu]
 
   [[menu.main]]
-    identifier = "sessions"
-    name = "Sessions"
-    title = "Session Summaries"
-    url = "/tags/session/"
+    identifier = "campaigns"
+    name = "Campaigns"
+    title = "Campaigns"
+    url = "/campaigns/"
     weight = 80
 
   [[menu.main]]

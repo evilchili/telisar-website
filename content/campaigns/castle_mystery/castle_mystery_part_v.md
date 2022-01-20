@@ -1,7 +1,7 @@
 ---
 title: "Castle Mystery, Part V: Wretched Wardrobes, Weirdos, Whispers, and Wit"
 date: 2021-12-02T20:23:18-08:00
-tags: ['session', 'carameldropz']
+tags: ['carameldropz', 'castle mystery']
 ---
 
 Now in addition to the surprise of a zombie in the closet, the party found themselves face to face with a fiery haired young human woman who had vaulted through the window. Confused and defensive, she questioned what they were doing there, while Tarn and Pistachio attempted to keep the wardrobe containing the undead entity closed. However, despite their best attempts the undead broke through, causing Tarn to fall prone on the ground at the mercy of the creature. They sustained a wound from a slash, though fortunately resisted a debilitating side effect. As this happened, both Aldon and Xinas moved into action against the undead. Aldon successfully turned it in fear, and Xinas successfully negated that with arrows to the chest - much to the apparent fear of the mysterious young woman who screamed and cried out with each act of aggression. “Don’t hurt him!!”

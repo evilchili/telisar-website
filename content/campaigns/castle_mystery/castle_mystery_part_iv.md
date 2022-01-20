@@ -1,7 +1,7 @@
 ---
 title: "Castle Mystery, Part IV: Tridents, Toads, Toilets, and Trespass"
 date: 2021-11-11T17:10:14-08:00
-tags: ['session', 'carameldropz']
+tags: ['carameldropz', 'castle mystery']
 ---
 
 Their long rest complete, the party decided to take care of some business before setting back out into the castle. Pistachio had been able to build a new steel defender using miscellaneous parts from the weapon and armor strewn about the store room. They also were able to tinker with the gear of their companions, granting them some much needed bonuses that would surely help them in their next round of combat.
