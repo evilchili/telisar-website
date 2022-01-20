@@ -1,6 +1,7 @@
 ---
 title: "Campaigns"
 date: 2022-01-19T20:44:17-08:00
+tags: []
 ---
 
 *When we started the Frog Hat Club, we only ever envisioned a single adventure. About that...*
