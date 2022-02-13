@@ -18,7 +18,7 @@ statblock:
   alignment: lawful evil
   AC: 19
   HP: 225 (18d12 + 108)
-  speed: 40ft, fly 80ft, swim 30ft
+  speed: 40ft, fly 80ft, swim 80ft
   STR: 25,7
   DEX: 10,0
   CON: 22,6
@@ -50,7 +50,9 @@ statblock:
 
       ## Legendary Actions
 
-      The dracolich can take 3 legendary actions, choosing from the options below. Only one legendary option can be used at a time and only at the end of another creature's turn. The dracolich regains its spent legendary actions at the start of its next turn.
+      The dracolich can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The dracolich can move up to 40ft during its legendary action.
+
+      The dracolich regains its spent legendary actions at the start of its next turn.
 
       **Pseudopod Attack** The dracolich makes a pseudopod attack.
 
