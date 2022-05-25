@@ -4,7 +4,8 @@ date: 2018-07-08T18:35:54-07:00
 layout: wide
 ---
 
-|= Date       |= Event
+| Date                 | Event
+| -------------------- |-------------
 | *3.2805.1.37* | Magnus Burns His Research
 | *3.2805.1.43* | Magnus Enters Servitude At The library
 | *3.3132.7.41* | Ara Enters The Temple Of Rillifane
