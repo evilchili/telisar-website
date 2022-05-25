@@ -3,6 +3,7 @@ title: "Campaign Timeline"
 date: 2018-07-08T18:35:54-07:00
 layout: wide
 ---
+
 |= Date       |= Event
 | *3.2805.1.37* | Magnus Burns His Research
 | *3.2805.1.43* | Magnus Enters Servitude At The library
