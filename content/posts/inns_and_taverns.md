@@ -27,8 +27,8 @@ known to the players; undocumented locations they have not yet discovered.
 | **The Cracked Wheel**              | Eastriver; SW of El Qatra  | 11 Wheel of Fortune
 | **Woden's Sorrow**                 |                            | 12 Strength
 | **The Hanged Man's Wink**          | Whitebridge                | 13 The Hanged Man
-| **The Knife and Lantern**          |                            | 14 Death
-| **Drahni's Hearth**                |                            | 15 Temperance
+| **The Knife and Lantern**          | El Zikrin, Seller's Quadrant | 14 Death
+| **Drahni's Hearth**                | El Zikrin, Homes Corners   | 15 Temperance
 | **The Quasit's Nip**               |                            | 16 The Devil
 | **The Lich's Tower**               |                            | 17 The Tower
 | **The Wandering Star**             |                            | 18 The Star

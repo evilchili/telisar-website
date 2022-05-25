@@ -1,0 +1,42 @@
+---
+title: "Episode 96/97: The Palace of Ice, Part IX"
+date: 2022-05-05T19:19:27-07:00
+campaigndate: ???
+tags: ['session']
+---
+
+Keen absorbed the Shard of the Heart of Bahamut, and found himself in a black void, without form. From the darkness emerged a most unexpected visage: Ginny Myrndottir, agent of the Skink and Keen's ex-lover. Ginny warned him that his powers were growing and he would have to choose just what kind of god he would be, or his followers would choose for him. And more than that, it was time to pick a side.
+
+Keen hit the cold ground at Mab's feet as the maelstrom of arcane energy swirled between her and Enigma of the Absolute. Mab's power slammed into him, driving him to one knee. Enigma of the Absolute addressed Keen, pleading for help aginst Mab; in return he would provide detailed information about the Tieflings and the powers with which he was treating. Keen countered that if he told them everything, then Keen would help; neither agreed.
+
+The rogue turned his attention to the tieflings, summoning several Exhalted of Kiiri to his side seemingly without effort. Magnus, who had pulled one of the unsettling porcelain masks from its bearer, now slammed it into the tiefling's face. The mask cracked into pieces and the spell holding the tiefling's will was broken. He yelled, "Break the masks!"
+
+Battle ensued as the adventurers targeted the masks, fending off blistering attacks from the charmed tieflings and Levani both. Sirlius, who had sought to block access to the portal, was cut down in a flurry of swords. Yuna rushed forward to heal him and succeeded, but was assailed on all sides. Whisper let loose a hail of arrows as she attempted to distract the tieflings, while Ara tried to make it towards Levani but was blocked by another tiefling.
+
+Keen was surprised to hear the voice of Seema, his first worshipper, praying to him. "You cannot let them leave, Hidden One, at all costs. If they escape, everything ends!" He directed his Exhalted into the fray, and one by one the tieflings were unmasked and released from their magical bindings.
+
+While her friends freed the tieflings, Whisper was able to drop Levani with multiple arrows. The warlock crumpled to the ground next to the portal, but from her still form rose the spectral form of a human wizard's astral projection. "Damn you," it shrieked, "You have defeated my champion! Very well, I shall take care of this myself." with a complicated gesture, he began to cast a spell. Sirlius countered it, but the wizard countered his counterspell, and completed his Mass Suggestion spell. "Help the tieflings enter the portal," he said. Sirlius watched in horror as every one of his friends except Keen stopped fighting, and began escorting the tieflings towards the portal. Three of the tieflings made it through the portal before Sirlius, Keen, and his Exalted were able to wake their friends and break the Mass Suggestion. The tieflings turned on the wizard's astral projection, quickly cutting him down before Sirlius, bloody and beaten destroyed the projection with a volley of eldritch blasts. As the wizard disappeared, so too did the portal.
+
+Meanwhile, Dreams Made Flesh broke free of her arcane bonds and immediately attacked Mab. The three arch-fey were locked in a stalemate: together Dreams Made Flesh and her brother Enigma of the Absolute held fast against their mother, but even together they could not defeat the true Queen of Winter in the heart of her own domain. Reality warped and fractured around them as the content escalated, and crackling, sizzling explosions burst from the area all around them. 
+
+Keen hesitated, wondering if they should help either Mab or her children. "Forget them, let's get out of here!" Magnus yelled, and began running towards the stone bridge leading from the Queen's Table. The rest of the party, Levani, and the remaining Tieflings made to follow. The Enigma of the Absolute yelled again, "Help us! She knows nothing!" Keen regarded him through the arcane storm, and then looked at Mab. She held his gaze. Keen said to her, "Do we have a deal?" Slowly, she nodded. DISTRACT HER, came Mab's voice in his ear.Keen threw an Exalted at Dreams Made Flesh, but the follower was destroyed by the arcane energy. Ara loosed two arrows at the usurper queen, and succeeded in drawing her attention. Mab acted immediately and sent her daughter flying across the room before turning her full power once again upon Enigma of the Absolute.
+
+Dreams Made Flesh howled with rage and engaged both Ara and Keen. Levani turned and loosed a Storm Sphere on the arch-fey, striking her with multiple bolts of lightning. Undaunted, she cast Banishment on Ara, and the elf vanished from the Queen's Table to find himself immobilized on another plane of existence, up to his knees in blistering hot sand, as a train of surprised desert merchants slowly marched past. Keen lobbed a vial of black powder at Dreams Made Flesh which exploded at her feet and then closed to attack with his rapier. 
+
+Another explosion of fractured reality rocked the space; bolts of destructive energy shot out catching the party. Levani, Yuna, Magnus, and Sirlius were all stunned. Their companions helped them towards the exit, but Sirlius was suddenly panicked: he had lost all awareness of both himself and his surroundings, as if the reality of his very self had been erased.
+
+Enigma of the Absolute screamed as his flesh began to blacken and whither under Mab's assult. Desperate now, Dreams Made Flesh tore her attention from Keen and cast Plane Shift on her brother and herself to escape. Mab countered it and Dreams Made Flesh and countered Mab's counterspell, completing the Plane Shift spell. But at that moment Keen drew on the raw power of divine creation coursing through him and changed reality: the spell failed, and the siblings remained. "I don't-- what is this! What did you--" Dreams Made Flesh sputtered before Mab succeeded in encasing her and her brother in ice.
+
+An eerie calm descended as the black, starlit void surrounding the vast space dissipated and the group found themselves back in the ornate living ice garden of the Queen's Table in the Heart of Winter. Mab approached Keen, acknowledged him with a slight incline of the head, and declared, "You have the right of gratitude." Ara -- returned now from his banishment -- quickly explained that this was Fey etiquette: Mab acknowledges the debt that exists between them, but without extending further thanks. The party quickly debated what to ask for via the residium binding telepathy link, as Keen engaged the Queen of Winter in careful conversation. The vision of Ginny appeared again and warned him to consider the big picture.
+
+As the negotiation continued, Keen suggested that Mab might settle her debt in part by helping them find the next Shard of the Heart of Bahamut. Mab didn't know what that was, but with a sudden hunger became very interested in learning everything Keen knew. She went so far as to suggest that Keen remain in the Winter Court as her consort, that they might explore the depths of his power together. Keen thought this was a fantastic idea, but the party convinced him that giving Mab access to the power growing within him would be bad for everyone. In the end, Keen and Mab agreed that she would send him, his friends, and the surviving tieflings safely home. But Mab's interest in Keen and the shards remained intense, and the party worried that her continued interest would spell trouble.
+
+Nonetheless, Mab was as good as her word and the party was planeshifted back to the Prime Material plane. They found themselves standing in a field outside of El Zikrin, a town in the Eastriver region of Telisar; the twin watchtowers of Zikrin's Eyes were just visible over the horizon. The warm spring day was interrupted by a great flash, as three sickly green beams of light descended to the surface of Telisar from the horrible tear in the sky: one east, in the direction of El Zikrin; one west, in the vicinity of the great city of El Astrum; and one far to the north, beyond the Forest of Stars. Staring up at the sky, Magnus had a sudden realization: three beams of light joining the land to the tear in the sky, and three tieflings lost through the portal. Levani fell to her knees, and whispered "Oh, no."
+
+Elapsed Time in Initiative: ~7.5 hours
+
+Feywild Adventure Progress: 100%
+
+Endgame Status: Pending
+
+RP Rating: Awesome!
