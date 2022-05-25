@@ -10,7 +10,7 @@ layout: wide
 | *3.2805.1.43* | Magnus Enters Servitude At The library
 | *3.3132.7.41* | Ara Enters The Temple Of Rillifane
 | *3.3175.2.12* | Ara Leaves The Temple
-| *3.3184.3.23* | REDACTED
+| *3.3184.3.23* | A.'. A.'. Assumes Control of Trazjte Ur Flasch
 | *3.3203.2.06* | Keen Joins The Spectacular Spectacular
 | *3.3204.6.13* | Ara Encounters The Skink In Riverbend
 | *3.3204.8.12* | Levani Meets Yuna
