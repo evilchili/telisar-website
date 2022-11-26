@@ -12,7 +12,7 @@ from telisar.reckoning import campaign
 from telisar import cli
 from telisar import search
 
-HUGO = '/usr/local/bin/hugo'
+HUGO = '/usr/bin/hugo'
 TELISAR = os.path.expanduser('~/dnd/telisar')
 
 SOURCE_PATH_VARIABLE = 'WEBSITE_SOURCE_PATH'
