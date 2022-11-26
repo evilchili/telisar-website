@@ -1,6 +1,6 @@
 ---
 title: "Episode 102: El Zikrin, Part III"
-date: 2022-11:13:12-07:00
+date: 2022-11-18T19:22:02-07:00
 campaigndate: Mondag, 26th of the Fox, 3208 ME
 tags: ['session']
 ---
