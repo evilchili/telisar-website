@@ -6,7 +6,7 @@ tags: []
 
 *When we started the Frog Hat Club, we only ever envisioned a single adventure. About that...*
 
-### [The Frog Hat Club](/tags/sessions)
+### [The Frog Hat Club](/tags/session)
 <small><b>[evilchili]</b></small> A motley crew of strangers are brought together by a mysterious, unknown force and bound to each other by magic ritual. The sky is torn open and Bahamut, the Goddess of Creation, is slain...
 
 ### [Castle Mystery]({{< ref "castle_mystery" >}})
